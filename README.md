@@ -28,12 +28,17 @@ npm run preview
 
 ### GitHub Pages（自动部署）
 
-1. 将仓库推送到 GitHub。
-2. 打开 **Settings → Pages**，**Build and deployment** 选择 **GitHub Actions**。
-3. 向 `main` 分支推送代码后，[Deploy workflow](.github/workflows/deploy.yml) 会自动构建并发布 `dist/`。
+1. 将仓库推送到 GitHub，并确保默认分支为 `main`。
+2. 推送后等待 [Deploy workflow](.github/workflows/deploy.yml) 跑通（会把 `dist/` 推到 `gh-pages` 分支）。
+3. 打开 **Settings → Pages**（[iis-lab Pages 设置](https://github.com/Xinrui-Fang/iis-lab/settings/pages)）：
+   - **Build and deployment → Source** 选 **Deploy from a branch**
+   - **Branch** 选 `gh-pages`，文件夹选 **`/ (root)`**
+   - 保存
 
-- 普通仓库地址：`https://<user>.github.io/<repo>/`
-- 若仓库名为 `<user>.github.io`，站点根路径为 `/`（无需子路径前缀）
+若曾选过 **GitHub Actions** 作为 Source 却出现 `Failed to create deployment (404)`，请改用上方的 **Deploy from a branch → gh-pages**，或先在 Pages 里点一次 **Save** 启用 Pages 后再重跑 workflow。
+
+- 站点地址：`https://xinrui-fang.github.io/iis-lab/`
+- 若仓库名为 `<user>.github.io`，构建时 `VITE_BASE_PATH` 会自动设为 `/`
 
 本地构建与线上一致（子路径示例）：
 
