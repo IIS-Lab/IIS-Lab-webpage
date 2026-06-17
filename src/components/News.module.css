@@ -1,65 +1,55 @@
-.newsSection h2 {
+.newsSection h1 {
   margin: 0 0 1.5rem;
   padding-bottom: 20px;
   font-family: var(--font-heading);
-  font-size: var(--font-size-page-title);
+  font-size: 30px;
   font-weight: 400;
+  line-height: 1.23;
   color: var(--color-text);
 }
 
 .monthGroup {
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 .monthLabel {
   margin: 0 0 1rem;
+  padding-bottom: 20px;
   font-family: var(--font-heading);
-  font-size: 22px;
+  font-size: var(--font-size-h2);
   font-weight: 400;
+  line-height: 1.27;
   color: var(--color-text);
 }
 
 .newsItem {
   margin-bottom: 1.75rem;
-  padding-bottom: 1.75rem;
-  border-bottom: 1px dotted #666;
-}
-
-.newsItem:last-child {
-  border-bottom: none;
-  padding-bottom: 0;
 }
 
 .newsItem h3 {
   margin: 0 0 0.75rem;
-  font-family: var(--font-heading);
-  font-size: 20px;
-  font-weight: 400;
   padding-bottom: 0;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-h3);
+  font-weight: 400;
+  line-height: 1.29;
   color: var(--color-text);
 }
 
 .newsItem p {
-  margin: 0 0 0.75rem;
+  margin: 0 0 20px;
   color: var(--color-text);
   font-size: var(--font-size-body);
   line-height: var(--line-height-body);
 }
 
-.paperList {
-  margin: 0.5rem 0 0;
-  padding-left: 1.25rem;
-  font-size: var(--font-size-body);
-  color: var(--color-text);
-}
-
-.paperList li {
-  margin-bottom: 0.5rem;
+.paperLine {
+  margin-bottom: 20px;
 }
 
 .olderNews {
   margin-top: 2rem;
-  padding: 1rem 0;
+  padding: 1rem 0 0;
   font-size: var(--font-size-body);
   color: var(--color-text-muted);
   border-top: 1px solid var(--color-border);
@@ -67,4 +57,19 @@
 
 .olderNews a {
   font-weight: 700;
+}
+
+.backLink {
+  margin: 0 0 1.5rem;
+  font-size: var(--font-size-body);
+}
+
+.backLink a {
+  font-weight: 700;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 1.5rem 0 2rem;
 }

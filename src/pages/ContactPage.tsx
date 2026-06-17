@@ -1,5 +1,6 @@
 import { contactContent } from '../data/contact'
 import { assetUrl } from '../lib/assets'
+import { InlineText } from '../components/InlineText'
 import styles from './ContactPage.module.css'
 
 export function ContactPage() {
@@ -20,10 +21,12 @@ export function ContactPage() {
       <h1 className={styles.pageTitle}>Contact Us</h1>
 
       <div className={styles.body}>
-        <p>{en}</p>
+        <p>
+          <InlineText text={en} />
+        </p>
 
         <p>
-          {jaBeforeMapLink}
+          <InlineText text={jaBeforeMapLink} />
           <a
             href={jaDetailedMap.href}
             target="_blank"

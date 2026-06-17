@@ -1,53 +1,65 @@
-import { Link } from 'react-router-dom'
-import { BilingualSection } from '../components/BilingualSection'
+import { InlineText } from '../components/InlineText'
 import { NewsSection } from '../components/NewsSection'
-import contentStyles from '../components/Content.module.css'
 import * as home from '../data/homeContent'
+import styles from './HomePage.module.css'
 
 export function HomePage() {
   return (
-    <article className="entry-content">
-      <BilingualSection title="IIS Lab" en={home.welcome.en} ja={home.welcome.ja} />
+    <>
+      <header className={styles.pageHeader}>
+        <h2 className={styles.pageTitle}>IIS Lab</h2>
+      </header>
 
-      <BilingualSection
-        title="Mission Statement / IIS Labのミッション"
-        en={home.mission.en}
-        ja={home.mission.ja}
-      />
-
-      <BilingualSection
-        title="Research domains / 研究領域"
-        en={home.researchIntro.en}
-        ja={home.researchIntro.ja}
-      >
+      <article className="entry-content">
         <p>
-          <Link to="/join">Join Us!</Link>
+          <InlineText text={home.welcome.en} />
         </p>
-      </BilingualSection>
+        <p>
+          <InlineText text={home.welcome.ja} />
+        </p>
 
-      <section className={contentStyles.section}>
-        <ul>
-          {home.researchTopics.en.map((topic, i) => (
+        <h2 className={styles.sectionTitle}>Mission Statement / IIS Labのミッション</h2>
+        <p>{home.mission.en}</p>
+        <p>{home.mission.ja}</p>
+
+        <h2 className={styles.sectionTitle}>Research domains / 研究領域</h2>
+        <p>
+          <InlineText text={home.researchIntro.en} />
+        </p>
+        <ul className={styles.topicList}>
+          {home.researchTopics.en.map((topic) => (
             <li key={topic}>
-              {topic}
-              <br />
-              <span className={contentStyles.topicJa}>{home.researchTopics.ja[i]}</span>
+              <InlineText text={topic} />
             </li>
           ))}
         </ul>
-      </section>
+        <p>
+          <InlineText text={home.researchIntro.ja} />
+        </p>
+        <ul className={styles.topicList}>
+          {home.researchTopics.ja.map((topic) => (
+            <li key={topic}>
+              <InlineText text={topic} />
+            </li>
+          ))}
+        </ul>
 
-      <section className={contentStyles.section}>
-        <h2 className={contentStyles.sectionTitle}>IIS Lab Philosophy</h2>
-        <blockquote className={contentStyles.quote}>{home.philosophy.quote.en}</blockquote>
+        <h2 className={styles.sectionTitle}>IIS Lab Philosophy</h2>
+        <blockquote>
+          <p>
+            <em>{home.philosophy.quote.en}</em>
+          </p>
+        </blockquote>
         <p>{home.philosophy.en}</p>
-        <blockquote className={contentStyles.quote}>{home.philosophy.quote.ja}</blockquote>
+        <blockquote>
+          <p>{home.philosophy.quote.ja}</p>
+        </blockquote>
         <p>{home.philosophy.ja}</p>
-      </section>
 
-      <hr className={contentStyles.contentDivider} />
+        <hr className={styles.divider} />
 
-      <NewsSection />
-    </article>
+        <NewsSection />
+      </article>
+    </>
   )
 }

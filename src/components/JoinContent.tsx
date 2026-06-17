@@ -1,30 +1,14 @@
-import { Fragment, type ReactNode } from 'react'
+import { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 import type { JoinBlock, JoinListItem } from '../data/join'
+import { InlineText } from './InlineText'
 import styles from './JoinContent.module.css'
 
 interface JoinContentProps {
   blocks: JoinBlock[]
 }
 
-function RichText({ text }: { text: string }) {
-  const lines = text.split('\n')
-  if (lines.length <= 1) {
-    return <JoinInlineText text={text} />
-  }
-  return (
-    <>
-      {lines.map((line, i) => (
-        <Fragment key={i}>
-          {i > 0 && <br />}
-          <JoinInlineText text={line} />
-        </Fragment>
-      ))}
-    </>
-  )
-}
-
-function JoinLink({ href, children }: { href: string; children: string }) {
+function BlockLink({ href, children }: { href: string; children: string }) {
   if (href.startsWith('/') && !href.startsWith('//')) {
     return <Link to={href}>{children}</Link>
   }
@@ -38,47 +22,34 @@ function JoinLink({ href, children }: { href: string; children: string }) {
   )
 }
 
-/** Like PublicationText but uses client-side routing for internal paths. */
-function JoinInlineText({ text }: { text: string }) {
-  const parts: ReactNode[] = []
-  const pattern = /(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g
-  let lastIndex = 0
-  let match: RegExpExecArray | null
-  let key = 0
+function RichText({ text }: { text: string }) {
+  const lines = text
+    .replace(/\n{2,}/g, '\n')
+    .split('\n')
+    .filter((line) => line.length > 0)
 
-  while ((match = pattern.exec(text)) !== null) {
-    if (match.index > lastIndex) {
-      parts.push(text.slice(lastIndex, match.index))
-    }
-    const token = match[0]
-    if (token.startsWith('**')) {
-      parts.push(<strong key={key++}>{token.slice(2, -2)}</strong>)
-    } else {
-      const linkMatch = token.match(/\[([^\]]+)\]\(([^)]+)\)/)
-      if (linkMatch) {
-        parts.push(
-          <JoinLink key={key++} href={linkMatch[2]}>
-            {linkMatch[1]}
-          </JoinLink>,
-        )
-      }
-    }
-    lastIndex = match.index + token.length
+  if (lines.length <= 1) {
+    return <InlineText text={lines[0] ?? text} />
   }
 
-  if (lastIndex < text.length) {
-    parts.push(text.slice(lastIndex))
-  }
-
-  return <>{parts}</>
+  return (
+    <>
+      {lines.map((line, i) => (
+        <Fragment key={i}>
+          {i > 0 && <br />}
+          <InlineText text={line} />
+        </Fragment>
+      ))}
+    </>
+  )
 }
 
 function ListItem({ item }: { item: JoinListItem }) {
   return (
     <li>
-      <JoinInlineText text={item.text} />
+      <InlineText text={item.text} />
       {item.children && item.children.length > 0 && (
-        <ul>
+        <ul className={styles.itemize}>
           {item.children.map((child, index) => (
             <ListItem key={index} item={child} />
           ))}
@@ -99,21 +70,23 @@ export function JoinContent({ blocks }: JoinContentProps) {
                 <RichText text={block.text} />
               </p>
             )
-          case 'heading':
+          case 'heading': {
+            const Tag = block.level === 2 ? 'h2' : 'h3'
             return (
-              <h3
+              <Tag
                 key={index}
                 id={block.id}
                 className={block.id ? styles.anchorHeading : undefined}
               >
                 {block.text}
-              </h3>
+              </Tag>
             )
+          }
           case 'hr':
             return <hr key={index} className={styles.divider} />
           case 'list':
             return (
-              <ul key={index} className={styles.list}>
+              <ul key={index} className={`${styles.list} ${styles.itemize}`}>
                 {block.items.map((item, i) => (
                   <ListItem key={i} item={item} />
                 ))}
@@ -121,10 +94,10 @@ export function JoinContent({ blocks }: JoinContentProps) {
             )
           case 'nav':
             return (
-              <ul key={index} className={styles.nav}>
+              <ul key={index} className={`${styles.nav} ${styles.itemize}`}>
                 {block.items.map((item) => (
                   <li key={item.href}>
-                    <a href={item.href}>{item.label}</a>
+                    <BlockLink href={item.href}>{item.label}</BlockLink>
                   </li>
                 ))}
               </ul>

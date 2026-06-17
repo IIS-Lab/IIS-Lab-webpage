@@ -25,6 +25,12 @@
   display: inline-block;
   max-width: 100%;
   font-weight: 400;
+  text-decoration: none;
+}
+
+.mapLink:hover,
+.mapLink:focus {
+  text-decoration: none;
 }
 
 .mapImage {

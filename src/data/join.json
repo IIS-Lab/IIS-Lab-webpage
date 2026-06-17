@@ -16,7 +16,7 @@
   },
   {
     "type": "p",
-    "text": "If you are interested in working with us, **please read the following note before** [contacting me](mailto:koji@iis-lab.org). As I receive many emails and messages everyday, your understanding would be much appreciated."
+    "text": "If you are interested in working with us, **please read the following note before** [contacting me](/member/koji-yatani). As I receive many emails and messages everyday, your understanding would be much appreciated."
   },
   {
     "type": "p",
@@ -28,7 +28,7 @@
   },
   {
     "type": "p",
-    "text": "IIS Labで研究をしたいという人はこのページに書かれていることを読んだうえで，[矢谷まで](mailto:koji@iis-lab.org)ご連絡ください．矢谷は日々多くのメールやメッセージを受け取っていますので，ご協力いただけますと大変助かります．なお，研究生の受け入れは原則行っておりません．"
+    "text": "IIS Labで研究をしたいという人はこのページに書かれていることを読んだうえで，[矢谷まで](/member/koji-yatani)ご連絡ください．矢谷は日々多くのメールやメッセージを受け取っていますので，ご協力いただけますと大変助かります．なお，研究生の受け入れは原則行っておりません．"
   },
   {
     "type": "heading",
@@ -42,22 +42,42 @@
     "type": "list",
     "items": [
       {
-        "text": "In your email body,\n\nA brief introduction of yourself (4 – 5 sentences),"
+        "text": "In your email body,",
+        "children": [
+          {
+            "text": "A brief introduction of yourself (4 – 5 sentences),"
+          },
+          {
+            "text": "Programs you are considering (i.e., IST and/or GSII),",
+            "children": [
+              {
+                "text": "If you are considering MEXT fellowship, please let me know as well."
+              }
+            ]
+          },
+          {
+            "text": "A brief statement of why you are interested in joining us."
+          }
+        ]
       },
       {
-        "text": "Programs you are considering (i.e., IST and/or GSII),\n\nIf you are considering MEXT fellowship, please let me know as well."
-      },
-      {
-        "text": "A brief statement of why you are interested in joining us."
-      },
-      {
-        "text": "As an attachment,\n\nYour CV (no need to have a picture of yourself),"
-      },
-      {
-        "text": "Your research proposal (**up to 4 pages including references**)\n\nNote that the program you are applying for may have different requirements on a research proposal (e.g., page limit). It is your full responsibility to meet these requirements for your applications."
-      },
-      {
-        "text": "Three accomplishments you are most proud of. They can be academic papers, software, hardware, products, design work and any artifact you developed. If you collaborate with others for these accomplishment, clarify what exactly your contributions are."
+        "text": "As an attachment,",
+        "children": [
+          {
+            "text": "Your CV (no need to have a picture of yourself),"
+          },
+          {
+            "text": "Your research proposal (**up to 4 pages including references**)",
+            "children": [
+              {
+                "text": "Note that the program you are applying for may have different requirements on a research proposal (e.g., page limit). It is your full responsibility to meet these requirements for your applications."
+              }
+            ]
+          },
+          {
+            "text": "Three accomplishments you are most proud of. They can be academic papers, software, hardware, products, design work and any artifact you developed. If you collaborate with others for these accomplishment, clarify what exactly your contributions are."
+          }
+        ]
       }
     ]
   },
@@ -81,22 +101,27 @@
         "text": "**Please send me a research proposal.** I strongly would like to see your research proposal even if the program you are applying for does not require. Additional materials (e.g., published papers, links to videos, and portfolios) would be helpful to know about you, but the most important document is your research proposal."
       },
       {
-        "text": "**The majority of your research proposal should cover what you want to do here.** Your proposal should include a clear description of your idea, motivation, a brief summary of related work, and project execution plan. I would like to see your capability of describing ideas, understanding related work, and claiming the novelty of your idea. It is highly unlikely to impress me if your research proposal only includes generic personal or research statements (e.g., \"I am interested in HCI.\" or \"My university is one of the top universities in XYZ.\") as well as merely talks about facts that I can know from your transcripts and other materials (e.g., \"My GPA was 3.8.\"). You need to demonstrate your intellectual capability and strong curiosity as well as project execution skills in your research proposal. You may want to check out useful resources for writing a good research proposal:\n\n\n\n[https://www.geog.ox.ac.uk/study/graduate/apply/research_proposal.html](https://www.geog.ox.ac.uk/study/graduate/apply/research_proposal.html)"
-      },
-      {
-        "text": "[https://www.exeter.ac.uk/media/universityofexeter/webteam/shared/postgraduate/pdfs/A_Guide_to_Writing_your_PhD_Proposal.pdf](https://www.exeter.ac.uk/media/universityofexeter/webteam/shared/postgraduate/pdfs/A_Guide_to_Writing_your_PhD_Proposal.pdf)"
-      },
-      {
-        "text": "[https://conservationbytes.com/2015/05/04/twenty-tips-for-writing-a-research-proposal/](https://conservationbytes.com/2015/05/04/twenty-tips-for-writing-a-research-proposal/)"
-      },
-      {
-        "text": "[http://undergradresearch.northwestern.edu/proposal-writing](http://undergradresearch.northwestern.edu/proposal-writing)"
-      },
-      {
-        "text": "[https://www.meaning.ca/archives/archive/art_how_to_write_P_Wong.htm](https://www.meaning.ca/archives/archive/art_how_to_write_P_Wong.htm)"
-      },
-      {
-        "text": "[https://www.sydney.edu.au/study/how-to-apply/postgraduate-research/how-to-write-a-research-proposal-for-a-strong-phd-application.html](https://www.sydney.edu.au/study/how-to-apply/postgraduate-research/how-to-write-a-research-proposal-for-a-strong-phd-application.html)"
+        "text": "**The majority of your research proposal should cover what you want to do here.** Your proposal should include a clear description of your idea, motivation, a brief summary of related work, and project execution plan. I would like to see your capability of describing ideas, understanding related work, and claiming the novelty of your idea. It is highly unlikely to impress me if your research proposal only includes generic personal or research statements (e.g., \"I am interested in HCI.\" or \"My university is one of the top universities in XYZ.\") as well as merely talks about facts that I can know from your transcripts and other materials (e.g., \"My GPA was 3.8.\"). You need to demonstrate your intellectual capability and strong curiosity as well as project execution skills in your research proposal. You may want to check out useful resources for writing a good research proposal:",
+        "children": [
+          {
+            "text": "[https://www.geog.ox.ac.uk/study/graduate/apply/research_proposal.html](https://www.geog.ox.ac.uk/study/graduate/apply/research_proposal.html)"
+          },
+          {
+            "text": "[https://www.exeter.ac.uk/media/universityofexeter/webteam/shared/postgraduate/pdfs/A_Guide_to_Writing_your_PhD_Proposal.pdf](https://www.exeter.ac.uk/media/universityofexeter/webteam/shared/postgraduate/pdfs/A_Guide_to_Writing_your_PhD_Proposal.pdf)"
+          },
+          {
+            "text": "[https://conservationbytes.com/2015/05/04/twenty-tips-for-writing-a-research-proposal/](https://conservationbytes.com/2015/05/04/twenty-tips-for-writing-a-research-proposal/)"
+          },
+          {
+            "text": "[http://undergradresearch.northwestern.edu/proposal-writing](http://undergradresearch.northwestern.edu/proposal-writing)"
+          },
+          {
+            "text": "[https://www.meaning.ca/archives/archive/art_how_to_write_P_Wong.htm](https://www.meaning.ca/archives/archive/art_how_to_write_P_Wong.htm)"
+          },
+          {
+            "text": "[https://www.sydney.edu.au/study/how-to-apply/postgraduate-research/how-to-write-a-research-proposal-for-a-strong-phd-application.html](https://www.sydney.edu.au/study/how-to-apply/postgraduate-research/how-to-write-a-research-proposal-for-a-strong-phd-application.html)"
+          }
+        ]
       },
       {
         "text": "**Your research proposal must be HCI-oriented and should show your creativity.** I am not really interested in projects like \"using deep learning for an application of XXX.\" Your research proposal should present new ideas instead of extensions of existing systems and technologies (including what we have developed). Instead of thinking of applications based on what you can implement, you should start with thinking of future systems or applications that can change your life (or other's life), and then think about how you can develop a proof of concept. Show your creativity and intellectual capabilities through your research proposal."
@@ -105,7 +130,7 @@
         "text": "**Your research proposal must have a concise but well-covered literature review.** It is also important to discuss what prior work exists in light of your research proposal. Your literature review should include papers from the conferences and journals we normally target for publication (i.e., CHI, UIST, UbiComp, CSCW, PACM IMWUT, and MobiSys) as well as literature in the relevant fields (e.g., medical or psychological journals)."
       },
       {
-        "text": "**Go through our [Research Reality Check](https://iis-lab.org/misc/realitycheck/) when you are done with your research proposal.**"
+        "text": "**Go through our [Research Reality Check](/misc/realitycheck) when you are done with your research proposal.**"
       },
       {
         "text": "It often takes time to process your email due to the large volume of emails I receive. I will do my best to reply to you in a couple of days. So, **just wait a while and ping me again if you do not receive a reply even after a week.** Do not send emails to others (e.g., my students or department office) to ask whether I have checked your email or not because they are very busy on their work."

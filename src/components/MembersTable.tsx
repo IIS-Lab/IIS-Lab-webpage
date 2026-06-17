@@ -1,9 +1,17 @@
+import { Link } from 'react-router-dom'
 import { Fragment, useMemo } from 'react'
 import type { MemberRow, MemberSection } from '../data/members'
 import styles from './MembersTable.module.css'
 
+function isInternalUrl(url: string) {
+  return url.startsWith('/') && !url.startsWith('//')
+}
+
 function NameCell({ row }: { row: MemberRow }) {
   if (row.url) {
+    if (isInternalUrl(row.url)) {
+      return <Link to={row.url}>{row.nameEn}</Link>
+    }
     return (
       <a href={row.url} target="_blank" rel="noopener noreferrer">
         {row.nameEn}
@@ -16,6 +24,9 @@ function NameCell({ row }: { row: MemberRow }) {
 function JaNameCell({ row }: { row: MemberRow }) {
   if (!row.nameJa) return null
   if (row.url) {
+    if (isInternalUrl(row.url)) {
+      return <Link to={row.url}>{row.nameJa}</Link>
+    }
     return (
       <a href={row.url} target="_blank" rel="noopener noreferrer">
         {row.nameJa}

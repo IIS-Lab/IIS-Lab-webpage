@@ -1,0 +1,38 @@
+.pageHeader {
+  margin-bottom: 0.5rem;
+}
+
+.pageTitle {
+  margin: 0 0 1rem;
+  padding-bottom: 20px;
+  font-family: var(--font-heading);
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--color-text);
+}
+
+.sectionTitle {
+  margin: 0 0 1rem;
+  padding-bottom: 20px;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-h2);
+  font-weight: 400;
+  line-height: 1.27;
+  color: var(--color-text);
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 2rem 0;
+}
+
+.topicList {
+  margin: 0 0 20px;
+  padding-left: 1.25rem;
+}
+
+.topicList li {
+  margin-bottom: 0.35rem;
+}

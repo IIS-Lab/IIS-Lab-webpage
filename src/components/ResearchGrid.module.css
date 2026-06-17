@@ -1,8 +1,8 @@
 /* Layout inspired by https://xlab.iii.u-tokyo.ac.jp/projects/ */
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.75rem 1.25rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -18,9 +18,37 @@
   color: var(--color-text);
 }
 
+.link:hover,
+.link:focus {
+  text-decoration: none;
+}
+
 .link:hover .title,
 .link:focus-visible .title {
   color: var(--color-accent);
+}
+
+.link:hover,
+.link:focus {
+  text-decoration: none;
+}
+
+.imageWrap {
+  overflow: hidden;
+  background: var(--color-bg-subtle);
+  line-height: 0;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.link:hover .image {
+  transform: scale(1.03);
 }
 
 .placeholder {
@@ -78,7 +106,7 @@
 .title {
   margin: 0 0 0.35rem;
   font-family: var(--font-body);
-  font-size: 0.95rem;
+  font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.45;
   color: var(--color-text);
@@ -88,10 +116,16 @@
 .subtitle {
   margin: 0;
   font-family: var(--font-body);
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.55;
   color: var(--color-text-muted);
+}
+
+@media (max-width: 1100px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 900px) {
@@ -113,6 +147,14 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .image {
+    transition: none;
+  }
+
+  .link:hover .image {
+    transform: none;
+  }
+
   .placeholder::before {
     animation: none;
   }

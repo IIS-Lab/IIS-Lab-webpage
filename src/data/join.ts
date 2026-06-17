@@ -12,7 +12,7 @@ export interface JoinNavItem {
 
 export type JoinBlock =
   | { type: 'p'; text: string }
-  | { type: 'heading'; text: string; id?: string }
+  | { type: 'heading'; text: string; id?: string; level?: 2 | 3 }
   | { type: 'hr' }
   | { type: 'list'; items: JoinListItem[] }
   | { type: 'nav'; items: JoinNavItem[] }

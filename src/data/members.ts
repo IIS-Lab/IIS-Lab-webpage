@@ -22,7 +22,7 @@ export const memberSections: MemberSection[] = [
       {
         nameEn: 'Koji Yatani',
         nameJa: '矢谷 浩司',
-        url: 'https://iis-lab.org/member/koji-yatani/',
+        url: '/member/koji-yatani',
         affiliation:
           '情報理工学系研究科電子情報学専攻学際情報学府先端表現情報学コース工学系研究科電気系工学専攻工学部電子情報工学科',
       },

@@ -68,14 +68,15 @@ p {
 a {
   color: var(--color-accent);
   font-weight: 700;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
   transition: color 0.2s ease;
 }
 
 a:hover,
 a:focus {
   color: var(--color-accent-hover);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 ul,
@@ -103,6 +104,20 @@ ol li a:hover {
 ::-moz-selection {
   background: var(--color-selection);
   color: #fff;
+}
+
+blockquote {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.entry-content blockquote p {
+  margin-bottom: 20px;
+}
+
+.entry-content blockquote em {
+  font-family: var(--font-heading);
+  font-style: italic;
 }
 
 img {

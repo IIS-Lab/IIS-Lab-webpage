@@ -1,0 +1,78 @@
+.content p {
+  margin-bottom: 20px;
+}
+
+.contentCompact p {
+  line-height: 1.6;
+}
+
+.content h2 {
+  margin: 2rem 0 1rem;
+  padding-bottom: 0;
+  font-family: var(--font-body);
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--color-text);
+}
+
+.content h3 {
+  margin: 1.5rem 0 0.75rem;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--color-text);
+}
+
+.content h2:first-of-type {
+  margin-top: 1.25rem;
+}
+
+.anchorHeading {
+  scroll-margin-top: 6rem;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 2rem 0;
+}
+
+.list,
+.nav {
+  margin: 0 0 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.list li,
+.nav li {
+  margin-bottom: 0.65rem;
+  line-height: var(--line-height-body);
+}
+
+.list ul {
+  margin: 0.5rem 0 0.25rem;
+  padding-left: 1.25rem;
+}
+
+.nav {
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav li {
+  margin-bottom: 0.5rem;
+}
+
+.figure {
+  margin: 0 0 1.5rem;
+  text-align: center;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}

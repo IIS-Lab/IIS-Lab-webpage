@@ -1,0 +1,2268 @@
+[
+  {
+    "slug": "multi-ai-reading",
+    "titleEn": "LLM-based In-situ Thought Exchanges for Critical Paper Reading",
+    "titleJa": "大規模言語モデルを用いた批判的論文読解支援システム",
+    "thumb": "/images/research/thumbs/multi-ai-reading.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/multi-ai-reading/multi-AI-reading-1024x527.png",
+        "alt": "",
+        "width": 790,
+        "height": 407
+      },
+      {
+        "type": "p",
+        "text": "Critical reading is a primary way through which researchers develop their critical thinking skills. While exchanging thoughts and opinions with peers can strengthen critical reading, junior researchers often lack access to peers who can offer diverse perspectives. To address this gap, we designed an in-situ thought exchange interface informed by peer feedback from a formative study (N=8) to support junior researchers' critical paper reading. We evaluated the effects of thought exchanges under three conditions (no-agent, single-agent, and multi-agent) with 46 junior researchers over two weeks. Our results showed that incorporating agent-mediated thought exchanges during paper reading significantly improved participants' critical thinking scores compared to the no-agent condition. In the single-agent condition, participants more frequently made reflective annotations on the paper content. In the multi-agent condition, participants engaged more actively with agents' responses. Our qualitative analysis further revealed that participants compared and analyzed multiple perspectives in the multi-agent condition. This work contributes to understanding in-situ AI-based support for critical paper reading through thought exchanges and offers design implications for future research."
+      },
+      {
+        "type": "p",
+        "text": "批判的読解は，研究者が批判的思考力を育成する上での主要な手段である．同僚との意見交換や思考共有はこの読解を強化するが，若手研究者は多様な視点を提供できる仲間にアクセスする機会が限られている．この課題に対処するため，本研究では形成的調査（N ＝ 8）から得られたピアフィードバックに基づき，若手研究者の批判的論文読解を支援するためのその場型思考交流インタフェースを設計した．さらに，2 週間にわたり 46 名の若手研究者を対象に，エージェントなし，単一エージェント，および複数エージェントという 3 条件下で思考交流の効果を評価した．その結果，読解中にエージェントを介した思考交流を導入することで，エージェントなし条件と比較して参加者の批判的思考スコアが有意に向上した．単一エージェント条件では，参加者は論文内容に対してより多くの内省的注釈を行い，複数エージェント条件では，エージェントの応答に対してより積極的に関与した．質的分析の結果，複数エージェント条件では参加者が複数の視点を比較・分析する様子も確認された．"
+      },
+      {
+        "type": "p",
+        "text": "Xinrui Fang, Anran Xu, Chi-Lan Yang, Ya-Fang Lin, Sylvain Malacria, Koji Yatani. 2026. LLM-based In-situ Thought Exchanges for Critical Paper Reading. In Proceeding of IUI 2026.\n\n[https://arxiv.org/abs/2510.15234](https://arxiv.org/abs/2510.15234)"
+      },
+      {
+        "type": "p",
+        "text": "方 欣瑞．徐 安然．楊 期蘭．林 雅芳．マラクリヤ シルバン．矢谷 浩司．大規模言語モデルを用いた批判的論文読解支援システム．情報処理学会HCI研究会，2026年1月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "two-modes-reflection",
+    "titleEn": "Two Modes of Reflection: How Temporal, Spatial, and Social Distances Affect Reflective Writing in Family Caregiving",
+    "titleJa": "家族内ケアストレスの内省記述における時間・空間・社会的距離の影響の調査",
+    "thumb": "/images/research/thumbs/two-modes-reflection.jpg",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/two-modes-reflection/two-modes-reflection-1024x1024.jpg",
+        "alt": "",
+        "width": 790,
+        "height": 790
+      },
+      {
+        "type": "p",
+        "text": "Writing about personal experiences can improve well-being, but for family caregivers, fixed or user-initiated schedules often miss the right moments. Drawing on Construal Level Theory, we conducted a three-week field study with 47 caregivers using a chatbot that delivered daily reflective writing prompts and captured temporal, spatial, and social contexts. We collected 958 writing entries, resulting in 5,412 coded segments. Our Analysis revealed two reflective modes. Under proximal conditions, participants produced detailed, emotion-rich, and care recipient-focused narratives that supported emotional release. Under distal conditions, they generated calmer, self-focused, and analytic accounts that enabled objective reflection and cognitive reappraisal. Participants described trade-offs: proximity preserved vivid detail but limited objectivity, while distance enabled analysis but risked memory loss. This work contributes empirical evidence of how psychological distances shape reflective writing and proposes design implications for distance-aware Just-in-Time Adaptive Interventions for family caregivers' mental health support."
+      },
+      {
+        "type": "p",
+        "text": "モバイル端末上での内省記述は家族内ケアにおけるストレスの緩和とウェルビーイング向上につながるが，ケア相手の状態に左右されやすく，実施タイミングの最適化が難しい．そこで本研究は解釈レベル理論に基づき，ケア相手とのストレス事象からの時間的・空間的・社会的距離が，内省記述の内容や体験，効果に与える影響を調査した．3週間のユーザ実験にて，家族内ケアを行う参加者に多様なタイミングでケアにおけるストレスについて振り返って記述するよう促し，記述内容と記述時の状況のデータを収集し，分析した．結果として，内省記述における2つのモードが明らかになった．近接状況では，ケア相手に焦点を当てて具体的に・感情的に記述する傾向があり，感情の発散に繋がっていた．一方で遠隔状況では，落ち着いて客観的に記述でき，参加者自身についての分析的記述が増え，認知や行動の変容を促した．これらの心理的距離と内省記述の関係性をもとに，家族内ケアにおける適時介入の設計について議論する．"
+      },
+      {
+        "type": "p",
+        "text": "Shunpei Norihama, Yuka Iwane, Jo Takezawa, Simo Hosio, Mari Hirano, Naomi Yamashita, Koji Yatani. 2025.\n\nTwo Modes of Reflection: How Temporal, Spatial, and Social Distances Affect Reflective Writing in Family Caregiving.\n\n[https://arxiv.org/abs/2510.05510](https://arxiv.org/abs/2510.05510)"
+      },
+      {
+        "type": "p",
+        "text": "乘濵 駿平, 岩根 由佳, 竹澤 譲, ホシオ シモ, 平野 真理, 山下 直美, 矢谷 浩司．家族内ケアストレスの内省記述における時間・空間・社会的距離の影響の調査．情報処理学会HCI研究会．2025年11月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "alter-ego-interview",
+    "titleEn": "AIセルフクローンを用いた面接時の回答改善支援手法の検討",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/alter-ego-interview.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/alter-ego-interview/alter-ego-interview-1024x655.png",
+        "alt": "",
+        "width": 790,
+        "height": 505
+      },
+      {
+        "type": "p",
+        "text": "情報処理技術を活用した多くの面接支援システムは，模擬面接を通してユーザーの姿勢や発話を分析し，フィードバックを生成する．しかし，それらはあくまで第三者的視点からのアドバイスであり，ユーザーは改善の目標となる理想的な自己のパフォーマンスを直接観察することができない．この課題に対して，ユーザーの背景情報を学習し，ユーザーのように振る舞うLLM 駆動の「AI セルフクローン」を用いた面接支援システムを提案する．本システムではユーザーのAI セルフクローンを模擬面接に参加させ，ユーザーの文脈で質問に回答させるシミュレーションを行う．AI セルフクローンは面接において理想とされる振る舞いを行うように調整されており，ユーザーはその振る舞いを参照することで自己の理想的なパフォーマンスを観察し，それを目標として改善の方向性を明確にすることができる．本研究では改善の対象を発話内容に限定し，就職活動を控える，もしくは直近に経験した成人を対象とした実験を行った．結果，ユーザーはAI セルフクローンの発言を利用して自己の発話内容を改善できただけでなく，過去の体験を思い出し，新たな視点から経験を語るなどの効果が確認された．"
+      },
+      {
+        "type": "p",
+        "text": "山中 駿, 中野 博貴, 矢谷 浩司．AIセルフクローンを用いた面接時の回答改善支援手法の検討．情報処理学会HCI研究会，2025年11月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "writing-discloure",
+    "titleEn": "Understanding Reader Perception Shifts upon Disclosure of AI Authorship",
+    "titleJa": "AIによる執筆を開示することで読み手の認識に及ぶ影響の理解に向けて",
+    "thumb": "/images/research/thumbs/writing-discloure.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/writing-discloure/writing-disclosure.png",
+        "alt": "",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "type": "p",
+        "text": "As AI writing support becomes ubiquitous, how disclosing its use affects reader perception remains a critical, underexplored question. We conducted a study with 261 participants to examine how revealing varying levels of AI involvement shifts author impressions across six distinct communicative acts. Our analysis of 990 responses shows that disclosure generally erodes perceptions of trustworthiness, caring, competence, and likability, with the sharpest declines in social and interpersonal writing. A thematic analysis of participants' feedback links these negative shifts to a perceived loss of human sincerity, diminished author effort, and the contextual inappropriateness of AI. Conversely, we find that higher AI literacy mitigates these negative perceptions, leading to greater tolerance or even appreciation for AI use. Our results highlight the nuanced social dynamics of AI-mediated authorship and inform design implications for creating transparent, context-sensitive writing systems that better preserve trust and authenticity."
+      },
+      {
+        "type": "p",
+        "text": "AIによる筆記支援が広く普及しているが、AIの使用を開示することが読み手の認識にどう影響するかは、重要な問題であるものの十分に調査されていない。私たちは261人の参加者を対象とし、コミュニケーションにおける6種類の手段のそれぞれについて様々な度合いのAIの支援を開示することで、書き手に対する印象がどのように変化するのかを調査した。990件の回答を分析した結果、AIの使用を開示することは一般的に書き手の信頼性・思いやり・有能さ・好感を低下させ、特に他者に社会的にはたらきかける文章においてその印象の悪化が最も顕著であった。参加者からのフィードバックをトピック分析したところ、AIを使用することによる人間らしい誠実さの喪失、書き手の省力化、そして文脈による不適切さがこれらの否定的な変化に結びついていることを示した。逆に、AIリテラシーが高いほどこうした否定的な認識が緩和され、例えばAIの使用に対してより寛容になったりむしろ肯定的に評価したりすることもあることが分かった。これらの知見は、AIによる執筆にまつわる社会的な複雑さを浮き彫りにするとともに、AIの使用の透明性を高めつつ文脈を考慮して支援を行うことで信頼や信憑性を維持するためのシステムデザインに関する示唆を与えている。"
+      },
+      {
+        "type": "p",
+        "text": "Hiroki Nakano, Jo Takezawa, Fabrice Matulic, Chi-Lan Yang, Koji Yatani. 2026. Understanding Reader Perception Shifts upon Disclosure of AI Authorship. In Proceedings of IUI 2026.\n\n[https://arxiv.org/abs/2510.24011](https://arxiv.org/abs/2510.24011)"
+      },
+      {
+        "type": "p",
+        "text": "中野 博貴，竹澤 譲，楊 期蘭，矢谷 浩司．AIによる執筆を開示することで読み手の認識に及ぶ影響の理解に向けて．情報処理学会UBI研究会，2025年11月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "extraherics",
+    "titleEn": "促考するAI",
+    "titleJa": "AI as Extraherics",
+    "thumb": "/images/research/thumbs/extraherics.png",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "As artificial intelligence (AI) technologies, including generative AI, continue to evolve, concerns have arisen about over-reliance on AI, which may lead to human deskilling and diminished cognitive engagement. Over-reliance on AI can also lead users to accept information given by AI without performing critical examinations, causing negative consequences, such as misleading users with hallucinated contents. This paper introduces extraheric AI, a human-AI interaction conceptual framework that fosters users' higher-order thinking skills, such as creativity, critical thinking, and problem-solving, during task completion. Unlike existing human-AI interaction designs, which replace or augment human cognition, extraheric AI fosters cognitive engagement by posing questions or providing alternative perspectives to users, rather than direct answers. We discuss interaction strategies, evaluation methods aligned with cognitive load theory and Bloom's taxonomy, and future research directions to ensure that human cognitive skills remain a crucial element in AI-integrated environments, promoting a balanced partnership between humans and AI."
+      },
+      {
+        "type": "p",
+        "text": "生成AIをはじめとするAI技術が進化し続ける中，AIへの過度な依存に対する懸念が高まっている．AIへの過剰な依存は人間のスキルの低下や認知的な関与の減少を招く恐れがありほか，AIの提供する情報を批判的に検討せずに受け入れてしまうことにつながり、ハルシネーションなどによって誤った情報が拡散されるといった負の側面も持つ．本論文では，タスク遂行の過程において，ユーザの高次思考スキル（創造性、批判的思考、問題解決能力など）を促進するための人間・AI協調インタラクションとして，**Extraheric AI（促考するAI）**というフレームワークを提案する．人間の認知を代替したり拡張したりする既存の設計とは異なり，促考するAIは直接的な答えを出すのではなく，ユーザに問いかけを行ったり代替的な視点を提示したりすることで，認知的な関与を促す．本論文では促考するAIが取りうるインタラクション戦略，促考するAIを用いたシステムの評価手法，促考するAIの今後の研究の方向性を議論する．促考するAIのフレームワークによりAIが統合された環境下においても，人間の認知スキルが不可欠な要素であり続けることを保ち，人間とAIのバランスの取れたパートナーシップを促進することを目指す．"
+      },
+      {
+        "type": "p",
+        "text": "Koji Yatani, Zefan Sramek, Chi-Lan Yang.\n\nAI as Extraherics: Fostering Higher-order Thinking Skills in Human-AI Interaction.\n\n[https://arxiv.org/abs/2409.09218](https://arxiv.org/abs/2409.09218)"
+      },
+      {
+        "type": "p",
+        "text": "ご自身が使っているChatGPTやGeminiで促考するAIを簡単に試すこともできます！以下のリンクから試してみてください．うまくいったこと，改良すべきことなど，コメントがありましたら，矢谷（koji [at-mark] iis-lab.org）までお寄せください．\n\nYou can try extraheric AI with your ChatGPT and Gemini! Please feel free to try out the following links. If you have any usage that you found useful or where we need improvements, please share with Koji (koji [at-mark] iis-lab.org)."
+      },
+      {
+        "type": "p",
+        "text": "GPT based on this extraheric AI concept / 促考するAIの考えに基づいたGPT\n\n[https://chatgpt.com/g/g-6a1fd8a4e4b081918af0f313ad4c3a51-extraheric-ai-cu-kao-suruai](https://chatgpt.com/g/g-6a1fd8a4e4b081918af0f313ad4c3a51-extraheric-ai-cu-kao-suruai)"
+      },
+      {
+        "type": "p",
+        "text": "Gem based on this extraheric AI concept / 促考するAIの考えに基づいたGPT\n\n[https://gemini.google.com/gem/1J-OyVIclq1pS3NnTaWwYFm8CXaAbJNLg?usp=sharing](https://gemini.google.com/gem/1J-OyVIclq1pS3NnTaWwYFm8CXaAbJNLg?usp=sharing)"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "heading",
+        "text": "Extraheric AI strategies / 促考するAIが取りうるインタラクション戦略"
+      },
+      {
+        "type": "p",
+        "text": "Through our literature survey on full-paper publications at ACM CHI 2023 and 2024, we have identified 7 interaction strategies. We note that our original manuscript has 8 interaction strategies, but we decided to omit the nudging strategy after re-review. The following explains each interaction strategy along with illustrations of its example use."
+      },
+      {
+        "type": "p",
+        "text": "ACM CHI 2023および2024で発表された査読付き論文の文献調査を通じて，私たちは7つのインタラクション戦略を特定しました．なお，当初の原稿では8つの戦略を掲げてありましたが．再検討の結果「ナッジング（nudging）」の戦略は除外することとした．以下では各戦略の例を示すイラストレーションとともに，その詳細を説明する．"
+      },
+      {
+        "type": "heading",
+        "text": "Suggesting / 提案",
+        "level": 3
+      },
+      {
+        "type": "img",
+        "src": "/images/research/content/extraherics/Suggesting-1024x733.png",
+        "alt": "",
+        "width": 790,
+        "height": 565
+      },
+      {
+        "type": "p",
+        "text": "Suggesting (and recommending) is an extraheric AI interaction strategy that involves proposing ideas, viewpoints, solutions, or actions to the user, without necessarily detailing the rationales behind them. With this strategy, users’ cognitive engagement comes in the form of evaluating and deciding whether or not to incorporate the AI’s suggestions or recommendations into their thinking or tasks. For example, in the context of news article reading, extraheric AI may recommend related articles with similar or different perspectives to encourage the user to explore multiple viewpoints. In the context of technical tasks like software development, extraheric AI may suggest multiple implementations of a particular method and allow the user to choose the one they determine to be most appropriate. In all such cases, it is critical that the AI makes multiple suggestions to allow the user to evaluate and choose among them."
+      },
+      {
+        "type": "p",
+        "text": "Suggesting（提案）は背後にある根拠を必ずしも詳細に説明することなく，アイデア，視点，解決策，または行動をユーザに提示する戦略である．この戦略におけるユーザの認知的関与は、AIの提案や推奨を自身の思考やタスクにどのように取り入れるべきかどうかを評価し，判断するという形で現れる，例えばニュース記事を閲覧する場面では，ユーザーが多角的な視点を探求することを促すために促考するAIが同様の視点や異なる視点からの関連記事を提案する．ソフトウェア開発のような技術的タスクにおいては，特定の実装方針に対して複数の実装方法を提案し，ユーザが最も適切であると判断したものを選択できるようにする．これらすべての場合において，ユーザがそれらを評価・選択できるように．AIが複数の提案を行うことが極めて重要である．"
+      },
+      {
+        "type": "heading",
+        "text": "Explaining / 説明",
+        "level": 3
+      },
+      {
+        "type": "img",
+        "src": "/images/research/content/extraherics/Explaining-1024x947.png",
+        "alt": "",
+        "width": 790,
+        "height": 731
+      },
+      {
+        "type": "p",
+        "text": "Explaining is a strategy in which extraheric AI offers explanations of information related to the task which the user currently engages in. Unlike suggestions or recommendations, this strategy emphasizes providing details on the ‘why’ and ‘how’ of a particular piece of information. In the context of news article reading for opinion formation, extraheric AI with this strategy may visualize additional background or contextual explanations about a particular component of the article the user is currently reading. In this manner, extraheric AI allows the user to confirm their understanding and situate the article correctly. In the context of software development, extraheric AI may provide explanations of methods or API calls to allow the user to better understand the code’s function. It is important that extraheric AI offers explanations that allow the user to deepen their understanding of the task at hand. It thus should aim to provide additional context or information rather than step-by-step instructions that the user may blindly follow."
+      },
+      {
+        "type": "p",
+        "text": "Explaining（説明）は，ユーザが現在取り組んでいるタスクに関連する情報の解説を提示する戦略である．Suggestingと異なり，特定の情報に関する「なぜ」や「どのように」といった詳細を提供することに重点を置く．例えばニュース記事閲覧の場面では，ユーザが現在読んでいる記事の特定の部分について，追加の背景や文脈的な説明を可視化する．これにより促考するAIはユーザが自身の理解を確認し，記事を正しく位置付けることを支援する．ソフトウェア開発では，ユーザがコードの機能をより良く理解できるように，メソッドやAPI呼び出しの説明を提供する．促考するAIはユーザがタスクに対する理解を深められるような説明を提示することが重要であり，ユーザが盲目的に従ってしまうような手順の指示ではなく，追加の文脈や情報を提供することを目指すべきである．"
+      },
+      {
+        "type": "heading",
+        "text": "Discussing / 議論",
+        "level": 3
+      },
+      {
+        "type": "img",
+        "src": "/images/research/content/extraherics/Debating-1024x502.png",
+        "alt": "",
+        "width": 790,
+        "height": 387
+      },
+      {
+        "type": "p",
+        "text": "In this mode, users debate or discuss a given topic and exchange their thoughts and opinions with AI agents. In the context of news article reading, extraheric AI using this strategy could offer an online discussion thread where the user may discuss their thoughts with AI agents holding various different opinions. In the context of software development, the user may engage in paired programming with an AI peer, and discuss the use of different libraries, code structures, or algorithms. When using this strategy, it is important that debates and discussions focus on presenting different perspectives and ideas rather than simply disagreeing with or asking the user to justify their opinion."
+      },
+      {
+        "type": "p",
+        "text": "この戦略では，ユーザが特定のトピックについてAIエージェントと議論やディスカッションを行い，思考や意見を交換する．例えばニュース記事を閲覧する場面においては，ユーザが多様な意見を持つAIエージェントと自身の考えを議論できるオンライン掲示板を提供する．ソフトウェア開発の場面では，ユーザーがAIのピア（仲間）とペアプログラミングを行い，異なるライブラリの使用やコード構造，あるいはアルゴリズムについて議論する．この戦略を用いる際，議論やディスカッションは，単にユーザの意見に反対したり正当化を求めたりするのではなく，異なる視点やアイデアを提示することに焦点を当てることが重要である．"
+      },
+      {
+        "type": "heading",
+        "text": "Questioning / 発問",
+        "level": 3
+      },
+      {
+        "type": "img",
+        "src": "/images/research/content/extraherics/Questioning-1024x607.png",
+        "alt": "",
+        "width": 790,
+        "height": 468
+      },
+      {
+        "type": "p",
+        "text": "In this mode, extraheric AI asks questions about particular parts of what the user currently engages in. Such questioning is not supposed to validate the correctness of opinions and perspectives, but rather stimulate users’ cognitive activities to expand their thoughts or consider different perspectives. In the context of news article reading, extraheric AI using this strategy may ask questions about a particular portion of the content, such as “How do you think people in other countries perceive this news? What consequence could occur in their countries?”. In the context of software development, extraheric AI may ask the user to explain how a particular code block functions, or why they chose to implement an algorithm in the way they did. Through users’ active engagement with questions from AI agents, this process effectively stimulates users’ higher-order thinking."
+      },
+      {
+        "type": "p",
+        "text": "この戦略では，ユーザが現在取り組んでいる内容の特定の箇所について問いかけを行う．このような問いかけは，意見や視点の正当性を確認するためのものではなく，ユーザの思考を広げたり，異なる視点を検討したりするための認知活動を刺激することを目的としている．例えばニュース記事を閲覧する場面においては，コンテンツの特定の部分について，「他国の人々はこのニュースをどのように捉えると思いますか？その国々ではどのような結果が生じる可能性がありますか？」といった質問を投げかける．ソフトウェア開発の場面では，特定のコードブロックがどのように機能するか，あるいはなぜそのアルゴリズムをそのような方法で実装することを選択したのかを説明するようにユーザに求める．AIエージェントからの問いかけに対するユーザの能動的な関与を通じて，ユーザの高次思考を効果的に刺激する．"
+      },
+      {
+        "type": "heading",
+        "text": "Scaffolding / 足場かけ",
+        "level": 3
+      },
+      {
+        "type": "img",
+        "src": "/images/research/content/extraherics/Scaffolding-1024x656.png",
+        "alt": "",
+        "width": 790,
+        "height": 506
+      },
+      {
+        "type": "p",
+        "text": "Scaffolding is a learning approach where teachers offer temporary customized support to help students learn new concepts and skills, and gradually remove this help as students become more capable on their own. Extraheric AI can serve as a scaffold for users by taking on part of a task and allowing them to focus only on particular portions at a time. In the context of software development, extraheric AI using this strategy may help the user focus on program structure by allowing them to write pseudo-code or use visual programming methods before later translating these into functional code. It is critical that extraheric AI using this strategy focuses on developing the user’s fundamental understanding of a task rather than simply allowing them to offload task decomposition."
+      },
+      {
+        "type": "p",
+        "text": "Scaffolding（足場かけ）は，教師が一時的にカスタマイズされた支援を提供することで学生の新しい概念やスキルの習得を助け，学生が自立して能力を発揮できるようになるにつれてその支援を徐々に取り除いていく学習アプローチである．促考するAIでは，タスクの一部を引き受け，ユーザが一度に特定の箇所だけに集中できるようにすることで，ユーザにとっての足場として機能することができる．例えばソフトウェア開発の場面では，ユーザがまず擬似コードを書いたり視覚的なプログラミング手法を用いたりすることを可能にし，後にこれらを実行可能なコードへと変換することで，プログラムの構造に集中できるよう支援する．この戦略を用いる促考するAIにおいては，単にタスクの分解を肩代わりさせるのではなく，タスクに対するユーザの根本的な理解を深めることに焦点を当てることが極めて重要である．"
+      },
+      {
+        "type": "heading",
+        "text": "Simulating / 模擬",
+        "level": 3
+      },
+      {
+        "type": "img",
+        "src": "/images/research/content/extraherics/Simulation-1024x751.png",
+        "alt": "",
+        "width": 790,
+        "height": 579
+      },
+      {
+        "type": "p",
+        "text": "In this mode, extraheric AI simulates a circumstance where the user experiences a situation from a standpoint other than their own or develops skills that would be difficult to otherwise practice. For example, AI agents could simulate audience members of different opinions and perspectives, allowing users to practice public speaking and responding to audience questions. Extraheric AI could be tuned to different levels of aggressiveness to develop resilience and abilities for handling different types of audiences. Simulations can also allow users to experience situations from a different standpoint. For example, the user could take the role of an interviewer tasked with interviewing an AI agent playing the role of a job candidate. By asking a variety of questions and observing the agent’s responses, the user can think about how they may answer such questions as interviewees in actual job interviews. The user will also have the opportunity to empathize with their interviewers, potentially giving them valuable insight into how to best communicate their ideas. As with other strategies, it is important that such simulations be designed to present a variety of viewpoints to encourage users to consider different perspectives and think critically about their own positionality. This strategy could be particularly valuable for helping users understand their own and others’ implicit biases."
+      },
+      {
+        "type": "p",
+        "text": "この戦略では，ユーザが自分自身とは異なる立場から状況を経験したり，他の方法では練習が困難なスキルを習得したりする状況をシミュレートする．例えば，AIエージェントが異なる意見や視点を持つ聴衆の役割を担うことで，ユーザはパブリックスピーチや聴衆からの質問への回答を練習することができる．促考するAIは，異なる種類の聴衆に対応するためのレジリエンスや能力を養うために，積極性のレベルを様々に調整することが可能である．また，シミュレーションによってユーザは異なる立場から状況を経験することもできる．例えば，ユーザが面接官の役割を担い，採用候補者の役割を演じるAIエージェントにインタビューを行うタスクに取り組むことができる．多様な質問を投げかけ，エージェントの反応を観察することで，ユーザは実際の採用面接において面接を受ける側としてどのように回答すべきかを考えることができる．またユーザは面接官に共感する機会も得られ，自分の考えを最も効果的に伝える方法について貴重な洞察を得られる可能性がある．他の戦略と同様に，ユーザが異なる視点を検討し，自身の立ち位置について批判的に考えられるよう，多様な観点を提示するようにシミュレーションを設計することが重要である．この戦略は，ユーザが自分自身や他者の潜在的なバイアスの理解支援において特に価値があると考えられる．"
+      },
+      {
+        "type": "heading",
+        "text": "Demonstrating / 実演",
+        "level": 3
+      },
+      {
+        "type": "img",
+        "src": "/images/research/content/extraherics/Demonstrating-1024x525.png",
+        "alt": "",
+        "width": 790,
+        "height": 405
+      },
+      {
+        "type": "p",
+        "text": "Demonstrating is a strategy where users simply observe the behavior or interaction of AI agents and learn implicitly through these observations. In this case, there is no direct information flow from extraheric AI to users. Users thus would have the largest freedom in how they interpret the behavior or interaction of AI agents and internalize take-aways through vicarious learning. In the context of news article reading for opinion formation, extraheric AI using this strategy may take the role of a peer, demonstrating their reading process and sharing opinions. The user can review these demonstrations and construct their own opinions by integrating what they have observed with their own reading. Extraheric AI using this strategy may include multiple AI agents to offer the demonstrations of diverse perspective or approaches to a task or topic."
+      },
+      {
+        "type": "p",
+        "text": "Demonstrating（実演）は，ユーザがAIエージェントの振る舞いやインタラクションを単に観察し，それらの観察を通じて暗黙的に学習する戦略である．この場合，促考するAIからユーザーへの直接的な情報の流れは存在しない．ユーザがAIエージェントの振る舞いやインタラクションをどのように解釈し，代理学習を通じて教訓を内面化するかはユーザに大きく任せられることになる．例えばニュース記事閲覧の文脈では，AIが仲間の役割を担い，自身の読解プロセスを実演したり意見を共有したりする場合がある．ユーザはこれらの実演を検討し，観察した内容を自身の読解と統合することで，自分自身の意見を構築することができる．この戦略においては，タスクやトピックに対する多様な視点やアプローチの実演を提供するために，複数のAIエージェントを含む場合がある．"
+      },
+      {
+        "type": "heading",
+        "text": "Extraheric AI work at IIS Lab / IIS Labにおける促考するAI研究成果"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Xinrui Fang, Anran Xu, Chi-Lan Yang, Ya-Fang Lin, Sylvain Malacria, and Koji Yatani. LLM-based In-situ Thought Exchanges for Critical Paper Reading. To appear in Proceedings of IUI 2026.",
+          "山中駿, 中野博貴, 矢谷浩司．AIセルフクローンを用いた面接時の回答改善支援手法の検討．情報処理学会HCI研究会，2025年11月．",
+          "Shixian Geng, Remi Inayoshi, Chi-Lan Yang, Zefan Sramek, Yuya Umeda, Chiaki Kasahara, Arissa J. Sato, Simo Hosio, and Koji Yatani. 2025. Beyond the Dialogue: Multi-chatbot Group Motivational Interviewing for Premenstrual Syndrome (PMS) Management. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI 2025), Article 640, 1–18.",
+          "風澤宥吾, 矢谷浩司．薬物依存症治療におけるグループ動機づけ面接のファシリテーショントレーニング支援システム．情報処理学会UBI研究会，2025年5月．",
+          "香取浩紀，矢谷浩司，楊期蘭．2025．授業後の要約ノート作成支援アシスタントの設計と評価．情報処理学会全国大会，2025年3月．",
+          "耿世嫻，稲吉玲美，楊期蘭，シュラーメク ゼファン，梅田悠哉，笠原千秋，佐藤安理紗ジエンジエラ，ホシオ シモ，矢谷浩司．複数のチャットボットを組み合わせた動機付け面接によるPMSへの対処支援．情報処理学会HCI研究会，2025年1月．",
+          "梅田悠哉, 楊期蘭, 平野真理, 矢谷浩司. 2024. 大規模言語モデルを活用した認知再構成法支援チャットボットシステム. DICOMO 2024, 2024年7月."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "iot-prototyping",
+    "titleEn": "モジュール性の高いツールキットを用いたハードウェアプロトタイピングにおける初学者の課題の理解",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/iot-prototyping.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/iot-prototyping/iot-prototyping-1024x821.png",
+        "alt": "",
+        "width": 790,
+        "height": 633
+      },
+      {
+        "type": "p",
+        "text": "ハードウェアプロトタイピングでは，プログラミングと電子回路というソフトウェア・ハードウェアの両方の知識を組み合わせてシステムを設計・実装する必要があるため，初学者は様々な困難に直面する．先行研究では，Arduino 等のモジュール性の低いマイコンを使用したハードウェアプログラミングにおいて初学者が直面する困難に関する調査が行われている．一方で，近年では，micro:bit 等のモジュール性の高いツールキットが開発され，これらのミスの多くはモジュール性の高いツールキットを使用することで防ぐことができると考えられる．そこで，本研究では，モジュール性の高いツールキットを使用したハードウェアプロトタイピングワークショップにおいて初学者が直面する困難を明らかにし，先行研究の結果と比較することでツールキットのモジュール性による初学者が直面する困難の違いを追究する．"
+      },
+      {
+        "type": "p",
+        "text": "伊東大燿, 篠田和宏, 矢谷浩司．モジュール性の高いツールキットを用いたハードウェアプロトタイピングにおける初学者の課題の理解．情報処理学会UBI研究会，2025年5月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "group-mi-training",
+    "titleEn": "薬物依存症治療におけるグループ動機づけ面接のファシリテーショントレーニング支援システム",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/group-mi-training.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/group-mi-training/group-mi-training-1024x575.png",
+        "alt": "",
+        "width": 790,
+        "height": 444
+      },
+      {
+        "type": "p",
+        "text": "動機づけ面接は人の行動の変化を促進させるためのコミュニケーション手法として, 個別形式, グループ形式の精神療法で用いられる. 動機づけ面接を提供するカウンセラーの能力は治療効果に影響する可能性が示唆されており, カウンセリング能力を向上させるためのトレーニングは重要である. 個別形式とグループ形式では, カウンセラーに求められるコミュニケーション能力は異なるものの, グループ形式の動機づけ面接に着目したカウンセラーのファシリテーショントレーニングについてはデジタル支援は考慮されていない. 本研究では, 薬物依存症治療のための集団精神療法であるせりがや覚醒剤依存再発防止プログラム(SMARPP)を対象に集団動機づけ面接のトレーニングシステムの設計を行った."
+      },
+      {
+        "type": "p",
+        "text": "風澤宥吾, 矢谷浩司．薬物依存症治療におけるグループ動機づけ面接のファシリテーショントレーニング支援システム．情報処理学会UBI研究会，2025年5月．[(paper)](/) **UBIヤングリサーチャー賞受賞**"
+      }
+    ]
+  },
+  {
+    "slug": "summary-note-with-ai",
+    "titleEn": "授業後の要約ノート作成支援アシスタントの設計と評価",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/summary-note-with-ai.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/summary-note-with-ai/summary-note-1024x677.png",
+        "alt": "",
+        "width": 790,
+        "height": 522
+      },
+      {
+        "type": "p",
+        "text": "要約ノート作成は理解を深める一方で，心理的コストの高さやモチベーションの維持が課題となる．本研究ではGPT-4を用いたシステムを開発し，「説明」または「質問」を提示する介入の効果を3群間比較実験によって要約ノート作成に対する効果を検証した ．実験の結果，説明群においてノート作成中の文字数の変化量に有意な増加が確認されたが ，ノートの質やテスト成績については群間で有意な差は認められなかった ．定性的には，アシスタントが見落としの防止や安心感の提供に寄与する一方で ，既述内容の再提示による集中の阻害や，AIが提示した箇所のみに意識が向くといった依存性の課題が明らかとなった．"
+      },
+      {
+        "type": "p",
+        "text": "香取浩紀，矢谷浩司，楊期蘭．2025．授業後の要約ノート作成支援アシスタントの設計と評価．情報処理学会全国大会，2025年3月．[(paper)](/) **学生奨励賞受賞**"
+      }
+    ]
+  },
+  {
+    "slug": "interactive-gcr",
+    "titleEn": "シームレスでカスタマイズ可能な写真プライバシー保護加工を対話的に行うインタフェース",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/interactive-gcr.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/interactive-gcr/interactive-GCR-1024x555.png",
+        "alt": "",
+        "width": 790,
+        "height": 428
+      },
+      {
+        "type": "p",
+        "text": "直接画像を編集する手法は，画像のプライバシー保護を実現する最も一般的な方法の一つである．しかし，モザイクのような普及した方法では，画像の利便性を維持できず，共有の意図した目的を維持で きないことがよくある．さらに，プライバシー保護のためのユーザーフレンドリーな画像編集サポートが 不足しているため，ユーザーが望むプライバシー保護効果を迅速に達成することができず，プライバシー保護に対する意欲を低下させている．本論文では，生成的コンテンツ置換（プライバシーの脅威をシーム レスに類似の代替物に置き換える新しい手法）を通じて，ユーザーが画像内のプライバシーの保護を支援 するカスタマイズ可能なインタフェースを開発する．ユーザーは，プライバシーを保護する領域の設定や、 代替物の詳細の指定、出力内容の制御をするための様々なパラメータの調整をすることができる．このイ ンタフェースが，従来の画像プライバシー保護手法やソフトウェアと比較して，人々のプライバシー保護に役立つことを期待する．"
+      },
+      {
+        "type": "p",
+        "text": "徐安然, 風澤宥吾, 矢谷浩司. シームレスでカスタマイズ可能な写真プライバシー保護加工を対話的に行うインタフェース. コンピュータセキュリティシンポジウム2024. 2024年10月. [**(paper)**](/)"
+      }
+    ]
+  },
+  {
+    "slug": "gcr",
+    "titleEn": "Examining Human Perception of Generative Content Replacement in Image Privacy Protection",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/gcr.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/gcr/GCR-1024x618.png",
+        "alt": "",
+        "width": 790,
+        "height": 477
+      },
+      {
+        "type": "p",
+        "text": "The richness of the information in photos can often threaten privacy, thus image editing methods are often employed for privacy protection. Existing image privacy protection techniques, like blurring, often struggle to maintain the balance between robust privacy protection and preserving image usability. To address this, we introduce a generative content replacement (GCR) method in image privacy protection, which seamlessly substitutes privacy-threatening contents with similar and realistic substitutes, using state-of-the-art generative techniques. Compared with four prevalent image protection methods, GCR consistently exhibited low detectability, making the detection of edits remarkably challenging. GCR also performed reasonably well in hindering the identification of specific content and managed to sustain the image’s narrative and visual harmony. This research serves as a pilot study and encourages further innovation on GCR and the development of tools that enable human-in-the-loop image privacy protection using approaches similar to GCR."
+      },
+      {
+        "type": "p",
+        "text": "直接画像を編集する手法は，画像のプライバシー保護を実現する最も一般的な方法の一つである．しかし，モザイクのような普及した方法では，画像の利便性を維持できず，共有の意図した目的を維持できないことがよくある．さらに，プライバシー保護のためのユーザーフレンドリーな画像編集サポートが不足しているため，ユーザーが望むプライバシー保護効果を迅速に達成することができず，プライバシー保護に対する意欲を低下させている．本論文では，生成的コンテンツ置換（プライバシーの脅威をシームレスに類似の代替物に置き換える新しい手法）を通じて，ユーザーが画像内のプライバシーの保護を支援するカスタマイズ可能なインタフェースを開発する．ユーザーは，プライバシーを保護する領域の設定や、代替物の詳細の指定、出力内容の制御をするための様々なパラメータの調整をすることができる．このインタフェースが，従来の画像プライバシー保護手法やソフトウェアと比較して，人々のプライバシー保護に役立つことを期待する．"
+      },
+      {
+        "type": "p",
+        "text": "徐安然，風澤宥吾，矢谷浩司．シームレスでカスタマイズ可能な写真プライバシー保護加工を対話的に行うインタフェース．コンピュータセキュリティシンポジウム2024．[(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "Anran Xu, Shitao Fang, Huan Yang, Simo Hosio. Koji Yatani. 2024. Examining Human Perception of Generative Content Replacement in Image Privacy Protection. Poster presentation at SOUPS 2024. [(poster)](/)"
+      },
+      {
+        "type": "p",
+        "text": "Anran Xu, Shitao Fang, Huan Yang, Simo Hosio. Koji Yatani. 2024. Examining Human Perception of Generative Content Replacement in Image Privacy Protection. In Proceedings of CHI 2024, Article 777, 1–16. [(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "expwriting_feedback",
+    "titleEn": "Examining Input Modalities and Visual Feedback Designs in Mobile Expressive Writing",
+    "titleJa": "筆記開示チャットボットにおけるストレス解消感を高める視覚フィードバックデザインの比較評価",
+    "thumb": "/images/research/thumbs/expwriting_feedback.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/expwriting_feedback/norihama_ubi-1024x666.png",
+        "alt": "",
+        "width": 790,
+        "height": 514
+      },
+      {
+        "type": "p",
+        "text": "Expressive writing is an established approach for stress management. Recently, information technologies, such as smartphones, have also been explored for expressive writing. Although mobile interfaces have the potential to support various daily writing activities, interface designs for mobile expressive writing and their effects on stress relief still lack empirical understanding. We examined the interface design of mobile expressive writing by investigating the influence of input modalities and visual feedback designs on usability and perceived cathartic effects through field studies. While our studies confirmed the stress-relieving effects of mobile expressive writing, our results offer important insights into interface design. We found keyboard-based text entry more suited and preferred over voice messages for its privacy and reflective nature. Participants expressed different reasons for preferring different post-writing visual feedback depending on the cause and type of stress. This work advances interface design for mobile expressive writing and deepens understanding of its effects."
+      },
+      {
+        "type": "p",
+        "text": "ストレスは抑うつなどを防ぐためにもこまめな解消が重要である．解消の支援にあたり，時間や場所の制約がないデジタルツールの活用が広まっており，近年ではチャットボットでの対話形式の支援が注目されている．チャットボットに対してストレスを言語化して表出する筆記開示は有効な解消方法であるとされているが、ストレスについて思い出すことで気分が下がる可能性があることや，作業の負担が大きいことなどが課題として指摘されている．そこで本研究では，筆記開示に対する応答を変化させることによって，解消の効果や知覚する負担を変化させることができるのかについて検証を行った．画面上でストレスを能動的に消失させた場合，消失する様子を受動的に知覚した場合，何もしなかった場合の3つの条件を用意し，36名の方にそれぞれ1週間ずつ計3 週間利用してもらった．実験の結果から，条件ごとに得られる異なった効果を明らかにし，さらにストレス管理を行うためのツールのデザインについて議論した．"
+      },
+      {
+        "type": "p",
+        "text": "Shunpei Norihama, Shixian Geng, Kakeru Miyazaki, Arissa J. Sato, Mari Hirano, Simo Hosio, and Koji Yatani. 2025. Examining Input Modalities and Visual Feedback Designs in Mobile Expressive Writing. Proceedings of the ACM on Human-Computer Interaction, Volume 9, Issue 5 Article MHCI009, 1–28. [(paper)](https://dl.acm.org/doi/10.1145/3743723)"
+      },
+      {
+        "type": "p",
+        "text": "乘濵駿平, 耿世嫻, 宮崎翔, 佐藤安理紗ジエンジエラ, 下島銀士, 平野真理, シモホシオ, 矢谷浩司. 2024. 筆記開示チャットボットにおけるストレス解消感を高める視覚フィードバックデザインの比較評価. 情報処理学会UBI研究会, 2024年5月. [(paper)](/) **学生奨励賞受賞**"
+      }
+    ]
+  },
+  {
+    "slug": "genai-infovis",
+    "titleEn": "情報可視化システム開発における大規模言語モデルプロンプトの定量的調査",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/genai-infovis.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/genai-infovis/DICOMO_HIrabayashi.png",
+        "alt": "",
+        "width": 730,
+        "height": 512
+      },
+      {
+        "type": "p",
+        "text": "自然言語処理技術に基づく大規模言語モデル(LLM)の進化により，高い生成能力を示すAI技術がシステム開発やプログラミングの分野にも影響を与えている．本研究では対話型のテキスト生成AIの利用に関して, 情報可視化システムの開発におけるユーザの行動パターンと利用目的に焦点を当てた定量的な分析を行う情報検索におけるセッション分析の観点を取り入れ，連続して入力されたプロンプト同士の関係性にも注目してAIの利用実態を考察する．さらに，これらの利用実態の調査結果からユーザの生成AIを用いたシステム開発を支援するツールの設計について考察を行う．分析の結果，ユーザの対話型AIの利用がAIを主軸としてコードを積極的に記述させる段階と，AI をコード記述の支援に利用してユーザが主体となってコードを記述する2つの段階に分類されることが確認された．また，ユーザとAI間でのシステム開発の進捗状況の同期の難しさが存在することが確認され，支援の必要性が確認された．"
+      },
+      {
+        "type": "p",
+        "text": "平林晴馬，宮崎翔, 矢谷浩司．2025. 情報可視化システム開発における大規模言語モデルプロンプトの定量的調査．情報処理学会論文誌デジタルコンテンツ（DCON），13(2)，1-10．[(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "平林晴馬，宮崎翔，矢谷浩司．2024．情報可視化システム開発における大規模言語モデルプロンプトの定量的調査．DICOMO 2024．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "expwriting_feedbackdesign",
+    "titleEn": "筆記開示後の視覚フィードバックデザインの選好に関する調査",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/expwriting_feedbackdesign.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/expwriting_feedbackdesign/DICOMO_Nakano-1024x376.png",
+        "alt": "",
+        "width": 790,
+        "height": 290
+      },
+      {
+        "type": "p",
+        "text": "日常生活につきまとうストレスに対して適切な対処法を見つけ上手くつきあう必要があるが、個人によって何をストレスに感じ、そのストレスにどのような対処が適しているのかは異なる。そこで本研究ではストレスの内容やユーザの心理状態、個人の性格に応じてユーザが求めるストレス対処法を提案するシステムを構成することを見据えて、これらの要素がストレス対処法への好みにどのように影響するのかを調査する。ストレスの内容やユーザの心理状態を分析するために筆記開示という心理療法を通じて言語化してもらい、ストレス対処法のメタファーとなるような視覚的フィードバックを4種類のうちから1つを選んで使用してもらうことで選好傾向を分析した。ユーザ実験では、クラウドソーシングサイトから募集した20代後半から50代後半までの男女29人を対象に4 週間の間毎日実験を行なってもらい、442の筆記開示のサンプルを収集した。定量分析の結果、ストレスの大きさやストレスによる怒り・悲しみ・恐怖感、そしてストレスの原因が自分自身にあるかどうかといったことが視覚的フィードバックへの選好に影響を与えることがわかった。この結果を利用することでどのようなストレスを抱えているか、それによってどのような感情を抱いているかを考慮してユーザが使いたいと感じるストレス対処法を的確に提案するシステムを作ることができると考えられる。しかし筆記開示の文面自体と選ばれた視覚的フィードバックの間に特徴的な関係性は見出せなかったため、筆記開示の文面のみから予測を行うためには書き手にストレスの種類、感情について言及するよう促すことが重要である。"
+      },
+      {
+        "type": "p",
+        "text": "中野 博貴，乘濵 駿平，耿 世嫻，矢谷 浩司．2024．筆記開示後の視覚フィードバックデザインの選好に関する調査．DICOMO 2024．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "reframing_chatbot",
+    "titleEn": "大規模言語モデルを活用した認知再構成法支援チャットボットシステム",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/reframing_chatbot.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/reframing_chatbot/DICOMO_Umeda.png",
+        "alt": "",
+        "width": 541,
+        "height": 612
+      },
+      {
+        "type": "p",
+        "text": "認知再構成法は，人々の精神状態を改善するのに有効な，確立された心理学的技法である．ユーザがチャットボットから助言を受けることや，逆にユーザがチャットボットに対して支援を行うことは，どちらもユーザの認知再構成を支援するのに効果的であることが先行研究によって示されている．しかしながら，これらのチャットボットとのやり取りが，ユーザの認知再構成や心理状態に対してもたらす影響の違いについての比較検証は，未だ十分になされていない．この課題に取り組むため，本研究では大規模言語モデルを活用して2種類のチャットボットを開発し，それらを組み込んだウェブシステムを構築した．一つは，ユーザと同様の悩みをユーザに相談するピアチャットボットであり，もう一つは，ユーザの悩みに助言を行うコンサルティングチャットボットである．統制群・ピア群・コンサルティング群の3群に分けられた計102名の参加者に対し，3週間にわたってユーザ実験を実施した．結果として，先行研究とは異なり，いずれの群においても参加者の心理状態に有意な変化は見られなかった．また，ピア群では，チャットボットの介入によって悩みに対する別の考え方を記述することがより難しく感じられたことが確認された．一方コンサルティング群においては，チャットボットの介入によって主観的解決に至った悩みの個数が有意に増加した．先行研究と照らし合わせながら，これらの結果が得られた理由について考察する．また，その考察を踏まえ，ユーザの認知再構成を効果的に支援するチャットボットシステムの設計に関しても議論する．"
+      },
+      {
+        "type": "p",
+        "text": "梅田 悠哉，楊 期蘭，平野 真理，矢谷 浩司．2024．大規模言語モデルを活用した認知再構成法支援チャットボットシステム．DICOMO 2024．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "dipa",
+    "titleEn": "An Image Dataset with Cross-cultural Privacy Perception Annotations",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/dipa.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/dipa/DIPA-1024x520.png",
+        "alt": "",
+        "width": 790,
+        "height": 401
+      },
+      {
+        "type": "p",
+        "text": "The world today is increasingly visual. Many of the most popular online social networking services are largely powered by images, making image privacy protection a critical research topic in the fields of ubiquitous computing, usable security, and human-computer interaction (HCI). One topical issue is understanding privacy-threatening content in images that are shared online. This dataset article introduces DIPA2, an open-sourced image dataset that offers object-level annotations with high-level reasoning properties to show perceptions of privacy among different cultures. DIPA2 provides 5,897 annotations describing perceived privacy risks of 3,347 objects in 1,304 images. The annotations contain the type of the object and four additional privacy metrics: 1) information type indicating what kind of information may leak if the image containing the object is shared, 2) a 7-point Likert item estimating the perceived severity of privacy leakages, and 3) intended recipient scopes when annotators assume they are either image owners or allowing others to repost the image. Our dataset contains unique data from two cultures: We recruited annotators from both Japan and the U.K. to demonstrate the impact of culture on object-level privacy perceptions. In this paper, we first illustrate how we designed and performed the construction of DIPA2, along with data analysis of the collected annotations. Second, we provide two machine-learning baselines to demonstrate how DIPA2 challenges the current image privacy recognition task. DIPA2 facilitates various types of research on image privacy, including machine learning methods inferring privacy threats in complex scenarios, quantitative analysis of cultural influences on privacy preferences, understanding of image sharing behaviors, and promotion of cyber hygiene for general user populations."
+      },
+      {
+        "type": "p",
+        "text": "最も人気のあるオンラインソーシャルネットワーキングサービスの多くは，画像によって大きく支えられており，画像のプライバシー保護はユビキタスコンピューティングやユーザブルセキュリティ，HCIにおける重要な研究トピックとなっています．本研究は，異なる文化間のプライバシーに対する認識を示すために，高度な推論特性を持つオブジェクトレベルの注釈を提供するオープンソースの画像データセットであるDIPA2を提案します．DIPA2は，1,304枚の画像内の3,347オブジェクトの認識されたプライバシーリスクを記述する5,897の注釈を提供します。注釈にはオブジェクトのタイプと，さらに4つのプライバシー指標が含まれています．1) 画像が共有された場合にどのような情報が漏洩する可能性があるかを示す情報の種類，2) プライバシー漏洩時に予想される深刻度，3) アノテーション付加者が画像の所有者，あるいは他人に画像を再投稿させることを許可していると仮定した場合の意図された受信者の範囲．さらに，本データセットには，物体レベルのプライバシー認識に対する文化の影響を示すために，日本とイギリスの両方からアノテーション付加者を募集し，データを収集しました．DIPA2は，複雑なシナリオでのプライバシー脅威を推測する機械学習手法，プライバシー嗜好に対する文化的影響の定量的分析，画像共有行動の理解，および一般的なユーザー集団のサイバーハイジーンの促進など，画像プライバシーに関するさまざまなタイプの研究を容易にすること期待されます．"
+      },
+      {
+        "type": "p",
+        "text": "The DIPA dataset is available here. DIPAデータセットは以下より利用可能です．"
+      },
+      {
+        "type": "p",
+        "text": "[https://anranxu.github.io/DIPA2_VIS/](https://anranxu.github.io/DIPA2_VIS/)"
+      },
+      {
+        "type": "p",
+        "text": "Anran Xu, Zhongyi Zhou, Kakeru Miyazaki, Ryo Yoshikawa, Simo Hosio, and Koji Yatani. 2024. DIPA2: An Image Dataset with Cross-cultural Privacy Perception Annotations. Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 7, 4, Article 192 (December 2023), 30 pages. [(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "Anran Xu, Zhongyi Zhou, Kakeru Miyazaki, Ryo Yoshikawa, Simo Hosio, and Koji Yatani. 2023. DIPA : An Image Dataset with Cross-cultural Privacy Concern Annotations. In Companion Proceedings of the 28th International Conference on Intelligent User Interfaces (IUI '23 Companion). Association for Computing Machinery, New York, NY, USA, 259–266. [(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "code_annotation",
+    "titleEn": "アルゴリズムとデータ構造に関するコードデータのアノテーションとその分析",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/code_annotation.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/code_annotation/DICOMO2023_Katori-1024x428.png",
+        "alt": "",
+        "width": 790,
+        "height": 330
+      },
+      {
+        "type": "p",
+        "text": "アルゴリズムとデータ構造の学習は, 情報教育の1 つとして欠かせないものである. これまでに, アルゴリズムとデータ構造に関して体系立てて説明した書籍や教材, 研究などは存在する. アルゴリズムとデータ構造の知識がある人がソースコードレベルで重要な行とその理由について述べることはできるが, 複数人への調査を経て, 一般に高等教育などで教えられるアルゴリズムとデータ構造に関してアノテーションされたものは少ない. そこで, 本研究では, アルゴリズムとデータ構造の問題と解答ソースコードを30問用意し, 各問題において, そのソースコードの中で重要な行を選び, その理由を書いてもらうというアンケート調査をアルゴリズムとデータ構造の知識およびプログラミング経験のある11人に対して実施した.さらに, 著者ら2 人で, 14 個のラベルを作成し, 回答で得られた全ての理由データに対してラベリングを行った. 本稿ではそのデータ制作過程を述べるとともに, プログラミング穴埋め問題を作成する際のデータとして使用するなどのコードデータの活用法について述べる."
+      },
+      {
+        "type": "p",
+        "text": "香取 浩紀，山本 恒輔，佐藤 安理紗 ジエンジエラ，矢谷 浩司．アルゴリズムとデータ構造に関するコードデータのアノテーションとその分析．DICOMO 2023，2023年7月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "voice_support_gesture",
+    "titleEn": "発声支援デバイスの制御を目的とした手のジェスチャに関する社会的受容性の調査",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/voice_support_gesture.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/voice_support_gesture/DICOMO2023_Sawano-1024x732.png",
+        "alt": "",
+        "width": 790,
+        "height": 565
+      },
+      {
+        "type": "p",
+        "text": "がんの治療などによって声を失った喉頭摘出者が用いる代用発声法の一つに発声支援デバイスを用いた発声法があるが, 一部の発声支援デバイスは声に抑揚がなく不自然に聞こえるという欠点がある. 過去の研究において複数の抑揚制御の方法が提案されてきたが, デバイスを持つことにより常に片手が塞がれてしまったり, 抑揚制御が呼気量に依存してしまうといった欠点がある. これらを解決するために, 本研究では新たにジェスチャを用いて声の抑揚を制御するシステムの設計に向けて, 発声障がい者が会話している状況下において人々がジェスチャに対して感じる社会的受容性を調査した. その際ジェスチャを行う側と観測する側の双方の立場からの調査を行い, 社会的受容性の観点からどのような特徴を持つジェスチャがシステムの入力に相応しいかを考察した."
+      },
+      {
+        "type": "p",
+        "text": "澤野 令，山田 大志，佐藤 安理紗 ジエンジエラ，戸原 玄，矢谷 浩司．発声支援デバイスの制御を目的とした手のジェスチャに関する社会的受容性の調査．DICOMO 2023，2023年7月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "smarpp_study",
+    "titleEn": "薬物依存症治療におけるデジタルコミュニケーションの活用可能性に関する質的調査",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/smarpp_study.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/smarpp_study/DICOMO2023_Shimojima-1024x281.png",
+        "alt": "",
+        "width": 790,
+        "height": 217
+      },
+      {
+        "type": "p",
+        "text": "依存症の治療としては，認知行動療法や動機づけ面接によるものの効果がこれまでの研究によって示されてきた．我が国においてそれらを活用した，物質使用障害に対する治療プログラムとしてSMARPPがある．また，これを遠隔地など専門家が現地に存在しない場面でもプログラムを受講できるシステムも開発されている．しかし，現行SMARPP における利点や欠点といった特性やプログラム内で用いられている技法を調査し，それを活かしたシステムはまだない．本研究では，そのようなシステムによる支援を目指すため，プログラム内のコミュニケーションを中心に質的調査を行った．結果，コミュニケーションの際の意識やプログラムで感じている利点や欠点などが明らかになり，デジタル技術による支援がいくつか提案された．"
+      },
+      {
+        "type": "p",
+        "text": "下島 銀士，耿 世嫻，乘濵 駿平，田村 綾子，高野 歩，矢谷 浩司．薬物依存症治療におけるデジタルコミュニケーションの活用可能性に関する質的調査．DICOMO 2023，2023年7月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "security_questions",
+    "titleEn": "ユーザブルセキュリティ研究に向けた情報セキュリティ・プライバシーに関する問題セットの構築",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/security_questions.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/security_questions/DICOMO2023_Yoshikawa-1024x576.png",
+        "alt": "",
+        "width": 790,
+        "height": 444
+      },
+      {
+        "type": "p",
+        "text": "情報セキュリティやプライバシーについて知っておくべき知識は多様であり，それらについて学ぶことは欠かせない．ユーザブルセキュリティの研究においても，実験参加者等の知識を測るために情報セキュリティ・プライバシーに関する問題を出題することがあり，インターネットに関する知識を網羅的に扱った問題セットの需要は高い．そこで本研究では，情報セキュリティ・プライバシーに関する網羅的な問題リストの作成を目指した．まず，過去10 年のユーザブルセキュリティに関する論文を分類し，9の大分類と40の小分類を作成した．そして，分類カテゴリに基づいて90 問の正誤問題を作成し，クラウドソーシング調査（N=900）で正答率を測定した．調査の結果から，問題への正答率とSeBIS のスコアの相関や，年代や居住国，性別による正答率の差異が明らかになった．"
+      },
+      {
+        "type": "p",
+        "text": "吉川 諒，徐 安然，ゼファン シュラーメク，矢谷 浩司．ユーザブルセキュリティ研究に向けた情報セキュリティ・プライバシーに関する問題セットの構築．DICOMO 2023，2023年7月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "notification_design",
+    "titleEn": "プッシュ通知インタフェースの誘目度と干渉度のモデル化",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/notification_design.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/notification_design/DICOMO2023_MIyazaki-1024x458.png",
+        "alt": "",
+        "width": 790,
+        "height": 353
+      },
+      {
+        "type": "p",
+        "text": "スマートフォンやパーソナルコンピュータ上でのプッシュ通知は，ユーザに対し即時的に情報を伝える手段として広く用いられているが，ユーザが通知を受け取りたいかどうかを考慮せずに行われるため，ユーザの作業への集中の妨げになったり，煩わしく感じられたりしてしまうという課題がある．本研究では，見た目や出現位置といったプッシュ通知の視覚的な特性を適切に調整することで，ユーザに対する気づかれやすさと受容性の高さを両立する通知を設計することを最終的な目標とし，通知の視覚的特性の変化が通知の誘目性と受容性をどう変化させるかを調査した．この調査のために，実験参加者にタスク中に出現する通知について気づきやすさと受容性について評価をしてもらうユーザ実験を行った結果，通知の透明度や注視点に対する相対位置が誘目度と受容性の増減に強い影響を与えるなどがわかり，それらの知見をもとにユーザにとっての気づかれやすさと受け入れやすさを両立する通知の設計方針について議論した．"
+      },
+      {
+        "type": "p",
+        "text": "宮崎 翔，乘濵 駿平，山本 恒輔，ゼファン シュラーメク，佐藤 安理紗 ジエンジエラ, 矢谷 浩司．プッシュ通知インタフェースの誘目度と干渉度のモデル化．DICOMO 2023，2023年7月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "imt_with_genai",
+    "titleEn": "インタラクティブ機械学習の教示プロセスでの生成 AI の利用可能性の検討",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/imt_with_genai.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/imt_with_genai/DICOMO2023_Yamamoto-1024x738.png",
+        "alt": "",
+        "width": 790,
+        "height": 569
+      },
+      {
+        "type": "p",
+        "text": "機械学習は大量の学習データがあれば難しい課題を効率的に解決できるが，モデル作成には深い理解が必要であり，一般の人々が利用するにはハードルが高い．インタラクティブ機械学習（IMT）は機械学習のモデル作成に対話的要素を組み込み，ユーザの理解を促進することを目的としており，すでにウェブカメラなどを使って簡単にデータを提供できるシステムが公開されている．しかし，これらのIMTツールではユーザが提供する学習データと実際に学習させたい概念との乖離が生じることがあり，本研究ではその乖離を生成AI によるデータの拡張によって解決することを目指す．本稿では，生成AI を組み込んだIMTシステムの開発と実験を行い，IMTの教示プロセスにおける生成AIの利用可能性を検討した．"
+      },
+      {
+        "type": "p",
+        "text": "山本 恒輔，周 中一，ゼファン シュラーメク，矢谷 浩司．インタラクティブ機械学習の教示プロセスでの生成 AI の利用可能性の検討．DICOMO 2023，2023年7月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "cloth_deformation",
+    "titleEn": "導電糸刺繍の設計パラメータの違いによる抵抗値変化を活用した布変形検出手法",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/cloth_deformation.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/cloth_deformation/DICOMO2023_Shinoda-1024x1024.png",
+        "alt": "",
+        "width": 790,
+        "height": 790
+      },
+      {
+        "type": "p",
+        "text": "スマートテキスタイル技術によってセンサを作成する上で，コンピューター制御による刺繍ミシンにより糸密度やピッチなどの設計パラメータを調整することで，導電糸刺繍の抵抗値を制御できることが明らかになっている． そこで本研究では，刺繍の設計パラメータの違いによる抵抗値変化を活用した，布の変形を検出する手法を提案する． これまで，布の柔軟性を活かし，つまむ・折る・曲げるなどの変形検出手法が提案されているが，これらの先行研究は布とセンサ回路基板との接続数の増大などハードウェアの複雑化による耐久性の低下が課題になっている． 本研究では，電極形状ではなく刺繍の設計パラメータの変化により所望の電気的特性を実現することで，布とセンサとの接続数を減らした簡略なハードウェアによる変形の検出を目指す． また，タタミ縫いにおける刺繍の等価抵抗回路モデルの構築により，センサの検出精度向上に役立てる．"
+      },
+      {
+        "type": "p",
+        "text": "篠田 和宏，矢谷 浩司．導電糸刺繍の設計パラメータの違いによる抵抗値変化を活用した布変形検出手法．DICOMO 2023，2023年7月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "chatbot_input",
+    "titleEn": "対話形式でのストレス管理に向けた チャットボットにおける入力方法の評価",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/chatbot_input.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/chatbot_input/norihama_project_visual-1024x658.png",
+        "alt": "",
+        "width": 790,
+        "height": 508
+      },
+      {
+        "type": "p",
+        "text": "現代社会において多くの人が抱えるとされているストレスは，蓄積してしまうと様々な悪影響をもたらすため，こまめに発散することが重要である．そのためストレスの発散を支援するデジタルアプリケーションが研究・開発されてきているが，ストレスの有効な発散方法とされている感情の表出に着目したものは少ない．そこで本研究では，ストレスから生じる感情を表出し発散することのできるチャットボットシステムの設計を行った．このチャットボットでは，ストレスに感じた出来事とそれにまつわる感情をテキスト入力か音声入力により表出することで，ストレスを管理する事ができる．入力方法による違いを検証するため，2 週間にわたり28 名の参加者に実際にシステムを利用してもらう実験を実施し，ストレスの発散効果にどのような違いが出るのかについて分析を行った．結果として，ストレス管理のためのチャットボットにおいてはテキスト入力がより好まれ，それぞれの入力方法の利点と欠点が明らかになった．今後の研究においては感情の表出によるストレスの解消を支援する追加の機能の開発と，様々な入力方法が与える影響についてのさらなる検証が必要である．"
+      },
+      {
+        "type": "p",
+        "text": "乘濵 駿平，宮崎 翔，耿 世嫻，下島 銀士，佐藤 安理紗 ジエンジエラ，ホシオ シモ，矢谷 浩司．対話形式でのストレス管理に向けた チャットボットにおける入力方法の評価．DICOMO 2023，2023年7月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "parent_child_reading",
+    "titleEn": "親子の対話型読み聞かせのための記録システムに向けたインタビュー調査",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/parent_child_reading.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/parent_child_reading/shimizu_project_visualimage-1024x544.png",
+        "alt": "",
+        "width": 790,
+        "height": 420
+      },
+      {
+        "type": "p",
+        "text": "子どもとの対話コミュニケーションの重要性について多くの研究が示唆しているにも関わらず，子育て親は忙しさが増しておりコミュニケーション機会を確保することは難しくなっている．本研究では対話コ ミュニケーション機会として親子の読み聞かせ活動に着目し，活動への意欲や対話型読み聞かせを促すため のシステムデザインを検討する．そのために読み聞かせに際しての親子を取り巻く環境についての状況や，やりがい，続ける上での課題や, システムデザインを踏まえたセキュリティ意識などを把握するために，子育て親に対してインタビューを実施し定性的な調査をおこなった．インタビュー結果を元に考察をおこない，子育て親が振り返りながら対話型読み聞かせを続けていくためのシステムデザインについて検討した．"
+      },
+      {
+        "type": "p",
+        "text": "清水 啓太郎，佐藤 安理紗 ジエンジエラ，矢谷 浩司．親子の対話型読み聞かせのための記録システムに向けたインタビュー調査．DICOMO 2023，2023年7月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "groupnamics",
+    "titleEn": "Groupnamics: Designing an Interface for Overviewing and Managing Parallel Group Discussions in an Online Classroom",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/groupnamics.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/groupnamics/groupnamics-1024x364.png",
+        "alt": "",
+        "width": 790,
+        "height": 281
+      },
+      {
+        "type": "p",
+        "text": "Instructors facilitating online classes have a limited ability to see and hear interactions of student groups working in parallel, which prevents them from interacting with students effectively. In this work, we explore interface design for providing an overview of parallel group discussions in online classrooms. We derive design considerations through a participatory design process and instantiate them in our visualization interface, Groupnamics. Groupnamics Äi0visualizes recent vocal activities and discussion statuses of each group in a one-page view, facilitating identification of groups where intervention may be needed. Our user study with 16 instructors confirmed that Groupnamics Äi0can successfully provide cues for when instructors should join group discussions and improvements on the perceived usefulness and ease of use over the baseline interface representing existing videoconferencing tools. Our qualitative results suggest future research directions in interface design for online parallel group discussions."
+      },
+      {
+        "type": "p",
+        "text": "Arissa J. Sato, Zefan Sramek, and Koji Yatani. Groupnamics: Designing an Interface for Overviewing and Managing Parallel Group Discussions in an Online Classroom. In Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI 2023), Article 701, 1–18, 2023. [(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "embroidery_sensor",
+    "titleEn": "An Embroidery Touch Sensor with Layered Structure of Conductive and Non-Conductive Threads",
+    "titleJa": "導電糸と非導電糸の組み合わせによるインタラクティブ刺繍",
+    "thumb": "/images/research/thumbs/embroidery_sensor.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/embroidery_sensor/embroidery_sensor-1024x819.png",
+        "alt": "",
+        "width": 790,
+        "height": 632
+      },
+      {
+        "type": "p",
+        "text": "Textile-based touch sensing methods for ubiquitous and wearable interfaces employ multiple independent or specific shaped electrodes, leading to limitations on three aspects: design freedom of electrode shape, durability, and simple production. We introduce the creation approach of an embroidery touch sensor by adding embroidery using non-conductive threads on top of an electrode made of conductive threads. Changes of stitch densities of the non-conductive thread embroidery lead to differences in electrical properties, which can be useful to distinguish which part of the embroidery is touched. Our method enables the creation of touch-sensitive embroidery with high design freedom of electrode shape and durability in a simple process."
+      },
+      {
+        "type": "p",
+        "text": "布製品にインタラクティブな機能を搭載させるために，様々なスマートテキスタイル技術の研究が行われている．これまでの取り組みでは電極の形状を工夫することによってセンシングに対応した電気的特性を作り出しており，既存の衣服が持っているようなデザインの多様性をスマートテキスタイルでは実現できていない．そこで本研究では，導電糸の上に非導電糸で重ね縫いをすることで，タッチ時における静電容量変化を制御し，タッチ位置検出に利用する手法を提案する．非導電糸の密度を変化させることで，タッチ時における指と導電糸の距離が変化して静電容量変化をもたらす．この手法を利用することで，インタラクティブ刺繍を多様なデザインで実現することができる．"
+      },
+      {
+        "type": "p",
+        "text": "Kazuhiro Shinoda, D. Antony Chacon, and Koji Yatani. 2023. An Embroidery Touch Sensor with Layered Structure of Conductive and Non-Conductive Threads. IEEE Sensors Letters, Vo. 7, No. 6, Article 6003104. [(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "篠田 和宏，矢谷 浩司．導電糸と非導電糸の組み合わせによるインタラクティブ刺繍．インタラクション2023（デモ発表），2023年3月．[(paper)](/) **インタラクティブ発表賞（一般投票）受賞**"
+      }
+    ]
+  },
+  {
+    "slug": "pms_survey",
+    "titleEn": "PMSや月経に伴う不調の症状や対策について情報の共有意識の違いに関する定量的調査",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/pms_survey.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/pms_survey/PMS_quant-1024x330.png",
+        "alt": "",
+        "width": 790,
+        "height": 255
+      },
+      {
+        "type": "p",
+        "text": "月経前症候群（PMS）や月経に伴う不調といった日常生活に支障を及ぼす症状を感じる女性は増加している．身体症状や精神症状など複合的な症状に対して様々な対策が提示されているが，自らの症状やその対策についての情報共有による改善の効果に焦点を当てた研究は少ない．他者への自己開示は精神的にポジティブな影響を与えることがわかっていることから，本研究では情報共有に焦点を当て，情報共有意識の異なる群ごとの特徴から，症状改善へつながりうる要因を検討することを目的とした．20 歳以上の日本人女性を対象にアンケート調査を実施した．各群に質問を行い，属性ごとの情報共有の意識の違いを生む背景となっている要素を検討した．その結果，情報共有をしている人は周囲の身近な人への共有が盛んで，精神症状にポジティブな影響を感じている傾向がわかった．また，共有意思がない群は気分症状をもつ割合が有意に少ないことがわかり，気分症状の有無が情報共有意識の差を生む要素である可能性が示唆された．"
+      },
+      {
+        "type": "p",
+        "text": "土居 明莉，耿 世嫻，矢谷 浩司．PMSや月経に伴う不調の症状や対策に関する情報の共有意識の違いに関する定量的調査．情報処理学会HCI研究会，2023年3月．[(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "土居 明莉，耿 世嫻，矢谷 浩司．PMSや月経に伴う不調の重症度と症状や対策に関する情報共有意識の関係についての定量的調査．日本健康支援学会年次学術大会．2023年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "socialvr_inclusion",
+    "titleEn": "ソーシャルVR空間参加時における被受容感に関する調査",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/socialvr_inclusion.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/socialvr_inclusion/socialvr_inclusion-1024x576.png",
+        "alt": "",
+        "width": 790,
+        "height": 444
+      },
+      {
+        "type": "p",
+        "text": "ソーシャルVR 空間でのユーザの被受容感は，新しく参加するユーザにとってはその空間の印象を決める重要なものである．この被受容感がユーザのどのような振る舞いに依存するかが明らかになれば，被受容感の醸成度合いを定量的に示したり，被受容感を高める提案をコミュニティに提供したりできる．本稿では，相手を見る，相手に手をふるなどの振る舞いが，ユーザの被受容感にどう関係するかを比較検討する実験の結果を報告する."
+      },
+      {
+        "type": "p",
+        "text": "方 詩涛，矢谷 浩司．ソーシャルVR空間参加時における被受容感に関する調査．日本バーチャルリアリティ学会大会，2022年9月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "lookhere",
+    "titleEn": "Gesture-aware Interactive Machine Teaching with In-situ Object Annotations",
+    "titleJa": "ユーザの教示動作に基づいた物体アノテーションを統合した対話型AIモデル構築",
+    "thumb": "/images/research/thumbs/lookhere.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/lookhere/LookHere-e1664320357676-1024x481.png",
+        "alt": "",
+        "width": 790,
+        "height": 371
+      },
+      {
+        "type": "p",
+        "text": "Interactive Machine Teaching (IMT) systems allow non-experts to easily create Machine Learning (ML) models. However, existing vision-based IMT systems either ignore annotations on the objects of interest or require users to annotate in a post-hoc manner. Without the annotations on objects, the model may misinterpret the objects using unrelated features. Post-hoc annotations cause additional workload, which diminishes the usability of the overall model building process. % with vision-based IMT. In this paper, we develop LookHere, which integrates in-situ object annotations into vision-based IMT. LookHere exploits users' deictic gestures to segment the objects of interest in real time. This segmentation information can be additionally used for training. To achieve the reliable performance of this object segmentation, we utilize our custom dataset called HuTics, including 2040 front-facing images of deictic gestures toward various objects by 170 people. The quantitative results of our user study showed that participants were 16.3 times faster in creating a model with our system compared to a standard IMT system with a post-hoc annotation process while demonstrating comparable accuracies. Additionally, models created by our system showed a significant accuracy improvement (ΔmIoU=0.466) in segmenting the objects of interest compared to those without annotations."
+      },
+      {
+        "type": "p",
+        "text": "The details of the project, demonstration videos, and the HuTics dataset is available on the following page.\n\n[https://zhongyi-zhou.github.io/GestureIMT/](https://zhongyi-zhou.github.io/GestureIMT/)"
+      },
+      {
+        "type": "p",
+        "text": "Zhongyi Zhou, and Koji Yatani. 2022. Gesture-aware Interactive Machine Teaching with In-situ Object Annotations. _To appear in UIST 2022._ [(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "subepidermal",
+    "titleEn": "Demonstrating the Feasibility of Subepidermal Image Sensing for Hand Posture and Gesture Recognition",
+    "titleJa": "表皮下の画像を用いたウェアラブルな手の姿勢とジェスチャ認識手法",
+    "thumb": "/images/research/thumbs/subepidermal.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/subepidermal/subepidermal-1024x406.png",
+        "alt": "",
+        "width": 790,
+        "height": 313
+      },
+      {
+        "type": "p",
+        "text": "Light-based wearable sensing methods for human body motion often rely on a few single light emitters and receivers, which leads to limited sensing capabilities. While increasing the number of light sources and sensors can help detect more complex motions, this increase in hardware often degrades wearability and mobility. In this paper, we employ a flexible organic photosensor matrix surrounded by an LED array as the light source to detect subepidermal images on the back of the hand. We then use computer vision and deep learning techniques to detect patterns based on blood-related changes under the skin. Our sensor system can accurately distinguish 32 hand postures and 17 gestures in user-dependent training, showing promise for ultra-light wearable systems in natural user interface applications."
+      },
+      {
+        "type": "p",
+        "text": "D. A. Chacon, K. Shinoda, T. Yokota and K. Yatani, Demonstrating the Feasibility of Subepidermal Image Sensing for Hand Posture and Gesture Recognition. _IEEE Sensors Letters_, 2022. [(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "hidetight",
+    "titleEn": "An Interactive Photo Privacy Protection Interface",
+    "titleJa": "写真のプライバシー保護加工を対話的に行うインタフェース",
+    "thumb": "/images/research/thumbs/hidetight.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/hidetight/HideTight-1024x573.png",
+        "alt": "",
+        "width": 790,
+        "height": 442
+      },
+      {
+        "type": "p",
+        "text": "写真はSNSで共有され，ユビキタス・コンピューティングで活用される重要なメディアとなっている．そのため，写真のプライバシー保護は，多くのユーザーにとって重要であるが，プライバシー保護のための写真編集支援は必ずしも十分でない．本研究ではプライバシー保護のための写真編集を対話的に行うHideTightを提案する．HideTightは，プライバシーを脅かす可能性のある8種類のオブジェクトを我々独自の物体認識モデルによりユーザから与えられた写真の中から検出し，プライバシー保護を行う領域を提案する．ユーザは，ボタンを押すことで提案された場所に保護編集を行えるほか，必要に応じて修正を行うことができる．本稿では，HideTightの実装について報告し，および今後の研究の方向性について議論する．"
+      },
+      {
+        "type": "p",
+        "text": "徐 安然，周 中一，吉川 諒．矢谷 浩司．写真のプライバシー保護加工を対話的に行うインタフェース．情報処理学会UBI研究会，2022年6月． [(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "oralfrality-inference",
+    "titleEn": "Quantifying Oral and Swallowing Capabilities through Computer Vision Using Smartphones",
+    "titleJa": "スマートフォンを用いた画像認識による口腔・嚥下機能の定量的評価手法",
+    "thumb": "/images/research/thumbs/oralfrality-inference.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/oralfrality-inference/oralfrality-inference-1024x576.png",
+        "alt": "",
+        "width": 790,
+        "height": 444
+      },
+      {
+        "type": "p",
+        "text": "医師による嚥下障害の診断には，患者に定期的な通院が必要な点や診断結果が医師の経験に大きく左右される点が課題として存在する．そこで我々は，患者が在宅で簡単に嚥下障害の有無を評価できるようにするため，スマートフォンで撮影した動画から口腔・嚥下機能を評価する手法を提案する．提案手法の実現に向けて我々は，口腔・嚥下機能を分析するために必要なタスク群を決定し，147名の実験参加者から得られたそれらのタスクの動画の分析を行った. その結果，87.1%の精度，0.612のF値の識別性能を得た．"
+      },
+      {
+        "type": "p",
+        "text": "耿 世嫻，平井 雄太，下島 銀士，柳田 陵介，山田 大志，小野寺 宏，戸原 玄，矢谷 浩司．2024．スマートフォンを用いた画像認識による嚥下機能の定量的評価手法．情報処理学会論文誌，Vol. 65，No. 6，1091-1101．"
+      },
+      {
+        "type": "p",
+        "text": "耿 世嫻，平井 雄太，下島 銀士，柳田 陵介，山田 大志，小野寺 宏，戸原 玄，矢谷 浩司．スマートフォンを用いた画像認識による口腔・嚥下機能の定量的評価手法．DICOMO 2022，2022年7月． [(paper](/)) **優秀プレゼンテーション賞受賞**"
+      }
+    ]
+  },
+  {
+    "slug": "xps-analysis",
+    "titleEn": "A Qualitative Study toward Supporting Non-expert to Perform Measurements and Analysis in Photoemission Spectroscopy",
+    "titleJa": "非熟練ユーザーの光電子分光計測・分析支援に向けた質的調査",
+    "thumb": "/images/research/thumbs/xps-analysis.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/xps-analysis/XPS-analysis-1024x546.png",
+        "alt": "",
+        "width": 790,
+        "height": 421
+      },
+      {
+        "type": "p",
+        "text": "光電効果を応用した実験手法の一つに光電子分光法 (photoemission spectroscopy) がある．X線などの高エネルギーの電磁波を試料に照射した際に試料表面から出てきた電子（光電子）を解析することで物質表面や内部の電子状態などを調べる光電子分光は，今や物質科学，生命科学，医学，ナノテクノロジーなど様々な分野で欠かせない実験手法となっている．光電子分光では光源として，物質由来の特性 X 線の他に，放射光と呼ばれる連続的な電磁波（光）を使用することがある．高輝度な放射光光源を用いることで，計測精度が飛躍的に向上し，計測時間の短縮も見込める．しかし，放射光を用いた光電子分光では，放射光施設において，限られた利用時間内に素早く正確な計測と解析をミスなく遂行する必要があり，特に施設や装置，実験手法に不慣れなユーザーには負担が大きい．この課題を解決する計測・分析支援ツールを開発するために，筆者らはまず非熟練ユーザーと専門家合計7名にインタビューを行った．本稿ではその結果を報告し，今後の展望について述べる．"
+      },
+      {
+        "type": "p",
+        "text": "桝田 拓磨，小林 正起，矢谷 浩司．非熟練ユーザーの光電子分光計測・分析支援に向けた質的調査．電子情報通信学会総合大会，2022年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "dualcheck",
+    "titleEn": "DualCheck: Exploiting Human Verification Tasks for Opportunistic Online Safety Microlearning",
+    "titleJa": "DualCheck: ボット判定に情報セキュリティ・倫理に関する学習を織り込んだシステム",
+    "thumb": "/images/research/thumbs/dualcheck.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/dualcheck/DualCheck-1024x277.png",
+        "alt": "",
+        "width": 790,
+        "height": 214
+      },
+      {
+        "type": "p",
+        "text": "Learning online safety and ethics is becoming more critical for the general user population. However, they do not receive such learning opportunities regularly, and are often left behind. We were therefore motivated to design an interactive system to provide more frequent learning opportunities to the general user population. This paper presents our explorations on the integration of opportunistic microlearning about online safety and ethics into human verification. Our instantiation of this concept, called DualCheck, asks users to respond to questions related to online safety and ethics while human verification would be executed in a similar manner to reCAPTCHA v2. In this manner, DualCheck offers users microlearning opportunities when they use online services. Our 15-day user study confirmed the positive learning effect of DualCheck. The quantitative and qualitative results revealed participants' positive experience with attitude toward DualCheck, and also found its significantly higher perceived usability than text-based CAPTCHA and picture-based reCAPTCHA."
+      },
+      {
+        "type": "p",
+        "text": "近年のインターネット社会において，情報倫理・セキュリティに関する基礎知識を身に着ける重要性が高まっているが，教育の場が限られており，誰もが定期的に最新の状況に基づいた知識を得ているとは言い難い．そこで本研究では，Web フォームへの回答時などに求められる CAPTCHA による判定を活用した，マイクロラーニングによる学習システムを提案する．CAPTCHA はウェブを使う多くの人が定期的に遭遇するものであり，従来のタスクのかわりに情報倫理・セキュリティに関するクイズを出題できれば適切な学習機会となる上，CAPTCHAをユーザにとって有意義なものにすることができる．提案手法の実現に向け，CAPTCHA の形式でクイズを出題した直後に知識の定着を確認する調査を実施した．本稿では調査の詳細を報告し，今後の展望を論ずる．"
+      },
+      {
+        "type": "p",
+        "text": "吉川 諒，落合 秀也，矢谷 浩司．2023．ボット判定の機会を活用した情報セキュリティ・倫理の学習手法の知識習得と知識持続効果の検証．電子情報通信学会論文誌（7月掲載予定)，"
+      },
+      {
+        "type": "p",
+        "text": "Ryo Yoshikawa, Hideya Ochiai, and Koji Yatani. 2022. DualCheck: Exploiting Human Verification Tasks for Opportunistic Online Safety Microlearning. In _Proceedings of the Eighteenth Symposium on Usable Privacy and Security (SOUPS 2022), _19–37. [(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "吉川 諒，矢谷 浩司．情報倫理・セキュリティ啓発を目指したCAPTCHAの設計．電子情報通信学会総合大会，2022年3月． [(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "posture_study",
+    "titleEn": "A Preliminary Study on Detecting Forward-Leaning Posture during Computer Use",
+    "titleJa": "コンピュータ使用時のユーザの前傾姿勢の検知に向けた予備的検討",
+    "thumb": "/images/research/thumbs/posture_study.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/posture_study/posture_study-1024x660.png",
+        "alt": "",
+        "width": 790,
+        "height": 509
+      },
+      {
+        "type": "p",
+        "text": "IT機器の中でも特にコンピューターのディスプレイ等の画像表示端末をVisual Display Terminals (VDT)と呼ぶが，VDT使用時には，猫背など前屈みの姿勢を維持するなどの使用中の行動が人体の健康に及ぼす悪影響が懸念されている．VDTの使用は眼の痛み，ドライアイ，疲労感，手首や腕の疲れ，首や肩の痛みなどに繋がり，以上のような症状はVDT症候群と総称されている．このようなVDT症候群を検知し，予防を支援する研究は広く行われてきた．本論文では深度カメラを用いてユーザの顔の特徴量を抽出し，上半身の前傾姿勢を検知する方法の予備実験を行い，その結果及び分析について述べる．"
+      },
+      {
+        "type": "p",
+        "text": "高島 諒，矢谷 浩司．コンピュータ使用時のユーザの前傾姿勢の検知に向けた予備的検討．電子情報通信学会総合大会，2022年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "cycling-behavior",
+    "titleEn": "Vision-based Scene Analysis toward Dangerous Cycling Behavior Detection Using Smartphones",
+    "titleJa": "スマートフォンを用いた危険な自転車運転検知に向けた運転状況認識手法の実装",
+    "thumb": "/images/research/thumbs/cycling-behavior.jpg",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/cycling-behavior/cycling-behavior-1024x528.jpg",
+        "alt": "",
+        "width": 790,
+        "height": 407
+      },
+      {
+        "type": "p",
+        "text": "Cycling can contribute to improvements of user’s physical and mental health, and can also bring positive impacts on the environment. However, many riders do not necessarily have a full understanding of safe bicycle riding. Existing sensing technology and mobile systems have demonstrated assistive features for car driving, and this motivates us to design a mobile application to feedback cyclist’s bicycle riding. In this paper, we present the current progress of our mobile system to perform vision-based scene analysis tailored toward the detection of potentially dangerous cycling."
+      },
+      {
+        "type": "p",
+        "text": "心身の健康や混雑回避，環境問題の観点から自転車利用が注目を集めている．しかし，自転車利用 者の多くは自転車の安全運転について学ぶ機会を十分に得られていないため，知らずのうちに危険な運転をしてしまう可能性がある．従って，自転車利用者を事故から守るためには支援が必要である．現在，自動車の運転支援技術は広く研究されているが，自転車の運転支援に関する研究は限られている．自動車と比較して自転車は走行位置や環境，積載デバイスの制約など特有の問題が存在するため，自動車支援技術をそのまま転用することは難しい．そこで，本研究では自転車に搭載した速度センサとスマートフォンのカメラから乗車データを取得し，運転後に自転車利用者にフィードバックをするための運転状況の認識と評価の手法を検討する．"
+      },
+      {
+        "type": "p",
+        "text": "林 裕嵩，徐 安然，周 中一，矢谷 浩司．スマートフォンを用いた危険な自転車運転検知に向けた運転状況認識手法の実装．情報処理学会UBI研究会，2021年12月． [(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "Hirotaka Hayashi, Anran Xu, Zhongyi Zhou, and Koji Yatani. Vision-based Scene Analysis toward Dangerous Cycling Behavior Detection Using Smartphones. In Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing (UbiComp 2021), 28–29. [(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "informal-chat",
+    "titleEn": "リモートワーク環境での雑談を支援するインタフェースデザインの質的調査",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/informal-chat.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/informal-chat/informal-chat-suggest-1024x457.png",
+        "alt": "",
+        "width": 790,
+        "height": 353
+      },
+      {
+        "type": "p",
+        "text": "COVID-19 の影響やSDGs への関心の高まりに伴い, オンラインでのコミュニケーションが増加した. その結果, 心的健康・社会性の面で必要とされていた何気ない他者との会話（以下雑談とする）が減少し, 孤独感・帰属意識の低下といった課題が生まれている. リモートコミュニケーションを支援するツールは複数生み出されているものの, 目的を持たない他者との雑談の活性化に焦点を置いた研究は少ない. 本研究では, ユーザ調査を通じて, リモート環境における雑談の発生条件を調査し, どのような情報を提示すると効果的であるかを分析する. またその結果に基づき, チャットシステムにおけるインタフェースデザインを検討する."
+      },
+      {
+        "type": "p",
+        "text": "佐野 翔子，佐藤 安理紗 ジエンジエラ，矢谷 浩司．リモートワーク環境での雑談を支援するインタフェースデザインの質的調査．情報処理学会HCI研究会，2021年12月． [(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "synthesizer-support",
+    "titleEn": "SoundTraveller: Exploring Abstraction and Entanglement in Timbre Creation Interfaces for Synthesizers",
+    "titleJa": "シンセサイザを用いた音の創作に向けたインタラクティブな音色探索支援",
+    "thumb": "/images/research/thumbs/synthesizer-support.jpg",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/synthesizer-support/timbre-exploration-prototype-1024x690.jpg",
+        "alt": "",
+        "width": 790,
+        "height": 532
+      },
+      {
+        "type": "p",
+        "text": "Electronic music synthesizers are instruments that give the user direct control of their timbre. Synthesizers with hundreds of parameters can create thousands of unique timbres, but this complexity also hinders musicians' ability to explore these timbres effectively. Our interview study with ten electronic musicians revealed that, while they desired unique sounds for their music, many participants lacked the understanding or motivation to program their own timbres from scratch, instead generally relying on presets. While many previous works have proposed novel interfaces for electronic music synthesis or performance, few researchers have looked at timbral exploration interfaces. Based on our formative study, we developed nine synthesizer programming interface design guidelines, with which, and a participatory design study, we developed a novel timbral exploration interface prototype. Rather than editing individual parameters or auditioning presets, our system allows the user to define and explore the timbral space within local regions. This is achieved with two modes: morphing and evolutionary. In both these modes it is possible to generate hundreds of unique timbres without the need to understand how individual parameters are changing. Using our prototype, we conducted a user study in order to observe how these tools, and the interface we developed for them, offered our participants new methods for timbre exploration, which helped them create new sounds and gain inspiration for their compositions. We witnessed how the prototype was adopted into their existing sound design and composition workflows, allowing them to create unique timbres that they could not previously access."
+      },
+      {
+        "type": "p",
+        "text": "電子音楽用シンセサイザは，ユーザが音色を直接コントロールできる楽器である．シンセサイザにおいては音色に関する何百ものパラメータが調整可能であり，数多くの音色を作り出すことが可能である一方，この自由度の高さはミュージシャンがこれらの音色を効果的に探求する能力の妨げにもなりえる．10人のエレクトロニック・ミュージシャンへのインタビュー調査の結果，彼らは自分の音楽のために独自のサウンドを求めているものの，多くの場合自分の音色をゼロからプログラミングする理解やモチベーションがなく，既存の音色に頼ることが多いことがわかった．電子音楽の合成や演奏のための新しいインタフェースは数多く提案されているが，シンセサイザにおける音色の探索を支援する方法は研究されていない．本研究では，インタビュー調査によって，シンセサイザにおける音色構築インタフェースのデザインガイドラインを作成し，それに基づいて参加型デザイン・スタディを行い，新しい音色探索インタフェースを構築した．本システムでは，個々のパラメータを編集したり，プリセットを試聴したりするのではなく，ユーザが局所的な領域における音色空間を定義し，探索することを可能としている．この探索は，モーフィングとエボリューションという2つのモードで実現されている．この2つのモードでは，個々のパラメータがどのように変化しているかを理解しなくても，何百ものユニークな音色を生成することが可能となる．ユーザ実験においては，本プロトタイプが参加者に音色を探索するための新しい方法を提供し，新しい音色の創造や作曲のためのインスピレーションを得るのに役立っているかを検証した．結果，本プロトタイプが既存のサウンドデザインや作曲のワークフローにうまく融合され，本プロトタイプがない場合には発見できなかった音色を生み出すことができるようになったことを確認した．"
+      },
+      {
+        "type": "p",
+        "text": "Zefan Sramek, Arissa J. Sato, Zhongyi Zhou, Simo Hosio, and Koji Yatani. SoundTraveller: Exploring Abstraction and Entanglement in Timbre Creation Interfaces for Synthesizers. _To appear in Proceedings of the ACM SIGCHI Conference on Designing Interactive Systems (DIS 2023)_, 2023. [(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "Zefan Sramek, and Koji Yatani. Interactive Timbre Exploration Support for Sound Authoring with Synthesizers. Demo presentation at New Interfaces for Musical Expression 2021, June 2021. [(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "Zefan Sramek，矢谷浩司．シンセサイザを用いた音の創作に向けたインタラ クティブな音色探索支援．情報処理学会 SIGMUS研究会，2021年6月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "handkerchief",
+    "titleEn": "変形可能なハンカチ型インタフェースの設計",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/handkerchief.jpg",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/handkerchief/handkerchief-1024x901.jpg",
+        "alt": "",
+        "width": 790,
+        "height": 695
+      },
+      {
+        "type": "p",
+        "text": "eTextile 技術は衣服や家具などにインタラクティブな機能をもたらす．本研究ではハンカチというフォームファクタに着目したeTextile インタフェースを提案する．この形状により，ユーザは机の上に広げたり，折りたたんで両手や片手で持ったり，引っ張ったりなど，様々な形に変形させた上でインタラクションが可能となる．このインタフェースを実現するため，導電糸を織り込んだ布と刺繍によりプロトタイプの構築を行った．本稿では，プロトタイプの実装の詳細と，それを用いたインタラクションの例を述べ，今後の研究の方向について議論する．"
+      },
+      {
+        "type": "p",
+        "text": "篠田 和宏，チャコン アントニー，雪田 和歌子，横田 知之，染谷 隆夫，矢谷 浩司． 変形可能なハンカチ型インタフェースの設計．情報処理学会UBI研究会，2021年6月．**優秀論文賞****受賞．**[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "dearboard",
+    "titleEn": "Mediating Intimacy with DearBoard: a Co-Customizable Keyboard for Everyday Messaging",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/dearboard.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/dearboard/dearboard-1024x578.png",
+        "alt": "",
+        "width": 790,
+        "height": 446
+      },
+      {
+        "type": "p",
+        "text": "Co-customizations are collaborative customizations in messaging apps that all conversation members can view and change, e.g. the color of chat bubbles on Facebook Messenger. Co-customizations grant new opportunities for expressing intimacy; however, most apps offer private customizations only. To investigate how people in close relationships integrate co-customizations into their established communication app ecosystems, we built DearBoard: an Android keyboard that allows two people to co-customize its color theme and a toolbar of expression shortcuts (emojis and GIFs). In a 5-week field study with 18 pairs of couples, friends, and relatives, participants expressed their shared interests, history, and knowledge of each other through co-customizations that served as meaningful decorations, interface optimizations, conversation themes, and non-verbal channels for playful, affectionate interactions. The co-ownership of the co-customizations invited participants to negotiate who customizes what and for whom they customize. We discuss how co-customizations mediate intimacy through place-making efforts and suggest design opportunities."
+      },
+      {
+        "type": "p",
+        "text": "Co-customizationとは，Facebook Messengerのチャットバブルの色など，会話の相手全員が閲覧・変更できるメッセージングアプリにおいて協調してカスタマイズできる機能である．Co-customizationは，ユーザ間の親密さを表現するための新たな機会となりえますが，ほとんどのアプリは1人のユーザにしか適用されないカスタマイズしか提供していない．私たちは，親密な関係にある人々が既存のコミュニケーションアプリにCo-customizationをどのように組み込むかを調査するためにDearBoardを開発した．DearBoardは，カラーテーマと表現のショートカット（絵文字やGIF）のツールバーを2人でCo-customizationできるAndroidキーボードである．18組のカップル，友人，親戚を対象とした5週間の実地調査を通して，参加者は意味のある装飾，インターフェースの最適化，会話のテーマ，遊び心や愛情表現の非言語チャンネルとしてCo-customizationが利用され，共通の関心事，歴史，そして互いの知識を表現していたことを確認した．また，Co-customizationは誰が，誰のために，何をカスタマイズするのかお互いに交渉する機会を生み出しました．本論文ではCo-customizationがユーザ間の親密さをより深めるためのデザインの可能性を議論する．"
+      }
+    ]
+  },
+  {
+    "slug": "slacks_text",
+    "titleEn": "導電糸を用いたウェアラブルデバイス向け手書き文字入力デバイス",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/slacks_text.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/slacks_text/slacks_text-1024x683.png",
+        "alt": "",
+        "width": 790,
+        "height": 527
+      },
+      {
+        "type": "p",
+        "text": "ウェアラブルデバイスには，デバイスのサイズや身につける位置などの制約から文字入力が困難であるという課題がある．これに対してすでに多くの研究が行われているが，既存の手法は文字入力をするために覚えるべきことが多い，身につけた時に違和感がある，入力時の姿勢や動作が不自然になってしまう，入力に視線の注意が常に必要といった課題がある．そこで，本研究では導電糸を用いたズボン型の手書き文字入力が可能なデバイスを提案する．手書き入力であれば，ユーザはその入力を用いるために新たに入力方法を覚える必要がなくすぐに使うことができる．また，導電糸を用いてズボンに文字入力の機構を組み込むことで身につけていることの違和感もなく，入力の動作も目立たないと考えられる．加えて，広い入力面に自由な書き方の手書き入力をできるようにすることで，アイズフリーでの入力を可能にする．これを達成するために，ストライプ状に導電糸を編み込んだデバイスで，一次元入力のみの手書き文字認識を実装する．"
+      },
+      {
+        "type": "p",
+        "text": "篠田 和宏，原田 珠華，佐野 由季，安斉 周，矢谷 浩司．「導電糸を用いたウェアラブルデバイス向け手書き文字入力デバイス」電子情報通信学会全国大会，2021年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "terms-of-use",
+    "titleEn": "サービス利用規約の読解促進に向けた特異な条項を強調するインタフェースの実装と評価",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/terms-of-use.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/terms-of-use/termcheck-1024x750.png",
+        "alt": "",
+        "width": 790,
+        "height": 579
+      },
+      {
+        "type": "p",
+        "text": "オンラインでサービスを初めて利用するとき，サービスを提供する企業が提示する利用規約にユーザは同意しなければならない．利用規約に同意するボタンをクリックする行為は契約を締結する行為と同等の効果を持つ．しかし，利用規約を読んで正しく理解した上で同意または拒否を選択するユーザは極めて少なく，多くのユーザが内容をほとんど読まずに同意を選択している．ユーザに利用規約を読解してもらうために企業が取りうる1つの方法として，利用規約のユーザへの見せ方（表示手法）を工夫することが挙げられる．例えば，利用規約を表示するページのスタイリングを工夫したり，利用規約の重要な部分について別途概要などの補助的なコンテンツを追加したりすることが挙げられる．しかし，表示手法の工夫の方法は企業によって統一されておらず，それぞれの表示手法の実際の効果は不明である．そこで本研究では，様々な利用規約の表示手法にユーザの利用規約の読解を促進する効果があるかを定量的に調べることを目的とする．そのため，架空のSNSのウェブサイトと利用規約を独自に用意し，クラウドソーシングを活用したユーザ実験を通じて複数の利用規約の表示手法を比較評価した．結果，利用規約の表示手法は，ユーザの利用規約の理解度とほとんど関係ないことがわかった．また，利用規約には一般的には見られない内容が含まれていても，ユーザがそれに気づかない可能性が高いという知見も得られた．さらに，このようなリスクを低減するインタフェースの要件を検討し，要件を可能な限り満たすインタフェースのプロトタイプを実装した．現プロトタイプは，筆者らが先行研究で構築したウェブサイトで動作するブラウザ拡張機能である．論文では，現在までに構築したプロトタイプの実装の詳細とその評価実験の結果について述べ，今後の研究課題について議論する．"
+      },
+      {
+        "type": "p",
+        "text": "竹ノ内 朝陽，矢谷 浩司．「サービス利用規約の読解促進に向けた特異な条項を強調するインタフェースの実装と評価」情報処理学会SPT研究会，2021年3月．[(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "竹ノ内 朝陽，矢谷 浩司．「利用規約中の特異な文章を強調するインタフェース」電子情報通信学会全国大会，2021年3月．[(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "竹ノ内 朝陽，矢谷 浩司．サービス利用規約の読解促進を目指した表示手法の比較検討．FIT 2020，第3分冊，57 – 64．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "syncup",
+    "titleEn": "SyncUp: Vision-based Practice Support for Synchronized Dancing",
+    "titleJa": "コンピュータビジョンによるシンクロダンス練習支援システム",
+    "thumb": "/images/research/thumbs/syncup.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/syncup/syncup-1024x577.png",
+        "alt": "",
+        "width": 790,
+        "height": 445
+      },
+      {
+        "type": "p",
+        "text": "The beauty of synchronized dancing lies in the synchronization of body movements among multiple dancers. While dancers utilize camera recording for their practice, standard video interfaces do not efficiently support their activities of identifying segments where they are not well synchronized. This thus fails to close a tight loop of an iterative practice process (i.e.,capturing a practice, reviewing the video, and practicing again). We present SyncUp, a system providing multiple interactive visualizations to support the practice of synchronized dancing to liberate users from manual inspection of recorded practice videos. By analyzing videos uploaded by users, SyncUp quantifies two aspects of synchronization in dancing: pose similarity among multiple dancers and temporal alignment of their movements. The system then highlights which body parts and which portions of the dance routine require further practice to achieve better synchronization. The results of our system evaluations show that our pose similarity estimation and temporal alignment predictions were correlated with human ratings well. Participants in our qualitative user evaluation expressed the benefits and its potential use of SyncUp, confirming that it would enable quick iterative practice."
+      },
+      {
+        "type": "p",
+        "text": "シンクロダンスの美しさは，複数のダンサーの間で体のポーズが同期していることにある．ダンサーは練習にカメラ録画を利用しているが，標準的な動画インタフェースでは，ポーズの同期が十分でない部分を特定し，さらなる練習を行うことを効率的に支援できていない．今回提案するSyncUpは，一般的なカメラで撮影された動画を用いるシンクロダンス練習支援システムである．SyncUpは，ユーザがアップロードした動画を解析することで，動画中の複数ダンサーのポーズの類似性を定量化する．そしてより良い同期性を実現するために，体のどの部分の練習する必要があるのかを可視化する．本稿では，SyncUpの実装手法，およびシンクロダンスに特化したポーズ類似性推定手法の詳細と評価について報告する．"
+      },
+      {
+        "type": "p",
+        "text": "Zhongyi Zhou, Anran Xu, and Koji Yatani. 2021. SyncUp: Vision-based Practice Support for Synchronized Dancing. _Proc. ACM Interact. Mob. Wearable Ubiquitous Technol._ 5, 3, Article 143 (Sept 2021), 25 pages. [(paper)](/) **PACM IMWUT Distinguished Paper Award winner, Best Presentation Award winner at UbiComp/ISWC 2021**"
+      },
+      {
+        "type": "p",
+        "text": "周 中一，矢谷 浩司．「人体ポーズ分析を応用したシンクロダンス練習支援システム」情報処理学会UBI研究会，2020年12月．**学生奨励賞受賞．** [(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "Zhongyi Zhou, Yuki Tsubouchi, and Koji Yatani. 2019. Visualizing Out-of-synchronization in Group Dancing. In _The Adjunct Publication of __UIST 2019,_ 107–109. [(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "orchestra-program",
+    "titleEn": "OrchExplorer: アマチュアオーケストラ向けコンサートプログラム構成支援システム",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/orchestra-program.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/orchestra-program/f7dfe0f21acad27bd44bf28b0c016628-1024x453.png",
+        "alt": "",
+        "width": 604,
+        "height": 267
+      },
+      {
+        "type": "p",
+        "text": "オーケストラのコンサートプログラムの構成では，編成や技術的制約に加え，プログラム全体の統一性を考慮する．様々な条件を考慮しながらコンサートプログラムの構成を行うには，十分な音楽的知識が必要とされる．音楽に関するデジタルライブラリが整備される中で，楽曲検索に関しては多くの研究がなされているが，特定の曲に対する様々な方法での検索を可能にする観点に焦点が当てられており，検索対象のタイトルなどメタ情報をあらかじめ知っていることがシステム利用の前提とされている．また，過去の履歴から個人の嗜好に合わせた作品を推薦するシステムについての研究も多く行われている．しかしながらコンサートプログラムの構成を支援することを目的としたシステムの検討はあまりされていない．本研究では，インターネット上の既存の検索システム等を自由に用いてコンサートプログラムを考案する定性的なユーザ実験を行った．得られた知見に基づき，コンサートプログラムの考案を支援するインタラクティブなシステムを設計する上で重要なデザイン指針を導き出した．さらに，過去のコンサートプログラムデータと楽曲検索のデータベースを組み合わせ，コンサートプログラムの考案における試行錯誤の過程を支援するインタラクティブなシステムOrchExplorer を構築した．"
+      },
+      {
+        "type": "p",
+        "text": "富木 菜穂，佐藤 安理紗 ジエンジエラ，矢谷 浩司．「OrchExplorer:アマチュアオーケストラ向けコンサートプログラム構成支援システム」情報処理学会HCI研究会，2021年3月．[(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "富木 菜穂,，矢谷 浩司．「オーケストラのコンサートプログラム考案時のユーザの検索行動に関する定性的調査」ヒューマンインタフェースサイバーコロキウム2020, 2020年10月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "code-analysis",
+    "titleEn": "変数の値の変化を利用したソースコード分析手法の提案",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/code-analysis.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/code-analysis/3e7963b81331235f080b7ccac88fc1cd-1024x603.png",
+        "alt": "",
+        "width": 604,
+        "height": 356
+      },
+      {
+        "type": "p",
+        "text": "ソースコードの類似性分析は，コードクローン・盗用の検出やソースコードの分類といった応用のために重要である．既存研究では，ソースコードを木構造で表現したものの類似性や文字列としての類似性を評価するなどプログラムの構造に注目した分析が多く，ソースコードを1 行変更しただけでプログラムの動作が大きく変わる場合であっても構造的な変化は小さいため類似度を過大評価してしまうといったように，処理の類似性を検出することが難しい．本研究では，変数の値の変化を利用した類似度を定義し，その類似度に基づいてソースコードをクラスタリングするプログラムを実装した．さらに予備的な実験としてオンラインジャッジシステム(プログラム問題を自動採点するシステム) に提出されたソースコードに対してクラスタリングを行い，処理の類似性を検出できる可能性がわかった．"
+      },
+      {
+        "type": "p",
+        "text": "鈴木 凌斗，矢谷 浩司． 「変数の値の変化を利用したソースコード分析手法の提案」 ヒューマンインタフェースサイバーコロキウム2020．2020年10月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "coding-interview",
+    "titleEn": "コーディング面接の練習を支援するシステムの構築",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/coding-interview.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/coding-interview/coding-interview-1024x542.png",
+        "alt": "",
+        "width": 604,
+        "height": 320
+      },
+      {
+        "type": "p",
+        "text": "ソフトウェアエンジニアなどプログラミングを行う技術者を企業側が評価する方法の一つとしてコーディング面接が存在する．コーディング面接とは，面接官と参加者が対面ないしオンラインで面接を行う中である問題が提示され，その問題に従ってコーティングを行うという面接形式の一つである．参加者は指定された課題に対してその場で一からコードを書き始め，コーディング中に適宜面接官からのコメントや質問に答えながら解答を完成させていく．本研究ではコーディング面接を受ける参加者側に注目し，参加者がコーディング面接特有の形式に慣れることができるようなシステムを構築することを目指す．コーディング面接では面接官とのコミュニケーションや受験者の意図しないタイミングでの質問，慣れていない環境への適応など，通常のプログラミング開発には見られない要素が多く存在する．こうしたことから，コーディング面接に限定したシステムの設計が必要であり，参加者はこのようなシステムを事前に使うことでコーディング面接特有の形式に慣れることができると考えた．本稿ではまシステムの作成に先行して行ったインタビュー調査の内容を紹介し，このインタビュー調査によってコーディング面接において解決すべき課題を明確にするとともに，実際に設計したシステムを紹介し，予備的なユーザ実験の結果を報告する．"
+      },
+      {
+        "type": "p",
+        "text": "杉山 悠司，矢谷 浩司．コーディング面接の練習を支援するシステムの構築．FIT 2020，第3分冊，49 – 56．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "continuous-curves",
+    "titleEn": "Continuous Curve Textures",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/continuous-curves.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/continuous-curves/continuous-curves-1024x617.png",
+        "alt": "",
+        "width": 604,
+        "height": 364
+      },
+      {
+        "type": "p",
+        "text": "Repetitive patterns are ubiquitous in natural and man-made objects, with a variety of development tools and methods. Manual authoring provides unprecedented degree of freedom and control, but can require significant artistic expertise and manual labor. Computational methods can automate parts of the manual creation process, but are mainly tailored for discrete pixels or elements instead of more general continuous structures. We propose an example-based method to synthesize continuous curve patterns from exemplars. Our main idea is to extend prior sample-based discrete element synthesis methods to consider not only sample positions (geometry) but also their connections (topology). Since continuous structures can exhibit higher complexity than discrete elements, we also propose robust, hierarchical synthesis to enhance output quality. Our algorithm can generate a variety of continuous curve patterns fully automatically. For further quality improvement and customization, we also present an autocomplete user interface to facilitate interactive creation and iterative editing. We evaluate our methods and interface via different patterns, ablation studies, and comparisons with alternative methods."
+      },
+      {
+        "type": "p",
+        "text": "自然物や人工物には繰り返しのパターンが至る所に存在し、それらパターンを生成するために様々な開発ツールや手法が用いられています。手動でそれらを生成するのは、高い自由度で編集ができる一方、相当の芸術的専門知識と手作業を必要とする場合があります。自動で生成する手法は手動でのプロセスの一部を助けることできますが、より一般的な連続した構造ではなく、離散的なピクセルや要素に合わせて調整されています。我々は、ユーザから与えられた例から連続的な曲線パターンを自動で合成するインタフェースを提案します。このシステムは、サンプルベースの離散要素の合成方法を拡張し、サンプルの位置だけでなく、それらの接続も考慮します。連続的な構造は離散要素よりも複雑になる可能性があるため、出力品質を向上させるために、ロバストで階層的な生成方法を実装し、インタラクティブな作成と反復編集を容易にするために、自動補完を行うなユーザーインターフェースを提案します。"
+      }
+    ]
+  },
+  {
+    "slug": "dual-freq-sensing",
+    "titleEn": "複数周波数帯での静電容量センシングによる指の識別手法",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/dual-freq-sensing.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/dual-freq-sensing/Iraka-UBI-1024x468.png",
+        "alt": "",
+        "width": 800,
+        "height": 366
+      },
+      {
+        "type": "p",
+        "text": "どの指が物体に触れているか識別することができれば，指によるインタラクションの幅が大きく広がる．本稿では，導電性の物体にユーザが触れたときに，どの指が触れたかを速く正確に特定する手法を紹介する．本研究において我々は，信号を出力するリストバンドと信号を検知するコンパクトな回路を設計し，導電性の物体に触れた指を特定するシステムを構築した．本システムでは，手の皮膚組織を高周波の信号を伝える導波管として用い，伝わった複数周波数帯の信号の位相や振幅を処理して比較することで，導電性の物体に触れた指を特定することが可能となっている．本稿では，複数周波数帯の信号から指を特定する手法を述べたのち，本システムがスマートウォッチなど日常で用いるデバイスに利用できる可能性について議論する．最後に，本システムを用いた将来のインターフェースの可能性について述べる．"
+      },
+      {
+        "type": "p",
+        "text": "陳 明輝，チャコン サラス ディマス アントニー，矢谷 浩司．「複数周波数帯での静電容量センシングによる指の識別手法」情報処理学会UBI研究会，2020年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "garment-design-ui",
+    "titleEn": "ユーザの体の3Dモデル上に服装品をデザインするインタフェースの予備的検討",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/garment-design-ui.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/garment-design-ui/xu-hci-1024x830.png",
+        "alt": "",
+        "width": 604,
+        "height": 490
+      },
+      {
+        "type": "p",
+        "text": "近年のファブリケーション技術の発達により，洋服やアクセサリなどをユーザが自在にデザインできる世の中が近づいている．一方で，一般的なユーザがちゃんと身につけられる服装品をデザインするためには様々な知識や経験を必要とする場合が多い．本研究では，ユーザの体の3Dデータを元にして，その上に直接服装品をデザインを設計できるインタフェースを提案する．本論文では，現在までに構築したプロトタイプ，および予備的実験の結果について述べる．"
+      },
+      {
+        "type": "p",
+        "text": "胥 皓，矢谷 浩司．「ユーザの体の3Dモデル上に服装品をデザインするインタフェースの予備的検討」情報処理学会HCI研究会，2020年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "programming-exercises",
+    "titleEn": "GitHub上のコード変更を利用したプログラミング演習問題の実用性の評価",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/programming-exercises.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/programming-exercises/matsui-hci.png",
+        "alt": "",
+        "width": 700,
+        "height": 513
+      },
+      {
+        "type": "p",
+        "text": "学校や教科書で用いられるプログラミングの演習問題と，実際のソフトウェア開発業務に関する知識やスキルの間に隔たりがあることが知られている．先行研究では，GitHubのコード変更データをプログラミング演習問題に転用するシステムであるRealCodeが開発され，既存の学習環境にはない独自の演習問題を提供可能であることが明らかになった．しかし，RealCodeが演習問題を生成する条件に検討の余地が残されていることに加え，演習問題から学べる内容と難易度についての評価・予測は行われていない．そこで，PythonまたはJavaScriptで開発を行った経験のある15人の学生，開発者により，RealCodeが作成した演習問題の妥当性，学習できる内容，難易度についての評価を実施した．本論文では，集めたデータの詳細を報告するとともに演習問題の妥当性，難易度，学習内容の予測に寄与する可能性のある特徴量について議論する．"
+      },
+      {
+        "type": "p",
+        "text": "松井 秀憲，矢谷 浩司．「GitHub上のコード変更を利用したプログラミング演習問題の実用性の評価」情報処理学会HCI研究会，2020年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "eye-dryness",
+    "titleEn": "コンピュータ使用時に目の乾燥状態を検出する手法の検討",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/eye-dryness.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/eye-dryness/Choi_UBI_presentation-1024x619.png",
+        "alt": "",
+        "width": 604,
+        "height": 365
+      },
+      {
+        "type": "p",
+        "text": "コンピュータを使用する時や使用した直後，目に異物感などの目の乾燥に起因する症状を経験する人は多い．目の乾燥は生活の質や業務の効率などに甚大な影響を及ぼす．もし目の乾燥状態を検出して症状が出る前にユーザーに警告することができるシステムがあれば，目の乾燥に起因する症状を予防することができる．コンピュータ使用時に目の乾燥状態を検出する従来の手法は，目の瞬きを用いる間接的な手法だった．この手法には，周辺の環境や個人差などは考慮できないという問題があった．目の乾燥状態を直接評価するためには涙液層の観察が必要であるが，涙液層を観察する既存の手法はコンピュータ使用時に用いることができなかった．この問題を解決するために本研究では，ユーザの瞳に映りこんだコンピュータディスプレイの画面の乱れ具合を分析することで，涙液層を観察し，目の乾燥状態を検出する手法を検討する．本稿では本手法の実装方法を述べるとともに，本手法を評価するために実施した予備実験について報告する．"
+      },
+      {
+        "type": "p",
+        "text": "チェ シウク，小野寺 宏，矢谷 浩司．「コンピュータ使用時に目の乾燥状態を検出する手法の検討」情報処理学会UBI研究会，2020年3月．**優秀論文賞****受賞．**[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "dual-purpose_ppg_2",
+    "titleEn": "指紋認証Dual-purpose Biometrics における脈拍数計測の改善と評価",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/dual-purpose_ppg_2.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/dual-purpose_ppg_2/UbiWorkshopSakaguchi-1024x768.png",
+        "alt": "",
+        "width": 604,
+        "height": 453
+      },
+      {
+        "type": "p",
+        "text": "生体認証はスマートフォンなどの認証だけでなくユーザの健康支援に有用な生体データを取得できる可能性がある．橋爪らはスマートフォンの指紋認証と同時にユーザの指尖容積脈波（Photoplethysmography:PPG）を計測するシステムであるAuth `n' Scan を構築した．このシステムは脈拍を平均誤差1 bpm 未満で測定できるが，そのために指紋認証と比較して長時間である5 秒の測定を必要とする．そこで本研究はシステムを改善し，より短い計測時間での脈拍の精度を向上させることを目的とする．本研究では新たな回路および信号処理手法を提案することで短時間のデータでの脈拍推定を試みた．加えて28 名の参加者のデータを用いた数値的評価を行った．本稿では用いた手法とその評価結果について報告する．"
+      },
+      {
+        "type": "p",
+        "text": "坂口 達彦，矢谷 浩司．「指紋認証 Dual-purpose Biometrics における脈拍数計測の改善と評価」情報処理学会UBI研究会，2020年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "plagiarism_feedback",
+    "titleEn": "英語非母語話者のアカデミック・ライティングにおけるリアルタイム剽窃疑い提示の効果",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/plagiarism_feedback.jpg",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/plagiarism_feedback/realtimeplag-1024x552.jpg",
+        "alt": "",
+        "width": 604,
+        "height": 326
+      },
+      {
+        "type": "p",
+        "text": "英語が母国語でない話者は言語的な障壁により、剽窃、すなわち他の文献から不適切な形で言葉を「借用する」という行為を犯してしまうことがある。既存のシステムは既に執筆を終えた原稿に対して剽窃の可能性を提示するように設計されている。そのため、執筆途中においては剽窃の疑いを検出することができず、ユーザは各時点で瞬時に文章を修正することができない。本研究では、事後ではなくリアルタイムで剽窃の疑いを提示することが、英語非母語話者の執筆における剽窃行為を回避する上でより効果的であるという仮説を立てた。英語が母国語でない16名の参加者に学術論文を要約してもらう実験を実施し、剽窃の疑いに関する情報提示のタイミングの違いによる効果を比較した。本論文では、剽窃の疑い箇所をリアルタイムで提示することの利点と欠点を明らかにするとともに、将来の剽窃疑い検出ツールにおけるインターフェースデザインの検討について述べる。"
+      },
+      {
+        "type": "p",
+        "text": "佐藤 安理紗 ジエンジエラ，柴田 健吾，矢谷 浩司．「英語非母語話者のアカデミック・ライティングにおけるリアルタイム剽窃疑い提示の効果」情報処理学会HCI研究会，2020年1月．"
+      }
+    ]
+  },
+  {
+    "slug": "sns-nudge",
+    "titleEn": "Exploring Nudge Designs to Help Adolescent SNS Users Avoid Privacy and Safety Threats",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/sns-nudge.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/sns-nudge/sns_nudge-e1579239180203.png",
+        "alt": "",
+        "width": 687,
+        "height": 983
+      },
+      {
+        "type": "p",
+        "text": "A nudge is a method to influence individual choices without taking away freedom of choice. We are interested in whether nudges can help adolescents avoid privacy and safety threats on social network services (SNS). We conducted online surveys to compare how 11 different nudge designs influence decisions in 9 scenarios featuring various privacy and safety threats. We collected 29,608 responses from adolescent SNS users (self-claimed high school and university students), and found that nudges can help to reduce potentially risky choices. Participants were more likely to avoid potentially risky choices when presented with negative frames (e.g., “90% of users would not share a photo without permission”) than affirmative ones (e.g., “10% of users would”). Social nudges displaying statistics on how likely other people would make potentially risky decisions can have a negative effect in comparison to a nudge with only general privacy and safety suggestions. We conclude by providing design considerations for privacy/safety nudges targeting adolescent SNS users."
+      },
+      {
+        "type": "p",
+        "text": "ナッジは人の選択肢を奪うことなく人の行動をある方向に誘導するものである。本研究では、若年層ユーザがSNSにおけるプライバシーや安全上の脅威を避けるためのナッジの効果を検討した。プライバシーや安全上の脅威に関する9つのシナリオにおける若年層SNSユーザの意思決定が、異なる警告文のナッジによってどのように変化するのかを比較するオンライン調査を実施した。その結果、ナッジの存在がリスクの高い行動を避けるのに有用となり得ることを確認した。また、「55%の人は（SNSで知り合った人と1対1で）会わないそうだよ」といった否定文のナッジを提示された時の方が、「45%の人は会うそうだよ」といった肯定文のナッジを提示された時と比較して、実験参加者はリスクの高い選択肢を避ける傾向があることが分かった。さらに、他の人がどのように行動するのかを統計的に示すソーシャルナッジは、単にプライバシーや安全に関しての提案を行うナッジと比較して、安全な行動を促進する上で逆効果ともなり得ることが分かった。最後に、若年層SNSユーザのためのナッジデザインの検討を述べる。"
+      },
+      {
+        "type": "p",
+        "text": "正木 博明，柴田 健吾，星野 秀偉，石濱 嵩博，齋藤 長行，矢谷 浩司．若年層SNSユーザに対するプライバシ・安全上の行動に関するナッジの大規模定量調査．情報処理学会論文誌，61(12)，1892-1902，2020．[(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "Hiroaki Masaki, Kengo Shibata, Shui Hoshino, Takahiro Ishihama, Nagayuki Saito, and Koji Yatani. Exploring Nudge Designs to Help Adolescent SNS Users Avoid Privacy and Safety Threats. _In Proceedings of ACM CHI Conference on Human Factors in Computing Systems, _1-11, April 2020. **Honorable Mention Award winner** [(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "正木 博明，柴田 健吾，星野 秀偉，石濵 嵩博，齋藤 長行，矢谷 浩司．「SNS上の行動に関する若年層ユーザに対するナッジの効果検証」情報処理学会HCI研究会，2020年1月．**学生奨励賞受賞．**[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "impulsive_buying",
+    "titleEn": "商品棚前における非計画購買者の行動特徴量の検討",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/impulsive_buying.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/impulsive_buying/795316b92fc766b0181f6fef074f03fa-1024x626.png",
+        "alt": "",
+        "width": 604,
+        "height": 369
+      },
+      {
+        "type": "p",
+        "text": "購買者が入店前に購入品目を決定しなかったにもかかわらず，店内において購買を決定する購買行動を非計画購買と呼ぶ．実店舗においてこの非計画購買を理解することは販促活動において非常に重要視されている．その理由の一つとして，日本のコンビニエンスストアにおいて売り上げの70%は非計画購買によって成り立っているという調査がある．既存の研究ではカメラやセンサーを用いて実店舗における購買行動を調査しているが，非計画購買の特徴を説明づけるような行動特徴量の調査は今まで行われてこなかった．そこで本研究ではセンサーを備えたスマート商品棚を用いて，非計画購買に特有の行動特徴量に関する定量的な調査を行なった．研究室に店舗を模した環境を用意して実験を行なった結果，棚前での滞在時間や商品に手を伸ばした回数，棚からの距離が計画購買と比べて有意な差を示すことがわかった．また，これらの特徴量にBoruta と呼ばれる特徴量抽出手法とサポートベクターマシンを用いることで購買行動の分類を試みた結果，precision = 0.76，recall = 0.81 であった．最後にこれらの結果に対する議論および今後の展望について述べる．"
+      },
+      {
+        "type": "p",
+        "text": "杉山 悠司，刀根 亮太，今村 修一郎，矢谷 浩司．「商品棚前における非計画購買者の行動特徴量の検討」情報処理学会第62回UBI研究会，2019年6月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "linked",
+    "titleEn": "LINKED: RFID技術を活用した未来の家のコンセプト提案",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/linked.jpg",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/linked/DYS2655-1024x682.jpg",
+        "alt": "LINKED: RFID技術を活用した未来の家のコンセプト提案",
+        "width": 604,
+        "height": 402
+      },
+      {
+        "type": "p",
+        "text": "2018年12月に，コンセプト立案，及びコンセプトビデオ作成を行った，家庭内におけるRFID（電子タグ技術）を利用した未来の生活ビジョン，LINKED，です．このコンセプトビデオは，東京ガス横浜ショールームの「くらしのライブラリー キッチンライブラリーコーナー」における展示の一部として公開されたものです．現在の行為と直後の行為を結びつけるLINK foward，現在の行為と直前の行為を結びつけるLINK back，現在の行為と未来の行為を結びつけるLINK aheadの3つの結びつけ方とともに，5つの具体的なRFID技術の活用例を示しました．"
+      },
+      {
+        "type": "p",
+        "text": "なお以下の映像は，経済産業省が所管する新エネルギー・産業技術総合開発機構（NEDO）「IoTを活用した新産業モデル創出基盤整備事業」の一環として制作しました．"
+      },
+      {
+        "type": "p",
+        "text": "さらに，我々が提案したコンセプトをもとにしたビジョンビデオがこちらになります．"
+      }
+    ]
+  },
+  {
+    "slug": "shopping_accessibility",
+    "titleEn": "視覚が不自由なユーザのファッション活動に関する定性的調査",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/shopping_accessibility.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/shopping_accessibility/shopping_accessibility-1024x618.png",
+        "alt": "",
+        "width": 604,
+        "height": 365
+      },
+      {
+        "type": "p",
+        "text": "ファッション活動は社会生活において不可欠であり，個人のアイデンティティの表現でもある．し かし，ファッション活動は本質的に視覚を通して行われるため，視覚障がいのある人にとっては難易度が高い．情報技術は視覚が不自由なユーザのファッション活動を支えることができるが，既存研究では彼らの 必要としている情報や課題の全体像を十分に分析できていなかった．本研究は，視覚が不自由なユーザへ のインタビュー調査とその分析により，ファッションにおける視覚が不自由なユーザの問題点とその構造 に対する理解を深めることを目的とする．事前調査では視覚障がいのある 30 人の成人（全盲 18 人，弱視 12 人，男性 11 人，女性 19 人）の衣服のファッション活動に関するインタビューを通じて，定性的な調査を行った．本調査では衣料品のファッション活動が 4 つの段階，すなわち，購入前，店舗でのショッピング， 衣服管理，コーディネートから構成されていることを明らかにした．また，ファッション情報の収集，購 入する服の詳細情報の取得，着る服の状態の把握，コーディネートのフィードバックの取得といった，各段階における大きな課題を特定したうえで，ファッションに関するアクセシビリティを技術的に支援できる研究分野について論じた．"
+      },
+      {
+        "type": "p",
+        "text": "嶋田 紅緒，矢谷 浩司．「視覚が不自由なユーザのファッション活動に関する定性的調査」情報処理学会UBI研究会，2019年3月．**優秀論文賞受賞．**[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "window_study",
+    "titleEn": "風を用いたインタフェース実現に向けた風に関する知覚の定量的調査",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/window_study.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/window_study/window_study-1024x763.png",
+        "alt": "",
+        "width": 604,
+        "height": 450
+      },
+      {
+        "type": "p",
+        "text": "風は新たなユーザインタフェースの情報提示手法として近年注目されている．しかし，先行研究で はインタフェースとして利用可能な風を起こすシステムを実現することが主な目的となっており，風によ る刺激と人間の知覚の関係性においては明らかになっていないことも多い．本研究では，人間の知覚を考 慮した風を用いたユーザインタフェースを実現するために，扇風機を用いた風に対する知覚を定量的に評 価する実験システムを構築した．そのシステムを用いて，ユーザが風の変化に気づくのに必要な強さの変 化量を調査した．さらに，調査した結果から風と人間の知覚の関係に関する知見をまとめることで風によ るユーザインタフェースの設計のガイドラインを提案する．"
+      },
+      {
+        "type": "p",
+        "text": "竹ノ内 朝陽，矢谷 浩司．「風を用いたインタフェース実現に向けた風に関する知覚の定量的調査」情報処理学会UBI研究会，2019年3月．([paper](/))"
+      }
+    ]
+  },
+  {
+    "slug": "codeglass",
+    "titleEn": "CodeGlass: GitHubのプルリクエストを活用したコード断片のインタラクティブな調査支援システム",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/codeglass.png",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "ソフトウェア開発においてソースコードの理解は必要不可欠である．特に，実際の開発においてはコードの一部分(コード断片)の理解が必要となることが多い．我々が行ったインタビュー調査では，GitHub のプルリクエストの説明文とコメントに，コード理解において有用な情報が含まれていることが明 らかとなった．しかし既存のシステムでは，コード断片の理解支援のためにプルリクエストが十分に活用 されていない．そこで我々は，ユーザが選択したコード断片に関連する過去のプルリクエストを抽出し，ユーザに提供する CodeGlass を開発した．CodeGlass では，プルリクエストの説明文を解析し，実装内容や開発背景に関する文章をインターフェース上で強調して表示することが可能となっている．CodeGlass のアルゴリズムにより，選択されたコード断片が過去のバージョンにおいて分裂していた場合にも，関連する過去のプルリクエストをユーザに提供することができる．我々が行った CodeGlass の定量的および定性的評価の結果，コード断片の理解や専門的用途における CodeGlass の有用性が確認された．"
+      },
+      {
+        "type": "p",
+        "text": "柴藤大介，有薗拓也，宮崎章太，矢谷浩司．CodeGlass: GitHubのプルリクエストを活用したコード断片のインタラクティブな調査支援システム．インタラクション2019（フルペーパー）. [(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "tabby",
+    "titleEn": "Tabby: Explorable Design for 3D Printing Textures.",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/tabby.png",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "This paper presents Tabby, an interactive and explorable design tool for 3D printing textures. Tabby allows texture design with direct manipulation in the following workflow: 1) select a target surface, 2) sketch and manipulate a texture with 2D drawings, and then 3) generate 3D printing textures onto an arbitrary curved surface. To enable efficient texture creation, Tabby leverages an auto-completion approach which automates the tedious, repetitive process of applying texture, while allowing flexible customization. Our user evaluation study with seven participants confirms that Tabby can effectively support the design exploration of different patterns for both novice and experienced users."
+      },
+      {
+        "type": "p",
+        "text": "Ryo Suzuki, Koji Yatani, Mark D. Gross, and Tom Yeh. Tabby: Explorable Design for 3D Printing Textures. In Proceedings of Pacific Graphics 2018."
+      }
+    ]
+  },
+  {
+    "slug": "auth-n-scan",
+    "titleEn": "Auth 'n' Scan: Opportunistic Photoplethysmography in Mobile Fingerprint Authentication",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/auth-n-scan.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/auth-n-scan/auth_n_scan-1024x897.png",
+        "alt": "",
+        "width": 604,
+        "height": 529
+      },
+      {
+        "type": "p",
+        "text": "Recent commodity smartphones have biometric sensing capabilities, allowing their daily use for authentication and identification. This increasing use of biometric systems motivates us to design an opportunistic way to sense user’s additional physiological or behavioral data. We define this concurrent physiological or behavioral data sensing during biometric authentication or identification as dual-purpose biometrics. As an instance of dual-purpose biometrics, we develop photoplethysmography (PPG) sensing during mobile fingerprint authentication, called Auth ‘n’ Scan. Our system opportunistically extracts cardiovascular information, such as a heart rate and its variability, while users perform phone unlock of a smartphone. To achieve this sensing, our Auth ‘n’ Scan system attaches four PPG units around a fingerprint sensor. The system also performs noise removal and signal selection to accurately estimate cardiovascular information. This paper presents the hardware implementation and signal processing algorithm of our Auth ‘n’ Scan prototype. We also report our system evaluations with 10 participants, showing that, despite a little low precision (a standard deviation of 3–7), estimation of heart rates with high accuracy (under a mean error of 1) is possible from PPG data of five seconds and longer if their baseline information is given. We discuss the feasibility of opportunistic PPG sensing in mobile fingerprint authentication."
+      },
+      {
+        "type": "p",
+        "text": "スマートデバイスの普及により生体認証は日常的に使用できる技術となっている．生体認証においては認証に必要な情報だけではなく，ユーザの健康に関する情報も同時に取得できる可能性がある．これを実現することにより，例えばユーザは携帯電話をアンロックする際に自身の健康情報を同時に記録することが可能となり，ライフログなどのアプリケーションに活用できる．我々は，このようなシステムをDual-purpose biometrics と呼んでいる．本論文では，Dual-purpose biometrics の一例として，指紋認証と同時に指尖容積脈波を取得するシステムを提案し，その試作と評価を行った．予備実験の結果，指の中心部だけでなく周辺部において，脈拍と呼吸数を指紋認証時に取得できることがわかった．この実験結果から，指尖容積脈波を同時に取得する指紋認証システム実現可能性と有用性の高いアプリケーションを議論する．"
+      },
+      {
+        "type": "p",
+        "text": "Takahiro Hashizume, Takuya Arizono, and Koji Yatani. 2018. Auth ‘n’ Scan: Opportunistic Photoplethysmography in Mobile Fingerprint Authentication. _Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (PACM IMWUT)_ 1, 4, Article 137 (January 2018), 27 pages. (paper) [(video)](https://youtu.be/Nj8lek9KP4M)"
+      },
+      {
+        "type": "p",
+        "text": "橋爪崇弘，矢谷浩司．「指尖容積脈波を同時に取得する指紋認証システムの試作と評価」第53回報処理学会UBI研究会，2017年3月．[(paper)](/) **優秀論文賞受賞．**"
+      }
+    ]
+  },
+  {
+    "slug": "socialpii",
+    "titleEn": "ソーシャルメディア上の行動データから流出する個人情報の定量的分析",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/socialpii.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/socialpii/social-1024x576.png",
+        "alt": "",
+        "width": 604,
+        "height": 340
+      },
+      {
+        "type": "p",
+        "text": "情報社会において個人情報を適切に守ることは重要だが，スマートフォンとソーシャルメディアの普及とともに，個人情報の流出経路が多様化している．中でもSNSには，テキストを投稿するだけでなく，他者と交流したり他者の投稿に対してリアクションを行ったりする機能がある．このような行動データから，自らが意図的に個人情報を含んだ投稿を行わなくとも，個人情報の流出が起きる可能性がある．本研究ではSNSとしてTwitterのデータを分析に用いて，本人が投稿したテキスト以外から流出する個人情報について，定量的な評価を行った．"
+      },
+      {
+        "type": "p",
+        "text": "畑田裕二，矢谷浩司．「ソーシャルメディア上の行動データから流出する個人情報の定量的分析」第80回情報処理学会全国大会，2018年3月．**学生奨励賞受賞．**[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "knowledgedeck",
+    "titleEn": "KnowledgeDeck: ビジネス資料作成向け情報収集・整理支援システム",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/knowledgedeck.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/knowledgedeck/kd-1024x734.png",
+        "alt": "",
+        "width": 604,
+        "height": 433
+      },
+      {
+        "type": "p",
+        "text": "ビジネスパーソンは，プレゼンテーションのスライドなどの専門的な資料を作成する機会が多々ある．しかし，専門的な資料の作成は時間がかかることが多く，ナレッジワーカー(主に知的生産物の創造に従事する労働者)の生産性を下げる要因となっている．そこで本研究では，ナレッジワーカーの資料作成を支援するインタラクティブなシステムを構築した．システム設計に際し，ビジネス資料の作成・管理の方法や，その際にどのような問題点を感じているかに関するインタビューを実施し，質的分析を行った．その結果に基づき，Web上の情報を保存・管理し，プレゼンテーションスライドの下書きを行うことを支援するシステムであるKnowledgeDeckを作成した．KnowledgeDeckの有用性を検証するために，3人のナレッジワーカーにエキスパートレビューを行ってもらったところ，KnowledgeDeckは事例紹介を含むプレゼンテーションスライドの作成に，最も有効に活用できる可能性があることがわかった．"
+      },
+      {
+        "type": "p",
+        "text": "下尾波輝，矢谷浩司．「KnowledgeDeck: ビジネス資料作成向け情報収集・整理支援システム」第80回情報処理学会全国大会，2018年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "dida",
+    "titleEn": "DiDA: GitHub上のコード変更と開発履歴に関するデータセット",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/dida.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/dida/DiDA-1024x637.png",
+        "alt": "",
+        "width": 604,
+        "height": 376
+      },
+      {
+        "type": "p",
+        "text": "GitHub におけるソフトウェア開発の過程で生じた膨大な量のデータは，多くの研究者がプログラミング体験の質を向上させるために利用してきた．ソフトウェア開発データの入手を容易にするため，先行研究では GitHub の開発履歴に関する大規模なデータセットの一般公開が行われている．しかし，GitHub 上のコード変更データと開発履歴データはそれぞれ入手経路が異なり，両者を統合して大規模に収集したデータセットは存在しない．両方のデータを併せ持つデータセットが存在すれば，コード開発に関する新しい視点からの解析・発見が実現できる可能性がある．そこで本研究では，新たなデータ活用の可能性を模索するため，GitHub のコード変更と開発履歴のデータをひとつのデータベースにまとめて収集するシステムを構築した．さらにコード変更を使ったデータセット検索ができるアプリケーションを作成した．"
+      },
+      {
+        "type": "p",
+        "text": "三島潤平，柴藤大介，矢谷浩司．「DiDA: GitHub上のコード変更と開発履歴に関するデータセット」第4回SIGPX勉強会，2018年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "circuitgeneration",
+    "titleEn": "回路図の画像認識を用いたブレッドボード向け実体配線図の自動生成手法に関する検討",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/circuitgeneration.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/circuitgeneration/sakaguchi_image-1024x768.png",
+        "alt": "",
+        "width": 604,
+        "height": 453
+      },
+      {
+        "type": "p",
+        "text": "電子回路の学習において実際に回路を組み立てて実験することは，理論と実際の性質の違いを学ぶための良い演習である．教科書には多くの回路例が掲載されているが，回路図から実体配線を行う過程は時間がかかり，かつ誤配線が起きやすいため，電子回路実験を行う障壁となっている．そこで本研究では，これらの障壁を取り除くため，回路図を撮影した画像からブレッドボード向けの実体配線図を生成するシステムを構築する．本システムでは初学者でも誤配線なく実験を行えるよう，ユーザにとって組みやすい実体配線図の生成を試みる．本稿ではシステムを構築するために行なった予備実験と，現在までの進捗について報告する．"
+      },
+      {
+        "type": "p",
+        "text": "坂口達彦，矢谷浩司．「回路図の画像認識を用いたブレッドボード向け実体配線図の自動生成手法に関する検討」第80回情報処理学会全国大会，2018年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "iconstudy",
+    "titleEn": "クラウドソーシングを用いたアイコンの主観的属性と視覚的特徴量の関係性の調査",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/iconstudy.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/iconstudy/iconstudy.png",
+        "alt": "",
+        "width": 600,
+        "height": 425
+      },
+      {
+        "type": "p",
+        "text": "アイコンは GUI や資料製作において重要な要素である.同じテーマのものを描いたアイコンであっ ても，そのスタイル(例:フォーマル，かわいい，近代的)は多岐に渡りそれぞれ異なる印象を与える．し かし，どのような視覚的特徴量がアイコンの持つ主観的属性に寄与するのかに関しての十分な調査はなされ ていない．この関係性を明らかにすることによって，例えば主観的な概念を用いて望みのアイコンを検索 できるシステムのような，アイコンデータとの新たなインタラクションが可能となる．本研究ではアイコ ンの主観的属性と視覚的特徴量の関係を定量的に分析した．まずアイコンのデータセットを Web 上のデー タを用いて構築した.次にクラウドソーシングを用いて 3,380 個の主観的属性候補を収集し，手動で整理 を行い最終的に 45 個の主観的属性を得た．更に，1 つの主観的属性と 2 つのアイコンコレクションを提示しどちらのアイコンコレクションがより与えられた主観的属性に合っているかに関する主観的評価のデー タの収集も行った.このデータを機械学習のモデルに学習させ，アイコンの主観的属性と視覚的特徴量の 関係性を明らかにした．その結果，アスペクト比，黒さ，線幅の一定度合いが主要な視覚的特徴量であることが分かった．本研究は視覚的特徴と主観的属性を結びつけるための定量的手法を提示するものである．"
+      },
+      {
+        "type": "p",
+        "text": "吉谷拓真，矢谷浩司．「クラウドソーシングを用いたアイコンの主観的属性と視覚的特徴量の関係性の調査」第169回情報処理学会CGVI研究会，2018年3月．**優秀研究発表賞．**[(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "吉谷拓真，矢谷浩司．「クラウドソーシングを用いたアイコンの主観的属性の収集」第80回情報処理学会全国大会，2018年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "codequiz",
+    "titleEn": "GitHub のプルリクエストを用いた プログラミング課題自動生成システムの実現可能性に関する検討",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/codequiz.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/codequiz/IMG_5449.png",
+        "alt": "",
+        "width": 450,
+        "height": 800
+      },
+      {
+        "type": "p",
+        "text": "教育現場にて習得可能な情報技術と情報産業界で求められる能力には大きな乖離が存在している．教育現場では情報技術の基本原則を習得することを目的としているが，情報産業界において求められる能力は，ソフトウェア開発プロジェクトを推進するための新機能開発やバグ修正といった実践的な技術である．そこで本研究では，以上のような教育現場と情報産業界の乖離を埋めるために，情報産業界において行われたソースコード変更からプログラミング課題を自動生成するシステムを提案する．本稿では、提案システムの実現可能性を模索するために行った分析結果を述べ，得られた知見をもとに今後実装を行うシステムに関して議論する．"
+      },
+      {
+        "type": "p",
+        "text": "柴藤大介，矢谷浩司．「GitHubのプルリクエストを用いたプログラミング課題自動生成システムの実現可能性に関する検討」第80回情報処理学会全国大会，2018年3月．**学生奨励賞受賞．**[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "lumio",
+    "titleEn": "LumiO: A Plaque-aware Toothbrush",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/lumio.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/lumio/lumio2.png",
+        "alt": "",
+        "width": 600,
+        "height": 535
+      },
+      {
+        "type": "p",
+        "text": "Toothbrushing plays an important role in daily dental plaque removal for preventive dentistry. Prior work has investigated improvements on toothbrushing with sensing technologies. But existing toothbrushing support focuses mostly on estimating brushing coverage. Users thus only have indirect information about how well their toothbrushing removes dental plaque. We present LumiO, a toothbrush that offers users continuous feedback on the amount of plaque on teeth. LumiO uses a well-known method for plaque detection, called Quantitative Light-induced Fluorescence (QLF). QLF exploits a red fluorescence property that bacterium in the plaque demonstrates when a blue-violet ray is cast. Blue-violet light excites this fluorescence property, and a camera with an optical filter can capture plaque in pink. We incorporate this technology into an electric toothbrush to achieve improvements in performance on plaque removal in daily dental care. This paper first discusses related work in sensing for oral activities and interaction as well as dental care with technologies. We then describe the principles of QLF, the hardware design of LumiO, and our vision-based plaque detection method. Our evaluations show that the vision-based plaque detection method with three machine learning techniques can achieve F-measures of 0.68 – 0.92 under user-dependent training. Qualitative evidence also suggests that study participants were able to have improved awareness of plaque and build confidence on their toothbrushing."
+      },
+      {
+        "type": "p",
+        "text": "予防歯科のための日常的な歯垢除去において，歯磨きは重要な役割を果たしている．先行研究では様々なセンシング技術によって歯磨きの改善を行なってきた．しかし，これらは主に歯磨きが行われた範囲を推定するのみであり，歯垢が適切に除去されたかについての情報を用いていなかった．そこで我々は歯垢の量をユーザに継続的にフィードバックする歯ブラシ，LumiOを提案する．LumiOは歯垢検出のために，定量的可視光誘導蛍光法（QLF法）を使用している．QLF法は，青紫色光線を当てられた歯垢内のバクテリアが赤色の蛍光特性を示すことを利用している．これにより，光学フィルタを施したカメラによって歯垢をピンク色として捉えることができる．我々はユーザが日常生活の中でより効果的に歯垢を除去できるよう，電動歯ブラシにこの技術を組み込んだ．本稿ではまず，口を用いる行動とそれにまつわるインタラクション技術，ならびに歯科医療技術についての関連研究について述べる．その後，QLF法の原理，LumiOのハードウェアデザイン，そして画像処理を用いた歯垢検出法について述べる．ユーザ依存の学習を行なった3種類の機械学習を用いて，歯垢検出を評価した結果，F値0.68〜0.92となった．実際にユーザにLumiOを使用してもらった結果，LumiOによって歯垢への意識が高められ，自信を持って歯磨きできるようになるということがわかった．"
+      },
+      {
+        "type": "p",
+        "text": "T. Yoshitani, M. Ogata, and K. Yatani. LumiO: A Plaque-aware Toothbrush. in Proceedings of UbiComp 2016, 2016.\n\n[[Paper]](/) [[Video]](https://www.youtube.com/watch?v=gwvPTRLiZiQ)"
+      }
+    ]
+  },
+  {
+    "slug": "al-light",
+    "titleEn": "Al-light: An Alcohol-Sensing Smart Ice Cube",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/al-light.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/al-light/IPSJ_zenkoku_matsui_pic.png",
+        "alt": "",
+        "width": 600,
+        "height": 406
+      },
+      {
+        "type": "p",
+        "text": "Inappropriate alcohol drinking may cause health and social problems. Although controlling the intake of alcohol is effective to solve the problem, it is laborious to track consumption manually. A system that automatically records the amount of alcohol consumption has a potential to improve behavior in drinking activities. Existing devices and systems support drinking activity detection and liquid intake estimation, but our target scenario requires the capability of determining the alcohol concentration of a beverage. We present Al-light, a smart ice cube to detect the alcohol concentration level of a beverage using an optical method. Al-light is the size of 31.9 x 38.6 x 52.6 mm and users can simply put it into a beverage for estimation. It embeds near infrared (1450 nm) and visible LEDs, and measures the magnitude of light absorption. Our device design integrates prior technology in a patent which exploits different light absorption properties between water and ethanol to determine alcohol concentration. Through our revisitation studies, we found that light at the wavelength of 1450 nm has strong distinguishability even with different types of commercially-available beverages. Our quantitative examinations on alcohol concentration estimation revealed that Al-light was able to achieve the estimation accuracy of approximately 2 % v/v with 13 commercially-available beverages. Although our current approach needs a regressor to be trained for a particular ambient light condition or the sensor to be calibrated using measurements with water, it does not require beverage-dependent models unlike prior work. We then discuss four applications our current prototype supports and future research directions."
+      },
+      {
+        "type": "p",
+        "text": "過度な飲酒は， 健康面や社会的な面で様々な問題を引き起こし得る．アルコール摂取量を自動的に計測し，ユーザの飲酒を定量的に管理することが可能となれば，これらの問題の予防に貢献できる．しかしながら，アルコール摂取量を計測する上で知る必要があるアルコール濃度について，これを手軽に計測するスマートデバイスは知られていない．そこで我々は，近赤外・可視光LED と光検出器を搭載し，水とアルコールの光吸収特性を利用してアルコール濃度計測を行うスマートアイスキューブを提案する．本研究で作成したプロトタイプは3 x 4 x 5 cm の直方体であり，ユーザがこのデバイスをグラスの中に入れるだけで，通常の飲酒行為を妨げることなく濃度計測が行われる．本稿では，プロトタイプを用いて市販のアルコール飲料のアルコール濃度を計測した実験結果を報告し，実現されるアプリケーションについて議論する．"
+      },
+      {
+        "type": "p",
+        "text": "Hidenori Matsui, Takahiro Hashizume, and Koji Yatani. Al-light: An Alcohol-Sensing Smart Ice Cube. _Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. (PACM IMWUT)_ 2, 3, Article 126 (September 2018), 20 pages. [(paper)](/) [(video)](https://youtu.be/hElzdnnT5VM)"
+      },
+      {
+        "type": "p",
+        "text": "松井秀憲，橋爪崇弘，矢谷浩司．「飲料のアルコール濃度計測を行うスマートアイスキューブの試作と評価」第58回情報処理学会UBI研究会，2018年5月．**優秀論文賞受賞．**[(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "松井秀憲，橋爪崇弘，矢谷浩司．「氷型スマートデバイス向け光学的アルコール濃度推定手法の調査」第80回情報処理学会全国大会，2018年3月．**学生奨励賞受賞．**[(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "テレビ東京 ワールドビジネスサテライト トレンドたまご(8/2放送分)．\n\n[http://www.tv-tokyo.co.jp/mv/wbs/trend_tamago/post_160082/](http://www.tv-tokyo.co.jp/mv/wbs/trend_tamago/post_160082/)\n\n[http://www.tv-tokyo.co.jp/plus/smp/business/entry/2018/017664.html](http://www.tv-tokyo.co.jp/plus/smp/business/entry/2018/017664.html)"
+      }
+    ]
+  },
+  {
+    "slug": "stylesnap",
+    "titleEn": "Mixed-Initiative Approaches to Global Editing in Slideware",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/stylesnap.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/stylesnap/stylesnap.png",
+        "alt": "",
+        "width": 500,
+        "height": 408
+      },
+      {
+        "type": "p",
+        "text": "Good alignment and repetition of objects across presentation slides can facilitate visual processing and contribute to audience understanding. However, creating and maintaining such consistency during slide design is difficult. To solve this problem, we present two complementary tools: (1) StyleSnap, which increases the alignment and repetition of objects by adaptively clustering object edge positions and allowing parallel editing of all objects snapped to the same spatial extent; and (2) FlashFormat, which infers the least-general generalization of editing examples and applies it throughout the selected range. In user studies of repetitive styling task performance, StyleSnap and FlashFormat were 4-5 times and 2-3 times faster respectively than conventional editing. Both use a mixed-initiative approach to improve the consistency of slide decks and generalize to any situations involving direct editing across disjoint visual spaces."
+      },
+      {
+        "type": "p",
+        "text": "プレゼンテーションスライド全体でオブジェクトの整列と繰り返しが適切になされていれば，スライドの構造が見やすくなり内容も理解しやすくなる．しかしながら，スライド作成中にそのような一貫性を作り出し，維持することは難しい．この問題を解決するため，我々は2つのツールStyleSnapとFlashFormatを提案する．StyleSnapはスライド内のオブジェクトのエッジの位置を適応的にクラスタリングし，同じ空間範囲にスナップされたオブジェクトを並列に編集することで，オブジェクトの配置と繰り返し度合いを向上させる．FlashFormatは編集中のオブジェクト例の最小限一般化を推論し，選択範囲全体にそれを適応するものである．繰り返しに関するスタイリングタスクをユーザに行なってもらった結果，StyleSnapとFlashFormatを利用することで，従来のスライド編集方法に比べ，それぞれ4~5倍，2~3倍はやく行うことができた．この2つのツールはスライドを一貫性を向上させ，また異なる空間的位置にあるオブジェクトを直接一括で編集するといういかなる状況でも使用することができる．"
+      },
+      {
+        "type": "p",
+        "text": "Darren Edge, Sumit Gulwani, Natasa Milic-Frayling, Mohammad Raza, Reza Adhitya Saputra, Chao Wang, and Koji Yatani. Mixed-Initiative Approaches to Global Editing in Slideware,” in Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2015), 2015.\n\n[[Paper]](/)"
+      }
+    ]
+  },
+  {
+    "slug": "autocomplete-animations",
+    "titleEn": "Autocomplete Hand-drawn Animations",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/autocomplete-animations.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/autocomplete-animations/autocomplete.png",
+        "alt": "",
+        "width": 500,
+        "height": 437
+      },
+      {
+        "type": "p",
+        "text": "Hand-drawn animation is a major art form and communication edium, but can be challenging to produce. We present a system to help people create frame-by-frame animations through hand-drawn sketches. We design our interface to be minimalistic; it contains only a canvas for sketches and a few controls. When users are drawing on the canvas, our system silently analyzes all past sketches and predicts what might be drawn in the future across both spatial locations and temporal frames. The interface also offers users suggestions to beautify existing drawings. These predictions and suggestions greatly reduce the workload on creating multiple frames for animation and also help to create desirable results. Users can accept, ignore, or modify such predictions visualized on the canvas by simple gestures. Our method considers both high level structures and low level repetitions, and can significantly reduce manual workload while help produce better results. We evaluate our system through a preliminary user study and confirm that it can enhance both users’ objective performance and subjective satisfaction."
+      },
+      {
+        "type": "p",
+        "text": "手書きアニメーションは主要な芸術形態であり，コミュニケーションメディアである．しかしながら，アニメーション制作はとても難しく時間がかかる作業である．我々はフレームごとに手書きスケッチによって描かれるアニメーションの作成を支援するシステムを提案する．システムインターフェースは機能が最小になるように設計されており，スケッチのためのキャンバスと調整機能のみを備えている．ユーザがキャンバス上にスケッチを描いている間に，システムは過去の全てのスケッチを分析し，次のフレームでどのような絵がどこに描かれるのかを予測する．また，システムはユーザが描いた絵がより美しくするためのサジェスト機能も行う．これらの予測とサジェストによって，アニメーションに必要な複数のフレームの絵を描く作業負荷を大幅に削減し，ユーザの思い描いたアニメーションを作り出すのに役に立つ．予備的なユーザースタディの結果，我々のシステムは，ユーザの客観的なパフォーマンスと主観的な満足度の両方を高められたことがわかった．"
+      },
+      {
+        "type": "p",
+        "text": "J. Xing, L.-Y. Wei, T. Shiratori, and K. Yatani. “Autocomplete Hand-drawn Animations,” in Proceedings of SIGGRAPH Asia 2015, 2015.\n\n[[Paper]](/)"
+      }
+    ]
+  },
+  {
+    "slug": "elecguitar",
+    "titleEn": "音響的特徴量を用いたエレキギター演奏自動評価手法",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/elecguitar.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/elecguitar/SIGMUS_201711.png",
+        "alt": "",
+        "width": 600,
+        "height": 523
+      },
+      {
+        "type": "p",
+        "text": "独学でも効率良くエレキギターを練習できるシステムはこれまでにも開発されてきた．しかしこれらの大半は，指定したタイミングで正しい高さの音を鳴らせたかのみを演奏評価の基準としている．実際の演奏においては音色やテクニックなど，他の観点からも演奏を評価する必要がある．そこで本研究では，より多角的な観点から自動的にエレキギター演奏評価を行うシステムを実現することを目指し，エレキギター演奏の評価に活用できる音響的特徴量3つを提案する．5人のエレキギター初心者による演奏音源と3人のエレキギター経験者による主観的評価をデータセットとし，様々な音響的特徴量との関係性を検証し，提案する音響的特徴量の有効性を示した．さらにエレキギター演奏において特に初心者が困難に感じる左手による押弦に焦点を当て，押弦が正しく行えているかを判定する手法を考案した．この手法により，エレキギターの単音を 「正しく押弦できている音/フレット上を押さえている音/十分に押弦できていない音」の3つに85.3%の精度で分類することができた．さらに，以前の研究で考案したエレキギター演奏自動採点手法と組み合わせ，エレキギター練習用システムを作成した．このシステムでは，4つの単音からなるフレーズを弾くことで，その演奏に対する点数と各音の押弦判定が表示される．"
+      },
+      {
+        "type": "p",
+        "text": "下尾波輝，矢谷浩司．「エレキギター演奏におけるミスの自動検出」第80回情報処理学会全国大会，2018年3月．**学生奨励賞受賞．**[(paper)](/)"
+      },
+      {
+        "type": "p",
+        "text": "下尾波輝，矢谷浩司．「エレキギター演奏自動評価のための音響的特徴量の調査」 第117回情報処理学会音楽情報科学研究会，2017年11月．**学生奨励賞受賞．**[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "lock-n-lol",
+    "titleEn": "Lock n' LoL: Group-based Limiting Assistance App to Mitigate Smartphone Distractions in Group Activities",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/lock-n-lol.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/lock-n-lol/lock-n-lol-1.png",
+        "alt": "",
+        "width": 600,
+        "height": 323
+      },
+      {
+        "type": "p",
+        "text": "Prior studies have addressed many negative aspects of mobile distractions in group activities. In this paper, we present Lock n' LoL. This is an application designed to help users focus on their group activities by allowing group members to limit their smartphone usage together. In particular, it provides synchronous social awareness of each other's limiting behavior. This synchronous social awareness can arouse feelings of connectedness among group members and can mitigate social vulnerability due to smartphone distraction (e.g., social exclusion) that often results in poor social experiences. After following an iterative prototyping process, we conducted a large-scale user study (n = 976) via real field deployment. The study results revealed how the participants used Lock n' LoL in their diverse contexts and how Lock n' LoL helped them to mitigate smartphone distractions."
+      },
+      {
+        "type": "p",
+        "text": "本研究では，グループ活動中のメンバがスマートフォンの使用をお互いに制限することで，ユーザが活動に集中する手助けをするアプリケーションLock n’ LoLを提案する．特に，Lock n’ LoLはグループメンバ同士でお互いに行動を制限することで，メンバ間の社会的認識を高めることとなる．このようにお互いにつながりを認識することによって，仲間はずれなどのスマートフォンによって生じる社会的脆弱性の発生を抑制することができる．実際にLock n’ LoLを実装し，976人の実験参加者に対してユーザースタディを行なった．その結果，Lock n’ LoLが様々な文脈の中でどのように使われるのか，またどのようにスマートフォンを見てしまわないようユーザを手助けしているのかについて明らかにした．"
+      },
+      {
+        "type": "p",
+        "text": "Minsam Ko, Seungwoo Choi, Koji Yatani, and Uichin Lee. Lock n' LoL: Group-based Limiting Assistance App to Mitigate Smartphone Distractions in Group Activities. In Proc. CHI 2016, 998-1010.\n\n[[Paper]](/) **Best Paper Award winner**"
+      }
+    ]
+  },
+  {
+    "slug": "elasticplay",
+    "titleEn": "ElasticPlay: Interactive Video Summarization with Dynamic Time Budgets",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/elasticplay.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/elasticplay/elasticplay-1024x392.png",
+        "alt": "",
+        "width": 604,
+        "height": 231
+      },
+      {
+        "type": "p",
+        "text": "Video consumption is being shifted from sit-and-watch to selective skimming. Existing video player interfaces, however, only provide indirect manipulation to support this emerging behavior. Video summarization alleviates this issue to some extent, shortening a video based on the desired length of a summary as an input variable. But an optimal length of a summarized video is often not available in advance. Moreover, the user cannot edit the summary once it is produced, limiting its practical applications. We argue that video summarization should be an interactive, mixed-initiative process in which users have control over the summarization procedure while algorithms help users achieve their goal via video understanding. In this paper, we introduce ElasticPlay, a mixed-initiative approach that combines an advanced video summarization technique with direct interface manipulation to help users control the video summarization process. Users can specify a time budget for the remaining content while watching a video; our system then immediately updates the playback plan using our proposed cut-and-forward algorithm, determining which parts to skip or to fast-forward. This interactive process allows users to fine-tune the summarization result with immediate feedback. We show that our system outperforms existing video summarization techniques on the TVSum50 dataset. We also report two lab studies (22 participants) and a Mechanical Turk deployment study (60 participants), and show that the participants responded favorably to ElasticPlay."
+      },
+      {
+        "type": "p",
+        "text": "スマートデバイスや動画配信サービスの普及により，動画視聴の際は視聴したいシーンまでスキップしたり，視聴速度を変えたりするなど人々の動画視聴の方法が変わってきている．既存研究では，動画要約技術によって動画内の重要なシーンを自動選別したり，重要でないシーンを速く再生し，結合することでこの問題にある程度対応してきた．しかしながら，ユーザは自動要約開始時に出力されるダイジェスト動画の時間を前もって決める必要があったり，終了後には要約された動画を編集できないなどの問題点があった．動画要約の理想形とは，ユーザが動画要約全体の主導権を持ちつつアルゴリズムがそれを補助するような，インタラクティブな作業であると我々は考える．本研究ではそのような，ユーザとアルゴリズムが協調して動画要約を行うアプリケーションとしてElasticPlayを提案する．ユーザが動画を視聴しながら残りの再生時間を調整すると，我々のアルゴリズムは即座に残りの動画の中でどの場所をスキップすべきか，あるいは再生時間を速めるべきかを推定する．これによって，ユーザはアルゴリズムからのフィードバックを受けながら，動画要約をインタラクティブに行うことが可能になる．TVSum50データセットを用いた評価の結果，我々のシステムは既存の動画要約技術を遥かに上回る性能を誇ることがわかった．また，研究室内実験と(実験参加者22人)とクラウドソーシングを利用して行なった実験(実験参加者60人)の結果，ユーザはElasticPlayを好んで使いたいということが分かった．"
+      },
+      {
+        "type": "p",
+        "text": "Haojian Jin, Yale Song, and Koji Yatani. ElasticPlay: Interactive Video Summarization with Dynamic Time Budgets. In Proceedings of Multimedia 2017, 1164 – 1172 (oral presentation). [(paper)](https://arxiv.org/pdf/1708.06858)"
+      }
+    ]
+  },
+  {
+    "slug": "strummer",
+    "titleEn": "Strummer: An Interactive Guitar Chord Practice System",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/strummer.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/strummer/strummer.png",
+        "alt": "",
+        "width": 485,
+        "height": 341
+      },
+      {
+        "type": "p",
+        "text": "Musical instrument playing is a skill many people desire to acquire, and learners now have a wide variety of learning materials. However, their volume is enormous, and novice learners may easily get lost in which songs they should practice first. We develop Strummer: an interactive multimedial system for guitar practice. Strummer provide data-driven and personalized practice for learners in order to identify important and easy-to-learn chords and songs. This practice design is intended to encourage smooth skill transfers to songs that learners even have not seen. Our user study confirms the benefits and possible improvements of the Strummer system. In particular, participants expressed their positive impressions on lessons provided by the system."
+      },
+      {
+        "type": "p",
+        "text": "楽器の演奏は多くの人が望むスキルであり，様々な練習方法や教材が考案されているが，その種類の多さゆえ初心者は何を練習すればよいのか迷いがちである．さらに独学では自分の演奏の可否を判断して修正することが難しく，これらはモチベーション低下につながる問題となっている．本稿では，データドリブンでインタラクティブなギターコード練習システム 「Strummer」 を提案する．Strummer システムの開発にあたり，コードラベルが付与された 727 曲分の楽曲データを解析し，コードの出現率と難易度を考慮した曲の重要性の尺度を新たに定義した．これをシステム中で用いることで，ユーザは簡単かつ重要な楽曲から練習が可能になる．さらに，本システムは音響信号解析によってユーザが正しいコードを弾いたのかを認識してフィードバックする機能を有しており，インタラクティブかつ段階的な練習を提供する．実験では 5 人のギター初心者に計 5 時間ずつ本システムを用いてギター練習をしてもらい，インタビューやアンケートを実施し，本システムの評価を行った．"
+      },
+      {
+        "type": "p",
+        "text": "Shunya Ariga, Masataka Goto, and Koji Yatani. Strummer: An Interactive Guitar Chord Practice System. In Proc. ICME 2017, pp. 1057-1062. [(paper)](/)\n\n有賀竣哉，後藤真孝，矢谷浩司．「Strummer：インタラクティブなギターコード練習システム」第114回報処理学会音楽情報科学研究会，2017-MUS-114(24)，1-6，2017年2月．[(paper)](/) **学生奨励賞受賞．平成29年度山下記念研究賞受賞．**"
+      }
+    ]
+  },
+  {
+    "slug": "dumbbell",
+    "titleEn": "重心移動が可能なダンベル型デバイスの製作とその知覚に関する実験",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/dumbbell.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/dumbbell/dumbbell-1024x727.png",
+        "alt": "",
+        "width": 604,
+        "height": 429
+      },
+      {
+        "type": "p",
+        "text": "筋力トレーニングは健康の増進に寄与することが知られている．しかしながら，従来の筋力トレーニングは単純な反復運動で構成されているため，ユーザが動機を維持しにくい課題がある．本研究では，この課題を解決するための手法として，重心の移動が可能なダンベル型デバイスを提案する．このデバイスでは左右のウェイトプレート間で水を移動させることにより重心の移動が可能である．重心を移動させることにより，デバイスの総重量に変化がなくとも，負荷が変化したような知覚を与えられる．この技術によって，ゲームをプレイしながら筋力トレーニングを行う新しいexergame などのアプリケーションが実現できる．本研究では，アクリルを用いて製作したダンベル型デバイスの製作と，このデバイスがユーザに与える負荷の知覚に関する実験を行い，ユーザの知覚と負荷の変化の関係性を調査した．"
+      },
+      {
+        "type": "p",
+        "text": "有薗拓也，橋爪崇弘，矢谷浩司．「重心移動が可能なダンベル型デバイスの製作とその知覚に関する実験」第53回報処理学会UBI研究会，2017年3月．[(paper)](/) **学生奨励賞受賞**"
+      }
+    ]
+  },
+  {
+    "slug": "wheelin",
+    "titleEn": "車椅子アクセシビリティ情報収集における飲食店の外観写真の有用性",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/wheelin.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/wheelin/wheelchair_accessibility-300x200.png",
+        "alt": "",
+        "width": 600,
+        "height": 400
+      },
+      {
+        "type": "p",
+        "text": "車椅子利用者が飲食店を訪れる際，目的地にて車椅子が支障なく利用できるかという情報を知ることが必要となる．このようなアクセシビリティ情報をいかにして入手しているのかを調査するため，本研究ではまず7名の車椅子利用者にインタビューを行った．結果，飲食店口コミサイトにおける外観写真をよく利用していることがわかった．本研究ではさらに，車椅子利用者がアクセシビリティ情報の判断に有用だと感じたレストランの写真を収集・分析し，それらの特徴について整理を行った．本稿ではインタビュー調査の結果とともに，収集した写真の分析結果を報告し，これらの知見が車椅子アクセシビリティの向上を目指すユビキタス・モバイルシステムにどのように応用できるかを議論する．"
+      },
+      {
+        "type": "p",
+        "text": "宮崎章太，矢谷浩司．「車椅子アクセシビリティ情報収集における飲食店の外観写真の有用性」第53回報処理学会UBI研究会，2017年3月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "graphie",
+    "titleEn": "インフォグラフィックスの作成をインタラクティブに支援するシステム",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/graphie.png",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "[/](/)"
+      },
+      {
+        "type": "p",
+        "text": "データ可視化の手段としてinfographics を用いる機会が近年増えている。データ可視化においては、読み手により良い理解を促すためにストーリーテリングが重要である。ストーリーテリングには重要なデータ探索、ストーリー作り、ストーリーの伝え方の３つのプロセスがある。本稿ではinfographics にてよく用いられるスタイルの画像を自動的に生成するシステムによって特にストーリーの伝え方を支援するシステムを提案する。画像は、インターネットからピクトグラムを取得しそれを加工することによって生成を行う。"
+      },
+      {
+        "type": "p",
+        "text": "岩下知美，矢谷浩司．「インフォグラフィックスの作成をインタラクティブに支援するシステム」第170回情報処理学会HCI研究会，2016年10月．[(paper)](/)"
+      }
+    ]
+  },
+  {
+    "slug": "phones-on-wheels",
+    "titleEn": "Phones on Wheels: Exploring Interaction for Smartphones with Kinetic Capabilities",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/phones-on-wheels.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/phones-on-wheels/phonssonwheels-300x236.png",
+        "alt": "",
+        "width": 600,
+        "height": 473
+      },
+      {
+        "type": "p",
+        "text": "This work introduces novel interaction and applications using smartphones with kinetic capabilities. We develop an accessory module with robot wheels for a smartphone. With this module, the smartphone can move in a linear direction or rotate with sufficient power. The module also includes rotary encoders, allowing us to use the wheels as an input modality. We demonstrate a series of novel mobile interaction for mobile devices with kinetic capabilities through three applications."
+      },
+      {
+        "type": "p",
+        "text": "我々はスマートフォンに運動力学的機能を付加するため，ロボットホイールを備えたモジュールを開発した．このモジュールを付加したスマートフォンは，直線方向に進んだり，回転したりすることができる．また，モジュールにはロータリーエンコーダが搭載されておりホイールの回転を入力として使うこともできる．本研究ではこのような運動力学的能力を備えたスマートフォンについて3つのアプリケーションを提案し，新たなインタラクションについて考察する．"
+      },
+      {
+        "type": "p",
+        "text": "Takefumi Hiraki, Koya Narumi, Koji Yatani, and Yoshihiro Kawahara. 2016. Phones on Wheels: Exploring Interaction for Smartphones with Kinetic Capabilities. In Proceedings of the 29th Annual Symposium on User Interface Software and Technology (UIST '16 Adjunct), 121-122."
+      }
+    ]
+  },
+  {
+    "slug": "nugu",
+    "titleEn": "NUGU: A Group-based Intervention App for Improving Self-Regulation of Limiting Smartphone Use",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/nugu.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/nugu/nugu.png",
+        "alt": "",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "type": "p",
+        "text": "Our preliminary study reveals that individuals use various management strategies for limiting smartphone use, ranging from keeping smartphones out of reach to removing apps. However, we also found that users often had difficulties in maintaining their chosen management strategies due to the lack of self-regulation. In this paper, we present NUGU, a group-based intervention app for improving self-regulation on smartphone use through leveraging social support: groups of people limit their use together by sharing their limiting information. NUGU is designed based on social cognitive theory and it has been developed iteratively through two pilot tests. Our three-week user study (n = 62) demonstrated that compared with its non-social counterpart, the NUGU users’ usage amount significantly decreased and their perceived level of managing disturbances improved. Furthermore, our exit interview confirmed that NUGU’s design elements are effective for achieving limiting goals."
+      },
+      {
+        "type": "p",
+        "text": "人々はスマートフォンの利用を制限するために様々な戦略を用いている．例えば，すぐに手にとってしまわないようにスマートフォンをできるだけ遠ざけたり，アプリを削除したりなどである．しかしながら，そういった自己制御に頼った戦略はしばしば失敗に終わってしまう．そこで本稿では，ソーシャルサポートを利用してスマートフォン利用に関する自己制御を向上させるアプリNUGUを提案する．NUGUはグループ内のメンバが互いにスマートフォンの制限情報を共有することで，メンバ同士助け合いながら共にスマートフォンを使わないように支援するアプリケーションである．我々はNUGUを社会認知理論に基づいて設計し，2回のパイロットスタディを通じて改善した．62人の実験参加者に対して行なった3週間のユーザースタディの結果，NUGUを使用したユーザは使用しない者に比べ，スマートフォン使用量が大幅に減少することが判明した．また，インタビューの結果NUGUの設計要素はスマートフォンの制限目標を達成するのに有効であることがわかった．"
+      },
+      {
+        "type": "p",
+        "text": "M. Ko, S. Yang, J. Lee, C. Heizmann, J. Jeong, U. Lee, D. H. Shin, K. Yatani, J. Song, and K. Chung, “NUGU: A Group-based Intervention App for Improving Self-Regulation of Limiting Smartphone Use,” in Proceedings of the ACM conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2015), 2015.\n\n[[Paper]](/)"
+      }
+    ]
+  },
+  {
+    "slug": "talkzones",
+    "titleEn": "TalkZones: Section-based Time Support for Presentations",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/talkzones.png",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "プレゼンテーション中の時間管理は多くのユーザにとって課題である．モバイルデバイスの利便性と柔軟性をうまく活用することで，プレゼンテーション時間の目標を設定・調整・トラックすることができる可能性がある．20人の参加者に対する初期実験の結果，スライド単位でもプレゼンテーション全体でもなく「ゾーン」と呼ばれる一連のスライド群に対して時間目標を設定すべきであり，また，プレゼンテーションのタイミングに関する2つのタイプのフィードバックを行う必要があるということが判明した．これらに基づいて我々はプレゼンテーション時間管理アプリケーションであるTalkZonesを開発した．20枚のスライドを6分40秒でプレゼンしてもらう実験では，通常のタイマを使用した12人のプレゼン平均超過時間は1分49秒だったのに対し，TalkZonesを使用した12人はわずか8秒であった．また，本来なら30分のプレゼンを20分で行ってもらう実験を8人に対し行なった結果，2%しか時間超過しないという結果も得られた．したがって，TalkZonesは時間超過につながる前にプレゼンを進行させ，時間通り発表を行えるようにユーザを支援することができた．"
+      },
+      {
+        "type": "p",
+        "text": "B. Saket, S. Yang, H. Z. Tan, K. Yatani, and D. Edge, “TalkZones: Section-based Time Support for Presentations,” in Proceedings of the ACM SIGCHI International Conference on Human Computer Interaction with Mobile Devices and Services (MobileHCI 2014), 2014.\n\n[[Paper]](/) [[Video]](http://youtu.be/90MpLqvHJjw) **Honorable Mention Award**"
+      }
+    ]
+  },
+  {
+    "slug": "reviewcollage",
+    "titleEn": "ReviewCollage: A Mobile Interface for Direct Comparison Using Online Reviews",
+    "titleJa": "",
+    "thumb": "/images/research/thumbs/reviewcollage.png",
+    "blocks": [
+      {
+        "type": "img",
+        "src": "/images/research/content/reviewcollage/reviewcollage.png",
+        "alt": "",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "type": "p",
+        "text": "Review comments posted in online websites can help the user decide a product to purchase or place to visit. They can also be useful to closely compare a couple of candidate entities. However, the user may have to read different webpages back and forth for comparison, and this is not desirable particularly when she is using a mobile device. We present ReviewCollage, a mobile interface that aggregates information about two reviewed entities in a one-page view. ReviewCollage uses attribute-value pairs, known to be effective for review text summarization, and highlights the similarities and differences between the entities. Our user study confirms that ReviewCollage can support the user to compare two entities and make a decision within a couple of minutes, at least as quickly as existing summarization interfaces. It also reveals that ReviewCollage could be most useful when two entities are very similar."
+      },
+      {
+        "type": "p",
+        "text": "ウェブサイト上に掲載された様々なレビューは商品の購入や旅行先を決定する際などに役に立つ．また，レビューによってそれらを詳細に比較することもできる．しかしながら，ユーザはそれらの比較のために異なるウェブページを何度も往復して読まなければならない場合があり，これは特にモバイルデバイスを使用する際にとても煩雑な作業となる．そこで我々は，2つのエンティティに関するレビューを1ページに集約するモバイルインタフェース，ReviewCollageを提案する．ReviewCollageはレビュー文の要約に効果的であると知られている「属性と値」のペアを用いて，エンティティ間の類似点と相違点を強調して表示する．ユーザースタディの結果，ReviewCollageを用いることで，ユーザは数分以内という，少なくとも既存の要約システムと同程度に素早く2つのエンティティを比較し意思決定できることが判明した．また，ReviewCollageは2つのエンティティが似ている際に最も役に立つということもわかった．"
+      },
+      {
+        "type": "p",
+        "text": "H. Jin, T. Sakai, and K. Yatani, “ReviewCollage: A Mobile Interface for Direct Comparison Using Online Reviews,” in Proceedings of the ACM SIGCHI International Conference on Human Computer Interaction with Mobile Devices and Services (MobileHCI 2014), 2014.\n\n[[Paper]](/) [[Video]](http://youtu.be/QDPg2E0RYbg) **Honorable Mention Award**"
+      }
+    ]
+  }
+]

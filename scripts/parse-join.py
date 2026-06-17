@@ -11,7 +11,8 @@ INTERNAL = {
     'https://iis-lab.org': '/',
     'https://iis-lab.org/publications/': '/publications',
     'https://iis-lab.org/publications': '/publications',
-    'https://iis-lab.org/member/koji-yatani/': 'mailto:koji@iis-lab.org',
+    'https://iis-lab.org/member/koji-yatani/': '/member/koji-yatani',
+    'https://iis-lab.org/misc/realitycheck/': '/misc/realitycheck',
 }
 
 
@@ -56,38 +57,89 @@ def find_ul_end(s: str, start: int) -> int:
     depth = 0
     i = start
     while i < len(s):
-        if s[i : i + 4].lower() == '<ul':
+        if re.match(r'<ul\b', s[i:], re.I):
             depth += 1
-        elif s[i : i + 5].lower() == '</ul':
+            i += 3
+            continue
+        if re.match(r'</ul\b', s[i:], re.I):
             depth -= 1
+            i += 5
             if depth == 0:
-                return s.find('>', i) + 1
+                return i
+            continue
         i += 1
     return len(s)
 
 
-def parse_ul(ul_html: str) -> list:
+def flatten_children(children: list) -> list:
+    flat: list = []
+    for child in children:
+        text = child.get('text', '').strip()
+        nested = child.get('children')
+        if not text and nested:
+            flat.extend(flatten_children(nested))
+            continue
+        if nested:
+            child = {**child, 'children': flatten_children(nested)}
+        flat.append(child)
+    return flat
+
+
+def append_li_item(items: list, text: str, children=None) -> None:
+    if children:
+        children = flatten_children(children)
+    if text.strip():
+        item: dict = {'text': text}
+        if children:
+            item['children'] = children
+        items.append(item)
+    elif children:
+        items.extend(children)
+
+
+def parse_li_items(ul_html: str) -> list:
     items = []
     pos = 0
     while True:
-        li_m = re.search(r'<li[^>]*>(.*?)</li>', ul_html[pos:], re.S | re.I)
-        if not li_m:
+        li_open = re.search(r'<li\b', ul_html[pos:], re.I)
+        if not li_open:
             break
-        li_inner = li_m.group(1)
-        pos += li_m.end()
-        nested = re.search(r'(<ul[^>]*>.*</ul>)', li_inner, re.S | re.I)
-        if nested:
-            main = li_inner[: nested.start()]
-            sub = nested.group(1)
-            text = inline_to_md(main)
-            children = parse_ul(sub)
-            item: dict = {'text': text}
-            if children:
-                item['children'] = children
-            items.append(item)
+        start = pos + li_open.start()
+        content_start = ul_html.find('>', start) + 1
+        depth = 1
+        i = content_start
+        while i < len(ul_html) and depth > 0:
+            if re.match(r'<li\b', ul_html[i:], re.I):
+                depth += 1
+                i += 3
+                continue
+            if ul_html[i : i + 5].lower() == '</li>':
+                depth -= 1
+                if depth == 0:
+                    li_inner = ul_html[content_start:i]
+                    nested_open = re.search(r'<ul\b', li_inner, re.I)
+                    if nested_open:
+                        ul_pos = nested_open.start()
+                        ul_end = find_ul_end(li_inner, ul_pos)
+                        main = li_inner[:ul_pos]
+                        sub = li_inner[ul_pos:ul_end]
+                        text = inline_to_md(main)
+                        children = parse_ul(sub)
+                        append_li_item(items, text, children)
+                    else:
+                        items.append({'text': inline_to_md(li_inner)})
+                    pos = i + 5
+                    break
+                i += 5
+                continue
+            i += 1
         else:
-            items.append({'text': inline_to_md(li_inner)})
+            break
     return items
+
+
+def parse_ul(ul_html: str) -> list:
+    return parse_li_items(ul_html)
 
 
 def process_fragment(frag: str, blocks: list) -> None:
