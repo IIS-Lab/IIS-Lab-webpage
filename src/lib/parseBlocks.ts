@@ -13,9 +13,9 @@ function parseHeading(line: string): Block | null {
       level: 3,
     }
   }
-  const h2 = line.match(/^##\s+(.+)$/)
+  const h2 = line.match(/^##\s+(.+?)(?:\s+\{#([^}]+)\})?$/)
   if (h2) {
-    return { type: 'heading', text: h2[1].trim(), level: 2 }
+    return { type: 'heading', text: h2[1].trim(), id: h2[2], level: 2 }
   }
   return null
 }
