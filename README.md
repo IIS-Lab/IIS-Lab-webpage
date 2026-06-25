@@ -27,28 +27,28 @@ npm run preview
 
 ## Deploy
 
-### GitHub Pages（自动部署）
+### GitHub Pages (automatic deployment)
 
-1. 将仓库推送到 GitHub，并确保默认分支为 `main`。
-2. 推送后等待 [Deploy workflow](.github/workflows/deploy.yml) 跑通（会把 `dist/` 推到 `gh-pages` 分支）。
-3. 打开 **Settings → Pages**（[iis-lab Pages 设置](https://github.com/Xinrui-Fang/iis-lab/settings/pages)）：
-   - **Build and deployment → Source** 选 **Deploy from a branch**
-   - **Branch** 选 `gh-pages`，文件夹选 **`/ (root)`**
-   - 保存
+1. Push the repository to GitHub with `main` as the default branch.
+2. Wait for the [Deploy workflow](.github/workflows/deploy.yml) to finish (it publishes `dist/` to the `gh-pages` branch).
+3. Open **Settings → Pages** ([iis-lab Pages settings](https://github.com/Xinrui-Fang/iis-lab/settings/pages)):
+   - **Build and deployment → Source**: **Deploy from a branch**
+   - **Branch**: `gh-pages`, folder **`/ (root)`**
+   - Save
 
-若曾选过 **GitHub Actions** 作为 Source 却出现 `Failed to create deployment (404)`，请改用上方的 **Deploy from a branch → gh-pages**，或先在 Pages 里点一次 **Save** 启用 Pages 后再重跑 workflow。
+If you previously chose **GitHub Actions** as the source and see `Failed to create deployment (404)`, switch to **Deploy from a branch → gh-pages**, or click **Save** once in Pages settings to enable Pages, then re-run the workflow.
 
-- 站点地址：`https://xinrui-fang.github.io/iis-lab/`
-- 若仓库名为 `<user>.github.io`，构建时 `VITE_BASE_PATH` 会自动设为 `/`
+- Live site: `https://xinrui-fang.github.io/iis-lab/`
+- If the repository is named `<user>.github.io`, the build sets `VITE_BASE_PATH` to `/` automatically.
 
-本地构建与线上一致（子路径示例）：
+Build locally with the same base path as production (subpath example):
 
 ```bash
 VITE_BASE_PATH=/iis-lab/ npm run build
 ```
 
-`npm run build` 会生成 `dist/404.html`，用于 GitHub Pages 上的客户端路由回退。
+`npm run build` also generates `dist/404.html` for client-side routing on GitHub Pages.
 
-### 其他静态托管
+### Other static hosts
 
-`dist/` 也可部署到 Netlify、Vercel 等；需配置 SPA 回退到 `index.html`。
+You can deploy `dist/` to Netlify, Vercel, etc. Configure SPA fallback to `index.html`.
