@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Download What's up gallery images from src/data/whatsup.json into public/images/whatsup/"""
+"""Download What's up gallery images from src/data/whatsup.md into public/images/whatsup/"""
 from __future__ import annotations
 
-import json
 import re
+import sys
 import time
 import urllib.error
 import urllib.parse
@@ -11,7 +11,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-JSON_PATH = ROOT / 'src/data/whatsup.json'
+MD_PATH = ROOT / 'src/data/whatsup.md'
 OUT_DIR = ROOT / 'public/images/whatsup'
 
 HEADERS = {
@@ -49,8 +49,40 @@ def local_name(season_idx: int, item_idx: int, url: str, used: set[str]) -> str:
     return name
 
 
+def parse_whatsup_md(text: str) -> dict:
+    intro = {'en': '', 'ja': ''}
+    seasons = []
+    if text.startswith('---\n'):
+        end = text.index('\n---\n', 4)
+        fm = text[4:end]
+        body = text[end + 5:]
+        for line in fm.split('\n'):
+            if line.startswith('intro_en:'):
+                intro['en'] = line.split(':', 1)[1].strip().strip('"')
+            elif line.startswith('intro_ja:'):
+                intro['ja'] = line.split(':', 1)[1].strip().strip('"')
+    else:
+        body = text
+
+    for part in re.split(r'\n(?=## )', body):
+        part = part.strip()
+        if not part:
+            continue
+        match = re.match(r'^## (.+?)\n([\s\S]*)$', part)
+        if not match:
+            continue
+        items = []
+        for line in match.group(2).split('\n'):
+            item_match = re.match(r'^!\[([^\]]*)\]\(([^)]+)\)$', line.strip())
+            if item_match:
+                items.append({'caption': item_match.group(1), 'image': item_match.group(2)})
+        if items:
+            seasons.append({'title': match.group(1), 'items': items})
+    return {'intro': intro, 'seasons': seasons}
+
+
 def main() -> None:
-    data = json.loads(JSON_PATH.read_text())
+    data = parse_whatsup_md(MD_PATH.read_text())
     used: set[str] = set()
     total = 0
     ok = 0
@@ -59,7 +91,7 @@ def main() -> None:
         for item_idx, item in enumerate(season['items'], start=1):
             total += 1
             url = item.get('image', '')
-            if not url or url.startswith('data:'):
+            if not url or url.startswith('data:') or url.startswith('/images/whatsup/'):
                 continue
             filename = local_name(season_idx, item_idx, url, used)
             dest = OUT_DIR / filename
@@ -68,7 +100,10 @@ def main() -> None:
                 ok += 1
             time.sleep(0.05)
 
-    JSON_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from md_writer import whatsup_to_md
+
+    MD_PATH.write_text(whatsup_to_md(data))
     print(f'Downloaded {ok}/{total} images to {OUT_DIR}')
 
 

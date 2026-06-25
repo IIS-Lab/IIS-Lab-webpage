@@ -14,7 +14,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT_MD = ROOT / 'src/data/publications.md'
-PDF_MANIFEST = ROOT / 'src/data/publicationPdfs.json'
 PUBLIC_DIR = ROOT / 'public'
 PAGE_URL = 'https://iis-lab.org/publications/'
 
@@ -256,7 +255,6 @@ def main() -> None:
     html_text = html_bytes.decode('utf-8', errors='replace')
     md_lines, pdf_map = parse_entry_content(html_text, skip_download)
     OUT_MD.write_text('\n'.join(md_lines) + '\n')
-    PDF_MANIFEST.write_text(json.dumps(sorted(pdf_map.keys()), indent=2) + '\n')
     print(f'Wrote {OUT_MD} ({len(md_lines)} lines)')
     print(f'Local PDFs: {len(pdf_map)}')
     if skip_download:

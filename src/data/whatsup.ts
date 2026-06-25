@@ -1,14 +1,9 @@
-import data from './whatsup.json'
+import whatsupMarkdown from './whatsup.md?raw'
+import { parseWhatsUpMarkdown } from '../lib/parseWhatsUpMarkdown'
 
-export interface WhatsUpItem {
-  image: string
-  caption: string
-}
+export type { WhatsUpItem, WhatsUpSeason } from '../lib/parseWhatsUpMarkdown'
 
-export interface WhatsUpSeason {
-  title: string
-  items: WhatsUpItem[]
-}
+const { intro, seasons } = parseWhatsUpMarkdown(whatsupMarkdown)
 
-export const whatsUpIntro = data.intro as { en: string; ja: string }
-export const whatsUpSeasons = data.seasons as WhatsUpSeason[]
+export const whatsUpIntro = intro
+export const whatsUpSeasons = seasons

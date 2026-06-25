@@ -1,7 +1,8 @@
 import type { NewsMonth } from './types'
-import data from './news.json'
+import newsMarkdown from './news.md?raw'
+import { parseNewsMarkdown } from '../lib/parseNewsMarkdown'
 
-export const newsItems: NewsMonth[] = data as NewsMonth[]
+export const newsItems: NewsMonth[] = parseNewsMarkdown(newsMarkdown)
 
 export const recentPosts = [
   { title: 'アルゴリズム（2026年度）', href: '#' },

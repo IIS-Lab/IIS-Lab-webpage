@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch and parse https://iis-lab.org/member/koji-yatani/ into src/data/koji-yatani.json"""
+"""Fetch and parse https://iis-lab.org/member/koji-yatani/ into src/data/koji-yatani.md"""
 from __future__ import annotations
 
 import html as h
@@ -11,8 +11,15 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+import sys
+from pathlib import Path
+
+SCRIPTS = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPTS))
+from md_writer import blocks_to_md
+
 ROOT = Path(__file__).resolve().parents[1]
-OUT_JSON = ROOT / 'src/data/koji-yatani.json'
+OUT_MD = ROOT / 'src/data/koji-yatani.md'
 PHOTO_DIR = ROOT / 'public/images/members'
 PAGE_URL = 'https://iis-lab.org/member/koji-yatani/'
 
@@ -243,13 +250,13 @@ def main() -> None:
                 if block.get('type') == 'img':
                     block['src'] = local_photo
 
-    data = {
-        'slug': 'koji-yatani',
-        'title': 'Koji Yatani / 矢谷浩司',
-        'blocks': blocks,
-    }
-    OUT_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
-    print(f'Wrote {len(blocks)} blocks to {OUT_JSON}')
+    OUT_MD.write_text(
+        blocks_to_md(
+            blocks,
+            {'slug': 'koji-yatani', 'title': 'Koji Yatani / 矢谷浩司'},
+        )
+    )
+    print(f'Wrote {len(blocks)} blocks to {OUT_MD}')
     if local_photo:
         print(f'Photo: {local_photo}')
 

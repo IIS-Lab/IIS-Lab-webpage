@@ -1,5 +1,7 @@
-import data from './koji-yatani.json'
+import profileMarkdown from './koji-yatani.md?raw'
 import type { ArticleBlock } from '../components/ArticleBlocks'
+import { parseBlocks } from '../lib/parseBlocks'
+import { parseFrontmatter } from '../lib/parseFrontmatter'
 
 export interface MemberProfile {
   slug: string
@@ -7,8 +9,15 @@ export interface MemberProfile {
   blocks: ArticleBlock[]
 }
 
+const { meta, body } = parseFrontmatter(profileMarkdown)
+const profile: MemberProfile = {
+  slug: meta.slug ?? '',
+  title: meta.title ?? '',
+  blocks: parseBlocks(body) as ArticleBlock[],
+}
+
 const profiles: Record<string, MemberProfile> = {
-  [data.slug]: data as MemberProfile,
+  [profile.slug]: profile,
 }
 
 export function getMemberProfile(slug: string): MemberProfile | undefined {

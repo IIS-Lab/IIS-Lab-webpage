@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Parse iis-lab.org/prospective/ HTML into src/data/join.json"""
-import html as h
-import json
+"""Parse iis-lab.org/prospective/ HTML into src/data/join.md"""
 import re
 import sys
 from pathlib import Path
+
+SCRIPTS = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPTS))
+from md_writer import blocks_to_md
 
 INTERNAL = {
     'https://iis-lab.org/': '/',
@@ -216,7 +218,7 @@ def parse_content(content: str) -> list:
 
 def main() -> None:
     html_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path('/tmp/prospective.html')
-    out_path = Path(__file__).resolve().parents[1] / 'src/data/join.json'
+    out_path = Path(__file__).resolve().parents[1] / 'src/data/join.md'
     text = html_path.read_text()
     m = re.search(
         r'entry-content clearfix">(.*?)</div>\s*<!-- entry-content',
@@ -227,7 +229,7 @@ def main() -> None:
         raise SystemExit('entry-content not found')
     content = re.sub(r'<script[^>]*>.*?</script>', '', m.group(1), flags=re.S)
     blocks = parse_content(content)
-    out_path.write_text(json.dumps(blocks, ensure_ascii=False, indent=2) + '\n')
+    out_path.write_text(blocks_to_md(blocks))
     print(f'Wrote {len(blocks)} blocks to {out_path}')
 
 

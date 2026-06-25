@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Parse https://iis-lab.org/ news section into src/data/news.json"""
+"""Parse https://iis-lab.org/ news section into src/data/news.md"""
 from __future__ import annotations
 
 import html as h
@@ -8,9 +8,16 @@ import re
 import urllib.request
 from pathlib import Path
 
+import sys
+from pathlib import Path
+
+SCRIPTS = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPTS))
+from md_writer import news_to_md, old_news_to_md
+
 ROOT = Path(__file__).resolve().parents[1]
-OUT_JSON = ROOT / 'src/data/news.json'
-OLD_JSON = ROOT / 'src/data/oldNews.json'
+OUT_MD = ROOT / 'src/data/news.md'
+OLD_MD = ROOT / 'src/data/oldNews.md'
 PAGE_URL = 'https://iis-lab.org/'
 OLD_PAGE_URL = 'https://iis-lab.org/news/old/'
 
@@ -227,16 +234,16 @@ def main() -> None:
     if len(sys.argv) > 1 and sys.argv[1] == '--old':
         text = fetch(OLD_PAGE_URL)
         data = parse_old_news(text)
-        OLD_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+        OLD_MD.write_text(old_news_to_md(data))
         total = sum(len(m['items']) for m in data['months'])
-        print(f'Wrote {len(data["months"])} months, {total} items to {OLD_JSON}')
+        print(f'Wrote {len(data["months"])} months, {total} items to {OLD_MD}')
         return
 
     text = fetch(PAGE_URL)
     months = parse_news(text)
-    OUT_JSON.write_text(json.dumps(months, ensure_ascii=False, indent=2) + '\n')
+    OUT_MD.write_text(news_to_md(months))
     total = sum(len(m['items']) for m in months)
-    print(f'Wrote {len(months)} months, {total} items to {OUT_JSON}')
+    print(f'Wrote {len(months)} months, {total} items to {OUT_MD}')
 
 
 if __name__ == '__main__':

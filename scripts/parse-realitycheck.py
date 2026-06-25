@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Parse https://iis-lab.org/misc/realitycheck/ into src/data/realitycheck.json"""
+"""Parse https://iis-lab.org/misc/realitycheck/ into src/data/realitycheck.md"""
 from __future__ import annotations
 
 import html as h
@@ -9,8 +9,15 @@ import sys
 import urllib.request
 from pathlib import Path
 
+import sys
+from pathlib import Path
+
+SCRIPTS = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPTS))
+from md_writer import blocks_to_md
+
 ROOT = Path(__file__).resolve().parents[1]
-OUT_JSON = ROOT / 'src/data/realitycheck.json'
+OUT_MD = ROOT / 'src/data/realitycheck.md'
 PAGE_URL = 'https://iis-lab.org/misc/realitycheck/'
 
 HEADERS = {
@@ -262,8 +269,8 @@ def main() -> None:
         'title': '矢谷流研究アイデアチェックリスト / Research Reality Check',
         'blocks': blocks,
     }
-    OUT_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
-    print(f'Wrote {len(blocks)} blocks to {OUT_JSON}')
+    OUT_MD.write_text(blocks_to_md(data['blocks'], {'title': data['title']}))
+    print(f'Wrote {len(blocks)} blocks to {OUT_MD}')
 
 
 if __name__ == '__main__':

@@ -1,19 +1,24 @@
 #!/usr/bin/env python3
-"""Scrape https://iis-lab.org/research/ list + subpages into src/data/researchProjects.json
+"""Scrape https://iis-lab.org/research/ list + subpages into src/data/research/
 and download images to public/images/research/"""
 from __future__ import annotations
 
 import html as h
 import json
 import re
+import sys
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
 
+SCRIPTS = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPTS))
+from md_writer import research_project_to_md
+
 ROOT = Path(__file__).resolve().parents[1]
-OUT_JSON = ROOT / 'src/data/researchProjects.json'
+RESEARCH_DIR = ROOT / 'src/data/research'
 THUMB_DIR = ROOT / 'public/images/research/thumbs'
 CONTENT_IMG_DIR = ROOT / 'public/images/research/content'
 
@@ -295,9 +300,13 @@ def parse_list_page(html_text: str) -> list[dict]:
     return items
 
 
-def main() -> None:
-    import sys
+def write_project(project: dict) -> None:
+    RESEARCH_DIR.mkdir(parents=True, exist_ok=True)
+    slug = project['slug']
+    (RESEARCH_DIR / f'{slug}.md').write_text(research_project_to_md(project))
 
+
+def main() -> None:
     only_slug = sys.argv[1] if len(sys.argv) > 1 else None
 
     if only_slug:
@@ -306,24 +315,27 @@ def main() -> None:
         CONTENT_IMG_DIR.mkdir(parents=True, exist_ok=True)
         page_html = fetch(url)
         blocks = parse_entry_content(page_html, only_slug)
-        projects = json.loads(OUT_JSON.read_text())
-        updated = False
-        for project in projects:
-            if project['slug'] == only_slug:
-                project['blocks'] = blocks
-                updated = True
-                break
-        if not updated:
-            projects.append(
-                {
-                    'slug': only_slug,
-                    'titleEn': only_slug,
-                    'titleJa': '',
-                    'thumb': f'/images/research/thumbs/{only_slug}.png',
-                    'blocks': blocks,
-                }
-            )
-        OUT_JSON.write_text(json.dumps(projects, ensure_ascii=False, indent=2) + '\n')
+        md_path = RESEARCH_DIR / f'{only_slug}.md'
+        title_en = only_slug
+        title_ja = ''
+        thumb = f'/images/research/thumbs/{only_slug}.png'
+        if md_path.exists():
+            for line in md_path.read_text().splitlines():
+                if line.startswith('titleEn:'):
+                    title_en = line.split(':', 1)[1].strip().strip('"')
+                elif line.startswith('titleJa:'):
+                    title_ja = line.split(':', 1)[1].strip().strip('"')
+                elif line.startswith('thumb:'):
+                    thumb = line.split(':', 1)[1].strip().strip('"')
+        write_project(
+            {
+                'slug': only_slug,
+                'titleEn': title_en,
+                'titleJa': title_ja,
+                'thumb': thumb,
+                'blocks': blocks,
+            }
+        )
         print(f'Updated {only_slug}: {len(blocks)} blocks')
         return
 
@@ -354,18 +366,18 @@ def main() -> None:
         else:
             blocks = parse_entry_content(page_html, slug)
 
-        projects.append(
-            {
-                'slug': slug,
-                'titleEn': item['titleEn'],
-                'titleJa': item['titleJa'],
-                'thumb': thumb,
-                'blocks': blocks,
-            }
-        )
+        project = {
+            'slug': slug,
+            'titleEn': item['titleEn'],
+            'titleJa': item['titleJa'],
+            'thumb': thumb,
+            'blocks': blocks,
+        }
+        projects.append(project)
+        write_project(project)
 
-    OUT_JSON.write_text(json.dumps(projects, ensure_ascii=False, indent=2) + '\n')
-    print(f'Wrote {OUT_JSON} ({len(projects)} projects)')
+    (RESEARCH_DIR / 'order.txt').write_text('\n'.join(p['slug'] for p in projects) + '\n')
+    print(f'Wrote {len(projects)} projects to {RESEARCH_DIR}/')
 
 
 if __name__ == '__main__':

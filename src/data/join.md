@@ -1,0 +1,128 @@
+**Student admissions are available in Graduate School of Information Science and Technology, and Graduate School of Interdisciplinary Information Studies. **We do not have admissions from Graduate School of Engineering. **We are prioritizing students who have strong interests in pursuing Ph.D.s and collaborating internationally.**
+
+**学生さんの受け入れは情報理工学系研究科，および学際情報学府にて行なっております．**工学系研究科での受け入れはありませんので注意してください．**また，現在博士課程への進学を強く希望し，国際的な共同研究を行いたいと考えている学生さんを優先的に検討しています**
+
+***
+
+We are looking for highly-motivated students who have strong passion in building and evaluating interactive systems and applications, and creating new values through reshaping interactions between users and computers. We also accept students who work as full-time employees at companies.
+
+If you are interested in working with us, **please read the following note before** [contacting me](/member/koji-yatani). As I receive many emails and messages everyday, your understanding would be much appreciated.
+
+**Note that due to our limited capacity, we do not any research student (or kenkyusei) except that you are being considered for MEXT fellowship or you are in a special circumstance. **I will not reply to emails about kenkyusei inquiries.
+
+IIS Labでは新しいインタラクティブなシステムやアプリケーションの構築・評価と，コンピュータとユーザとの新しいあり方を提案し，テクノロジーの新しい価値を創造していくことに興味と熱意がある学生さんを募集しています．また社会人大学院生の受け入れも行っておりますので，遠慮なくご相談ください．
+
+IIS Labで研究をしたいという人はこのページに書かれていることを読んだうえで，[矢谷まで](/member/koji-yatani)ご連絡ください．矢谷は日々多くのメールやメッセージを受け取っていますので，ご協力いただけますと大変助かります．なお，研究生の受け入れは原則行っておりません．
+
+## A few things Koji would like to see / 送っていただきたいもの
+
+Please make sure you include the following information and materials in your email to Koji if you are serious about joining our lab. If your email does not cover them, Koji may not respond. **Note that, for Ph.D. applicants, your CV and research proposal must be written in English even if you are native or fluent in Japanese. **Materials can be either in English or Japanese for master and other applicants though English is still preferred.
+
+- In your email body,
+  - A brief introduction of yourself (4 – 5 sentences),
+  - Programs you are considering (i.e., IST and/or GSII),
+    - If you are considering MEXT fellowship, please let me know as well.
+  - A brief statement of why you are interested in joining us.
+- As an attachment,
+  - Your CV (no need to have a picture of yourself),
+  - Your research proposal (**up to 4 pages including references**)
+    - Note that the program you are applying for may have different requirements on a research proposal (e.g., page limit). It is your full responsibility to meet these requirements for your applications.
+  - Three accomplishments you are most proud of. They can be academic papers, software, hardware, products, design work and any artifact you developed. If you collaborate with others for these accomplishment, clarify what exactly your contributions are.
+
+## A few things I really appreciate when you email me / メールを送っていただく前に
+
+- **Sorry, but we are super selective. **We are really in the full capacity in terms of the number of students. Our circumstance would not be changed at least for the next few years. Therefore, we have to be extremely selective. We already have turned down many applications and requests from very strong candidates. You must demonstrate strong research capabilities in HCI and/or relevant fields to be considered when you contact us.
+- **No research student (or kenkyusei, 研究生).** Due to our limited capacity, we are not taking any research student (or 研究生) unless you are in a very exceptional circumstance and we see strong potentials in collaboration with you. I thus unlikely reply to emails about kenkyusei positions.
+- **Please carefully review our research scope.** You should carefully review [our website](/) and [publications](/publications), and make sure that you and your interests would match with our lab well.
+- **Please send me a research proposal.** I strongly would like to see your research proposal even if the program you are applying for does not require. Additional materials (e.g., published papers, links to videos, and portfolios) would be helpful to know about you, but the most important document is your research proposal.
+- **The majority of your research proposal should cover what you want to do here.** Your proposal should include a clear description of your idea, motivation, a brief summary of related work, and project execution plan. I would like to see your capability of describing ideas, understanding related work, and claiming the novelty of your idea. It is highly unlikely to impress me if your research proposal only includes generic personal or research statements (e.g., "I am interested in HCI." or "My university is one of the top universities in XYZ.") as well as merely talks about facts that I can know from your transcripts and other materials (e.g., "My GPA was 3.8."). You need to demonstrate your intellectual capability and strong curiosity as well as project execution skills in your research proposal. You may want to check out useful resources for writing a good research proposal:
+  - [https://www.geog.ox.ac.uk/study/graduate/apply/research_proposal.html](https://www.geog.ox.ac.uk/study/graduate/apply/research_proposal.html)
+  - [https://www.exeter.ac.uk/media/universityofexeter/webteam/shared/postgraduate/pdfs/A_Guide_to_Writing_your_PhD_Proposal.pdf](https://www.exeter.ac.uk/media/universityofexeter/webteam/shared/postgraduate/pdfs/A_Guide_to_Writing_your_PhD_Proposal.pdf)
+  - [https://conservationbytes.com/2015/05/04/twenty-tips-for-writing-a-research-proposal/](https://conservationbytes.com/2015/05/04/twenty-tips-for-writing-a-research-proposal/)
+  - [http://undergradresearch.northwestern.edu/proposal-writing](http://undergradresearch.northwestern.edu/proposal-writing)
+  - [https://www.meaning.ca/archives/archive/art_how_to_write_P_Wong.htm](https://www.meaning.ca/archives/archive/art_how_to_write_P_Wong.htm)
+  - [https://www.sydney.edu.au/study/how-to-apply/postgraduate-research/how-to-write-a-research-proposal-for-a-strong-phd-application.html](https://www.sydney.edu.au/study/how-to-apply/postgraduate-research/how-to-write-a-research-proposal-for-a-strong-phd-application.html)
+- **Your research proposal must be HCI-oriented and should show your creativity.** I am not really interested in projects like "using deep learning for an application of XXX." Your research proposal should present new ideas instead of extensions of existing systems and technologies (including what we have developed). Instead of thinking of applications based on what you can implement, you should start with thinking of future systems or applications that can change your life (or other's life), and then think about how you can develop a proof of concept. Show your creativity and intellectual capabilities through your research proposal.
+- **Your research proposal must have a concise but well-covered literature review.** It is also important to discuss what prior work exists in light of your research proposal. Your literature review should include papers from the conferences and journals we normally target for publication (i.e., CHI, UIST, UbiComp, CSCW, PACM IMWUT, and MobiSys) as well as literature in the relevant fields (e.g., medical or psychological journals).
+- **Go through our [Research Reality Check](/misc/realitycheck) when you are done with your research proposal.**
+- It often takes time to process your email due to the large volume of emails I receive. I will do my best to reply to you in a couple of days. So, **just wait a while and ping me again if you do not receive a reply even after a week.** Do not send emails to others (e.g., my students or department office) to ask whether I have checked your email or not because they are very busy on their work.
+- **Your email should look like being written and sent by a human.** For example, a blank email with only attachments will likely be thrown to a spam box. I generally do not reply to emails that start with a cliche (e.g., "Respected sir" or "Dear professor") and do not mention my name.
+
+***
+
+<!-- nav -->
+- [For prospective Ph.D. students / 博士課程を目指す方へ](#phd)
+- [For prospective Master students / 修士課程を目指す方へ](#master)
+- [For prospective undergraduate students / 学部生の方へ](#undergrad)
+- [For prospective international students](#international)
+- [For prospective interns, visiting students and exchange students (undergrads, Masters and Kenkyusei)](#visiting_student)
+- [For visiting researchers (Ph.D. students and above)](#visiting_researcher)
+<!-- /nav -->
+
+***
+
+## For prospective Ph.D. students / 博士課程を目指す方へ {#phd}
+
+If you want to pursue a Ph.D. at IIS Lab, you must be confident on working independently and collaboratively with proficient technical skills and strong research motivations. Publications at top venues are of course great, but I rather expect you to have strong research passions that keep you to enjoy challenging yourself to the hardest problems. I also expect Ph.D. students to have strong background and experience in HCI. This does not necessarily mean that you don't have a chance to join us if you are trained in different fields. But you may have to work even harder to catch up. You are also expected to work internationally. Thus, English communication skills are mandatory. We use English for regular face-to-face meetings. I also expect you to advise junior students to accumulate teaching experience though you should not expect them to work **for** you. You will collaborate with them on your side projects rather than use them as your resource.
+
+Note that Koji belongs to two departments: [Department of Information and Communication Engineering, Graduate School of Information Science and Technology](https://www.i.u-tokyo.ac.jp/edu/course/ice/index_e.shtml), and [Emerging Design and Informatics Course, Interfaculty Initiative in Information Studies](http://www.iii.u-tokyo.ac.jp/education/courses/emergingdi). So applicants must choose either of the departments. Although I treat students in both departments equally (I mean, with equally high quality bars 🙂 ), there are some differences in entrance examination process and curricula. So please carefully examine which department would be more suitable for you before applying. For an admission examination, please find more details at the department's website.
+
+Unfortunately, the capacity of our lab is currently very full. Therefore, we have to be extremely selective even for Ph.D. applicants to maintain the quality of our teaching. We already have turned down many applications and requests from very strong candidates. You must demonstrate strong research capabilities in HCI and/or relevant fields for consideration when you contact us.
+
+If you are interested in working with us, **please send me your CV and your research proposal by email**. Your CV and research proposal must be written in English even if you are native or proficient in Japanese. Your research proposal is up to 2 pages long and must state what projects you would like to work on and why you want to work here. Please be specific about your research interests (simply saying "I am interested in HCI and ubiquitous computing" is not anything at all). It is also important to discuss what prior work exists in light of your research proposal. Your literature review should include papers from the conferences and journals we normally target for publication (i.e., CHI, UIST, UbiComp, CSCW, PACM IMWUT, and MobiSys) as well as literature in the relevant fields (e.g., medical or psychological journals).
+
+In addition, **please share with me three accomplishments you are most proud of**. They are not limited to academic papers. Anything that demonstrates your technical capabilities would work. Examples are: artwork portfolios, mobile apps you publish in a market, hackathon outcomes (not awards. I am more interested in what you built.), and any artifact you created. If you worked as a group, please clarify what role you took and what contributions you made in each project.
+
+You are also strongly recommended to visit us before applying. You will likely be asked to give a talk upon your visit. Please contact Koji and set up time to visit.
+
+## For prospective Master students / 修士課程を目指す方へ {#master}
+
+You are more than welcome to join us regardless of your technical backgrounds. All you need is a determination and passion that you will work and learn hard. 🙂 I also expect you to work internationally. So, English skills are important. You do not need to have strong English skills by when you start working with us. However, you must work hard on writing and speaking in English as well as executing your research projects.
+
+Note that Koji belongs to two departments: [Department of Information and Communication Engineering, Graduate School of Information Science and Technology](https://www.i.u-tokyo.ac.jp/edu/course/ice/index_e.shtml), and [Emerging Design and Informatics Course, Interfaculty Initiative in Information Studies](http://www.iii.u-tokyo.ac.jp/education/courses/emergingdi). So applicants must choose either of the departments. Although I treat students in both departments equally (I mean, with equally high quality bars 🙂 ), there are some differences in entrance examination process and curricula. So please carefully examine which department would be more suitable for you before applying. For an admission examination, please find more details at the department's website.
+
+Like prospective Ph.D. students, you are encouraged to visit us before applying. Please contact Koji and set up time to visit.
+
+IIS Labはいろんな技術的バックグラウンドをお持ちの方を歓迎します．必要なのはよく手を動かし，よく学ぶ覚悟と情熱です．:) それからできるかぎり国際的に活躍してほしいと思っていますので，英語は重要なスキルになります．ラボに入る前までに英語に長けている必要はありませんが，研究をするだけでなく，英語で話したり書いたりすることも努力してもらうことになります．
+
+矢谷は[情報理工学系研究科電子情報学専攻](https://www.i.u-tokyo.ac.jp/edu/course/ice/)と[学際情報学府先端表現情報学コース](http://www.iii.u-tokyo.ac.jp/education/courses/emergingdi)の2つに所属しています．このためどちらかの専攻を選んでいただくことになります．ラボでは同じように扱われる(同じ要求レベルで扱われる 🙂 )ことになりますが，入試やカリキュラムにいくつか違いがあります．ですので，どちらの専攻が自分に合っているかよく調べた上で，応募してください．入学試験の詳細は各専攻のホームページから確認してください．
+
+博士課程志望者と同じく，応募する前にラボの見学に来ていただくことをおすすめします．矢谷に連絡の上，お越しくださる時間を決めてください．
+
+## For prospective undergraduate students / 学部生の方へ {#undergrad}
+
+Even if you are an undergrad, I expect you to conduct your own research projects. I and your senior students will help you, but do not expect that we prepare everything for you. You have to be proactive on coming up with ideas, work hard, learn a lot, and lead your project. **I strongly recommend you to take my visualization class offered in the hands-on project course (in third year's fall semester).** You should be able to better see what kind of a person I am and what I really expect my students. 🙂 You can also see the titles of past theses [in a separate page](/publications), and check if we executed project you may be interested in.
+
+You are welcome to visit us before deciding a lab for your undergraduate thesis projects. You can just talk to me at my visualization class or send me an email. But it will steal a lot of our time if you visit us individually.  So please visit us in a group (at least four people).
+
+IIS Labでは卒論生であっても自分自身のプロジェクトを行うことが期待されています．矢谷やラボのメンバーもお手伝いしますが，全部おぜん立てしてくれることはありません．自分自身で積極的にアイデアを提案し，手を動かし，いろいろなことを勉強し，プロジェクトを率いてください．**また3年生の冬学期で行われる実験において，矢谷が行っている情報可視化の実験を取ることを強くお勧めしています．**この授業で矢谷がどんな人間で，どのようなことを学生さんに期待しているか，よくわかると思います．:) また過去にどのような卒業論文があったかは[こちらのページ](/publications)で確認できますので，自分の興味に合うようなプロジェクトがあったかを確認してみてください．
+
+卒論配属を決める前にラボの見学に来ていただくことをお勧めしています．情報可視化の講義の時かメールで矢谷まで連絡してください．ただし一人ひとり対応していると数が多くなることがありますので，できる限りグループ(4人以上)でお越しになれるように各自でご調整ください．
+
+## For prospective international students {#international}
+
+We always welcome international students. We strongly appreciate diversity, and your unique backgrounds would contribute substantially. However, simply being international does not make your case any stronger at all. You still need to have deep knowledge and strong research passions.
+
+Unfortunately, we are pretty close to the full capacity in terms of the number of students. Therefore, we have to be extremely selective for all kinds of applications. We already have turned down many applications and requests from very strong candidates. You must demonstrate strong research capabilities in HCI and/or relevant fields for consideration when you contact us.
+
+Please send your email well in advance, say** 6 – 8 weeks** before your application deadline. This will help both of us secure enough time if we decide to move forward in your case. So earlier is always better.
+
+If you are being considered for MEXT fellowship, please clearly state so in your email.
+
+Note that admission for international students can be different from that for Japanese. You should consult with the admission office. In addition, **please send me your CV and your research proposal by email**. Your CV and research proposal must be written in English even if you are native or proficient in Japanese. Your research proposal is up to 2 pages long and must state what projects you would like to work on and why you want to work here. Please be specific about your research interests (simply saying "I am interested in HCI and ubiquitous computing" is not anything at all). It is also important to discuss what prior work exists in light of your research proposal. Your literature review should include papers from the conferences and journals we normally target for publication (i.e., CHI, UIST, UbiComp, CSCW, PACM IMWUT, and MobiSys) as well as literature in the relevant fields (e.g., medical or psychological journals).
+
+In addition, **please share with me three accomplishments you are most proud of**. They are not limited to academic papers. Anything that demonstrates your technical capabilities would work. Examples are: artwork portfolios, mobile apps you publish in a market, hackathon outcomes (not awards. I am more interested in what you built.), and any artifact you created. If you worked as a group, please clarify what role you took and what contributions you made in each project.
+
+## For prospective interns, visiting students and exchange students (undergrads, Masters and Kenkyusei) {#visiting_student}
+
+Currently, we only have very limited bandwidth to take junior research visitors, interns, and exchange students (generally undergrads and Masters) because I already have so much teaching and supervising workload and our laboratory space is pretty close to full. Please understand that we have to be extremely selective.
+
+If you are really serious, you are welcome to send us an email along with your CV and research proposal. Please send them before you make any application. Your research proposal is up to 2 pages long and must clearly state what projects you would like to work on and illustrate how skillful and confident you are to conduct your research. Your materials should clearly describe what unique intellectual contributions you can offer to our lab.
+
+We also note that we do not take Graduate International Research Students ("kenkyusei" in Japanese) for the reasons above unless there is a special circumstance to be considered.
+
+当ラボでは上記理由により，特段の事情がない限りは研究生の受け入れは行っておりません．どうぞご理解をお願い致します．
+
+## For visiting researchers (Ph.D. students and above) {#visiting_researcher}
+
+If you are an experienced researcher (e.g., a visiting researcher, a post-doc, or a senior Ph.D. student), please contact Koji along with your CV and research proposal. Your CV and research proposal must be written in English (even if you are a Japanese). In addition, please share with me three accomplishments you are proud of the most. They are not limited to academic papers, and anything that demonstrates your technical capabilities would work. Examples are: artwork portfolios, mobile apps you publish in a market, hackathon outcomes (not awards. I am more interested in what you built.), and any artifact you created.

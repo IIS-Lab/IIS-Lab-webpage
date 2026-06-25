@@ -1,5 +1,7 @@
-import type { NewsMonth } from './types'
-import data from './oldNews.json'
+import oldNewsMarkdown from './oldNews.md?raw'
+import { parseOldNewsMarkdown } from '../lib/parseNewsMarkdown'
 
-export const oldNewsIntro = data.intro as string
-export const oldNewsItems = data.months as NewsMonth[]
+const { intro, months } = parseOldNewsMarkdown(oldNewsMarkdown)
+
+export const oldNewsIntro = intro
+export { months as oldNewsItems }
