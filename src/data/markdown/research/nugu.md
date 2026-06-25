@@ -14,4 +14,4 @@ Our preliminary study reveals that individuals use various management strategies
 
 M. Ko, S. Yang, J. Lee, C. Heizmann, J. Jeong, U. Lee, D. H. Shin, K. Yatani, J. Song, and K. Chung, “NUGU: A Group-based Intervention App for Improving Self-Regulation of Limiting Smartphone Use,” in Proceedings of the ACM conference on Computer-Supported Cooperative Work and Social Computing (CSCW 2015), 2015.
 
-[[Paper]](/paper/CSCW2015.pdf)
+[(paper)](/paper/CSCW2015.pdf)

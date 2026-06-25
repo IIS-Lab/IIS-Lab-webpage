@@ -14,4 +14,4 @@ Good alignment and repetition of objects across presentation slides can facilita
 
 Darren Edge, Sumit Gulwani, Natasa Milic-Frayling, Mohammad Raza, Reza Adhitya Saputra, Chao Wang, and Koji Yatani. Mixed-Initiative Approaches to Global Editing in Slideware,” in Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI 2015), 2015.
 
-[[Paper]](/paper/CHI2015.pdf)
+[(paper)](/paper/CHI2015.pdf)

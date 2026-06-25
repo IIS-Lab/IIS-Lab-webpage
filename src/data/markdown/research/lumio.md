@@ -14,4 +14,4 @@ Toothbrushing plays an important role in daily dental plaque removal for prevent
 
 T. Yoshitani, M. Ogata, and K. Yatani. LumiO: A Plaque-aware Toothbrush. in Proceedings of UbiComp 2016, 2016.
 
-[[Paper]](/paper/ubicomp2016.pdf) [[Video]](https://www.youtube.com/watch?v=gwvPTRLiZiQ)
+[(paper)](/paper/ubicomp2016.pdf) [(video)](https://www.youtube.com/watch?v=gwvPTRLiZiQ)

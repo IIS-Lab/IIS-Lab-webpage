@@ -11,16 +11,44 @@ function isStaticAssetLink(href: string): boolean {
   )
 }
 
+function isResourceLabel(label: string): boolean {
+  const core = label.replace(/^\(|\)$/g, '').toLowerCase()
+  return core === 'paper' || core === 'video' || core === 'poster'
+}
+
+function formatResourceLabel(label: string): string {
+  const core = label.replace(/^\(|\)$/g, '').toLowerCase()
+  if (core === 'paper' || core === 'video' || core === 'poster') {
+    return `(${core === 'poster' ? 'paper' : core})`
+  }
+  return label
+}
+
 function TextLink({ href, children }: { href: string; children: string }) {
-  if (isStaticAssetLink(href)) {
+  const label = formatResourceLabel(children)
+  const resource = isStaticAssetLink(href) || isResourceLabel(children)
+
+  if (resource) {
     return (
       <a
-        href={assetUrl(href)}
+        href={isStaticAssetLink(href) ? assetUrl(href) : href}
         target="_blank"
         rel="noopener noreferrer"
         className={styles.resourceLink}
       >
-        {children}
+        {label}
+      </a>
+    )
+  }
+  if (label !== children && (href.startsWith('http://') || href.startsWith('https://'))) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.resourceLink}
+      >
+        {label}
       </a>
     )
   }

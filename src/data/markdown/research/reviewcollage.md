@@ -14,4 +14,4 @@ Review comments posted in online websites can help the user decide a product to 
 
 H. Jin, T. Sakai, and K. Yatani, “ReviewCollage: A Mobile Interface for Direct Comparison Using Online Reviews,” in Proceedings of the ACM SIGCHI International Conference on Human Computer Interaction with Mobile Devices and Services (MobileHCI 2014), 2014.
 
-[[Paper]](/paper/MobileHCI2014_ReviewCollage.pdf) [[Video]](http://youtu.be/QDPg2E0RYbg) **Honorable Mention Award**
+[(paper)](/paper/MobileHCI2014_ReviewCollage.pdf) [(video)](http://youtu.be/QDPg2E0RYbg) **Honorable Mention Award**

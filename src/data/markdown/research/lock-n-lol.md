@@ -14,4 +14,4 @@ Prior studies have addressed many negative aspects of mobile distractions in gro
 
 Minsam Ko, Seungwoo Choi, Koji Yatani, and Uichin Lee. Lock n' LoL: Group-based Limiting Assistance App to Mitigate Smartphone Distractions in Group Activities. In Proc. CHI 2016, 998-1010.
 
-[[Paper]](/paper/CHI2016.pdf) **Best Paper Award winner**
+[(paper)](/paper/CHI2016.pdf) **Best Paper Award winner**

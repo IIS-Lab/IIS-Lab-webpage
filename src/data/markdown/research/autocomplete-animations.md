@@ -14,4 +14,4 @@ Hand-drawn animation is a major art form and communication edium, but can be cha
 
 J. Xing, L.-Y. Wei, T. Shiratori, and K. Yatani. “Autocomplete Hand-drawn Animations,” in Proceedings of SIGGRAPH Asia 2015, 2015.
 
-[[Paper]](/paper/SA2015.pdf)
+[(paper)](/paper/SA2015.pdf)

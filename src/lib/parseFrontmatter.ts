@@ -1,3 +1,14 @@
+function parseYamlInlineValue(value: string): string {
+  const trimmed = value.trim()
+  if (
+    (trimmed.startsWith('"') && trimmed.endsWith('"')) ||
+    (trimmed.startsWith("'") && trimmed.endsWith("'"))
+  ) {
+    return trimmed.slice(1, -1)
+  }
+  return trimmed
+}
+
 export function parseFrontmatter(markdown: string): {
   meta: Record<string, string>
   body: string
@@ -35,7 +46,7 @@ export function parseFrontmatter(markdown: string): {
     }
 
     if (inlineMatch) {
-      meta[inlineMatch[1]] = inlineMatch[2].trim()
+      meta[inlineMatch[1]] = parseYamlInlineValue(inlineMatch[2])
     }
     i += 1
   }

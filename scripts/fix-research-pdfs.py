@@ -97,17 +97,20 @@ def extract_entry_links(page_html: str) -> list[tuple[str, str]]:
 def to_md_link(label_raw: str, url: str) -> str:
     label = label_raw.strip()
     core = label.strip('[]()').lower()
+    if core in ('paper', 'poster'):
+        return f'[(paper)]({url})'
+    if core == 'video':
+        return f'[(video)]({url})'
     if label.startswith('[') and label.endswith(']'):
-        return f'[[{label.strip("[]")}]]({url})'
+        return f'[{label}]({url})'
     if label.startswith('(') and label.endswith(')'):
         return f'[{label}]({url})'
-    if core in ('paper', 'poster'):
-        return f'[({core})]({url})'
     return f'[{label}]({url})'
 
 
 BROKEN_LINK = re.compile(
     r'\[\[Paper\]\]\(/\)|'
+    r'\[\[Video\]\]\([^)]*\)|'
     r'\[\(\*\*\(paper\)\*\*\)\]\(/\)|'
     r'\[\*\*\(paper\)\*\*\]\(/\)|'
     r'\[\*\*\(poster\)\*\*\]\(/\)|'

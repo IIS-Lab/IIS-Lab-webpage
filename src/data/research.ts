@@ -43,12 +43,16 @@ export function getResearchProject(slug: string): ResearchProject | undefined {
   return bySlug.get(slug)
 }
 
+function normalizeTitle(value: string): string {
+  return value.trim()
+}
+
 export function displayTitles(project: Pick<ResearchProject, 'titleEn' | 'titleJa'>) {
-  const primary = project.titleEn || project.titleJa
+  const titleEn = normalizeTitle(project.titleEn)
+  const titleJa = normalizeTitle(project.titleJa)
+  const primary = titleEn || titleJa
   const secondary =
-    project.titleJa && project.titleEn && project.titleJa !== project.titleEn
-      ? project.titleJa
-      : ''
+    titleJa && titleEn && titleJa !== titleEn ? titleJa : ''
 
   return { primary, secondary }
 }
