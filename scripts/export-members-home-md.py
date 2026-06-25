@@ -8,6 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'src/data'
+MD = DATA / 'markdown'
 
 
 def yaml_block(key: str, value: str) -> list[str]:
@@ -75,7 +76,7 @@ def export_members(source: Path) -> None:
             lines.append('| ' + ' | '.join(c.replace('|', '\\|') for c in cells) + ' |')
         lines.append('')
 
-    (DATA / 'Members.md').write_text('\n'.join(lines).rstrip() + '\n')
+    (MD / 'Members.md').write_text('\n'.join(lines).rstrip() + '\n')
     print(f'Wrote Members.md ({len(sections)} sections, {sum(len(s["rows"]) for s in sections)} rows)')
 
 
@@ -178,7 +179,7 @@ def export_home(source: Path) -> None:
         '',
     ]
 
-    (DATA / 'IIS_Lab.md').write_text('\n'.join(lines))
+    (MD / 'IIS_Lab.md').write_text('\n'.join(lines))
     print('Wrote IIS_Lab.md')
 
 

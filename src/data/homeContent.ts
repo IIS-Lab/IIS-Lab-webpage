@@ -1,4 +1,4 @@
-import homeMarkdown from './IIS_Lab.md?raw'
+import homeMarkdown from './markdown/IIS_Lab.md?raw'
 import { parseHomeMarkdown } from '../lib/parseHomeMarkdown'
 
 const home = parseHomeMarkdown(homeMarkdown)

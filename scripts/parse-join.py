@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Parse iis-lab.org/prospective/ HTML into src/data/join.md"""
+"""Parse iis-lab.org/prospective/ HTML into src/data/markdown/join.md"""
 import re
 import sys
 from pathlib import Path
@@ -218,7 +218,7 @@ def parse_content(content: str) -> list:
 
 def main() -> None:
     html_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path('/tmp/prospective.html')
-    out_path = Path(__file__).resolve().parents[1] / 'src/data/join.md'
+    out_path = Path(__file__).resolve().parents[1] / 'src/data/markdown/join.md'
     text = html_path.read_text()
     m = re.search(
         r'entry-content clearfix">(.*?)</div>\s*<!-- entry-content',

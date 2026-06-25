@@ -1,0 +1,11 @@
+.resourceLink {
+  color: var(--color-accent);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.resourceLink:hover,
+.resourceLink:focus {
+  color: var(--color-accent-hover);
+}

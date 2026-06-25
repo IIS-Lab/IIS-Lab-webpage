@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { PublicationsList } from '../components/PublicationsList'
-import publicationsMarkdown from '../data/publications.md?raw'
+import publicationsMarkdown from '../data/markdown/publications.md?raw'
 import { parsePublications } from '../lib/parsePublications'
 import styles from './MembersPage.module.css'
 

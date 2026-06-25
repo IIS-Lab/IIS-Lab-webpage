@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch and parse https://iis-lab.org/member/koji-yatani/ into src/data/koji-yatani.md"""
+"""Fetch and parse https://iis-lab.org/member/koji-yatani/ into src/data/markdown/koji-yatani.md"""
 from __future__ import annotations
 
 import html as h
@@ -19,7 +19,7 @@ sys.path.insert(0, str(SCRIPTS))
 from md_writer import blocks_to_md
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT_MD = ROOT / 'src/data/koji-yatani.md'
+OUT_MD = ROOT / 'src/data/markdown/koji-yatani.md'
 PHOTO_DIR = ROOT / 'public/images/members'
 PAGE_URL = 'https://iis-lab.org/member/koji-yatani/'
 

@@ -1,9 +1,9 @@
 import type { ArticleBlock } from '../components/ArticleBlocks'
 import { parseBlocks } from '../lib/parseBlocks'
 import { parseFrontmatter } from '../lib/parseFrontmatter'
-import slugOrder from './research/order.txt?raw'
+import slugOrder from './markdown/research/order.txt?raw'
 
-const modules = import.meta.glob('./research/*.md', {
+const modules = import.meta.glob('./markdown/research/*.md', {
   query: '?raw',
   import: 'default',
   eager: true,

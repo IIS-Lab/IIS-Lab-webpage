@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Scrape https://iis-lab.org/research/ list + subpages into src/data/research/
+"""Scrape https://iis-lab.org/research/ list + subpages into src/data/markdown/research/
 and download images to public/images/research/"""
 from __future__ import annotations
 
@@ -18,7 +18,8 @@ sys.path.insert(0, str(SCRIPTS))
 from md_writer import research_project_to_md
 
 ROOT = Path(__file__).resolve().parents[1]
-RESEARCH_DIR = ROOT / 'src/data/research'
+RESEARCH_DIR = ROOT / 'src/data/markdown/research'
+PUBLIC_DIR = ROOT / 'public'
 THUMB_DIR = ROOT / 'public/images/research/thumbs'
 CONTENT_IMG_DIR = ROOT / 'public/images/research/content'
 
@@ -26,8 +27,6 @@ INTERNAL_PREFIXES = (
     ('https://iis-lab.org/research/', '/research/'),
     ('https://iis-lab.org/publications/', '/publications'),
     ('https://iis-lab.org/members/', '/members'),
-    ('https://iis-lab.org/', '/'),
-    ('https://iis-lab.org', '/'),
 )
 
 
@@ -62,13 +61,67 @@ def download(url: str, dest: Path) -> bool:
 
 def normalize_href(url: str) -> str:
     url = h.unescape(url.strip())
-    for prefix, local in INTERNAL_PREFIXES:
-        if url.startswith(prefix):
-            slug = url[len(prefix) :].rstrip('/')
-            if local == '/research/':
-                return '/research/' + slug
-            return local
+    parsed = urllib.parse.urlparse(url)
+    if parsed.netloc in ('iis-lab.org', 'www.iis-lab.org'):
+        path = parsed.path or '/'
+        if path.startswith('/wp-content/') or path.startswith('/paper/'):
+            return path
+        if path.startswith('/research/'):
+            return path.rstrip('/') + '/'
+        for prefix, local in INTERNAL_PREFIXES:
+            if url.startswith(prefix):
+                slug = url[len(prefix) :].rstrip('/')
+                if local == '/research/':
+                    return '/research/' + slug
+                return local
+        if path in ('', '/'):
+            return '/'
+        return path
     return url
+
+
+def local_pdf_path(url: str) -> str | None:
+    parsed = urllib.parse.urlparse(h.unescape(url.strip()))
+    if parsed.netloc not in ('iis-lab.org', 'www.iis-lab.org'):
+        return None
+    if not parsed.path.lower().endswith('.pdf'):
+        return None
+    return parsed.path
+
+
+def download_pdf(url: str, dest: Path, skip_download: bool) -> bool:
+    if dest.exists() and dest.stat().st_size > 500:
+        return True
+    if skip_download:
+        return False
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        req = urllib.request.Request(url, headers=HEADERS)
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            data = resp.read()
+        if len(data) < 500:
+            return False
+        dest.write_bytes(data)
+        return True
+    except (urllib.error.URLError, OSError) as exc:
+        print(f'  ! pdf failed {url}: {exc}')
+        return False
+
+
+def normalize_links(text: str, skip_download: bool) -> str:
+    def repl(match: re.Match) -> str:
+        label = match.group(1)
+        url = h.unescape(match.group(2))
+        local = local_pdf_path(url)
+        if local:
+            dest = PUBLIC_DIR / local.lstrip('/')
+            if download_pdf(url, dest, skip_download):
+                url = local
+        elif url.startswith('https://iis-lab.org') or url.startswith('http://iis-lab.org'):
+            url = normalize_href(url)
+        return f'[{label}]({url})'
+
+    return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', repl, text)
 
 
 def inline_to_md(fragment: str) -> str:
@@ -170,6 +223,7 @@ def process_fragment(
         if ul_match:
             end = find_ul_end(fragment, ul_match.start())
             items = parse_ul(fragment[ul_match.start() : end])
+            items = [normalize_links(item, skip_download=False) for item in items]
             if items:
                 blocks.append({'type': 'list', 'items': items})
             fragment = fragment[end:]
@@ -231,6 +285,7 @@ def process_fragment(
                 continue
             text = inline_to_md(inner)
             if text:
+                text = normalize_links(text, skip_download=False)
                 blocks.append({'type': 'p', 'text': text})
             fragment = fragment[p_match.end() :]
             continue

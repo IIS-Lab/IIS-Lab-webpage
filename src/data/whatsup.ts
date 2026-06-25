@@ -1,4 +1,4 @@
-import whatsupMarkdown from './whatsup.md?raw'
+import whatsupMarkdown from './markdown/whatsup.md?raw'
 import { parseWhatsUpMarkdown } from '../lib/parseWhatsUpMarkdown'
 
 export type { WhatsUpItem, WhatsUpSeason } from '../lib/parseWhatsUpMarkdown'

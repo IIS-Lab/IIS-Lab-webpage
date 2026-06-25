@@ -1,4 +1,4 @@
-import realityCheckMarkdown from './realitycheck.md?raw'
+import realityCheckMarkdown from './markdown/realitycheck.md?raw'
 import { parseBlocks } from '../lib/parseBlocks'
 import { parseFrontmatter } from '../lib/parseFrontmatter'
 import type { JoinBlock } from './join.types'

@@ -1,4 +1,4 @@
-import membersMarkdown from './Members.md?raw'
+import membersMarkdown from './markdown/Members.md?raw'
 import { parseMembersMarkdown } from '../lib/parseMembersMarkdown'
 
 export type { MemberRow, MemberSection } from './members.types'

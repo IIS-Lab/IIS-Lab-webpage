@@ -10,6 +10,17 @@
   aspect-ratio: 1700 / 272;
   object-fit: cover;
   object-position: center 40%;
+  animation: bannerFadeIn 0.45s ease;
+}
+
+@keyframes bannerFadeIn {
+  from {
+    opacity: 0.35;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .topHeader {

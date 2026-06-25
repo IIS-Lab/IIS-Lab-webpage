@@ -8,6 +8,8 @@ export interface PublicationSection {
   blocks: PublicationBlock[]
 }
 
+const SKIP_SECTIONS = new Set(['Recent Posts', 'Categories'])
+
 export function parsePublications(markdown: string): PublicationSection[] {
   const sections: PublicationSection[] = []
   const parts = markdown.split(/\n(?=## )/)
@@ -18,7 +20,7 @@ export function parsePublications(markdown: string): PublicationSection[] {
 
     const lines = trimmed.split('\n')
     const titleLine = lines[0].replace(/^##\s*/, '').trim()
-    if (!titleLine) continue
+    if (!titleLine || SKIP_SECTIONS.has(titleLine)) continue
 
     const section: PublicationSection = { title: titleLine, blocks: [] }
     let currentYearList: { year: string; items: string[] } | null = null

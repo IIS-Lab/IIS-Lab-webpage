@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download What's up gallery images from src/data/whatsup.md into public/images/whatsup/"""
+"""Download What's up gallery images from src/data/markdown/whatsup.md into public/images/whatsup/"""
 from __future__ import annotations
 
 import re
@@ -11,7 +11,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD_PATH = ROOT / 'src/data/whatsup.md'
+MD_PATH = ROOT / 'src/data/markdown/whatsup.md'
 OUT_DIR = ROOT / 'public/images/whatsup'
 
 HEADERS = {

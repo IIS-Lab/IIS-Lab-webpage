@@ -18,22 +18,23 @@ from md_writer import (
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'src/data'
+MD = DATA / 'markdown'
 
 
 def convert_all() -> None:
     mapping = {
-        'join.json': lambda data: (DATA / 'join.md', blocks_to_md(data)),
+        'join.json': lambda data: (MD / 'join.md', blocks_to_md(data)),
         'realitycheck.json': lambda data: (
-            DATA / 'realitycheck.md',
+            MD / 'realitycheck.md',
             blocks_to_md(data['blocks'], {'title': data['title']}),
         ),
         'koji-yatani.json': lambda data: (
-            DATA / 'koji-yatani.md',
+            MD / 'koji-yatani.md',
             blocks_to_md(data['blocks'], {'slug': data['slug'], 'title': data['title']}),
         ),
-        'news.json': lambda data: (DATA / 'news.md', news_to_md(data)),
-        'oldNews.json': lambda data: (DATA / 'oldNews.md', old_news_to_md(data)),
-        'whatsup.json': lambda data: (DATA / 'whatsup.md', whatsup_to_md(data)),
+        'news.json': lambda data: (MD / 'news.md', news_to_md(data)),
+        'oldNews.json': lambda data: (MD / 'oldNews.md', old_news_to_md(data)),
+        'whatsup.json': lambda data: (MD / 'whatsup.md', whatsup_to_md(data)),
     }
 
     for filename, writer in mapping.items():
@@ -46,7 +47,7 @@ def convert_all() -> None:
 
     research_json = DATA / 'researchProjects.json'
     if research_json.exists():
-        research_dir = DATA / 'research'
+        research_dir = MD / 'research'
         research_dir.mkdir(exist_ok=True)
         projects = json.loads(research_json.read_text())
         for project in projects:

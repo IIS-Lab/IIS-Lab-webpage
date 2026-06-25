@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Scrape https://iis-lab.org/publications/ into src/data/publications.md
+"""Scrape https://iis-lab.org/publications/ into src/data/markdown/publications.md
 and download iis-lab.org PDFs to public/."""
 from __future__ import annotations
 
@@ -13,9 +13,11 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT_MD = ROOT / 'src/data/publications.md'
+OUT_MD = ROOT / 'src/data/markdown/publications.md'
 PUBLIC_DIR = ROOT / 'public'
 PAGE_URL = 'https://iis-lab.org/publications/'
+
+SKIP_SECTIONS = {'Recent Posts', 'Categories'}
 
 HEADERS = {
     'User-Agent': (
@@ -180,10 +182,14 @@ def parse_entry_content(html_text: str, skip_download: bool) -> tuple[list[str],
         h2_match = re.match(r'\s*<h2[^>]*>(.*?)</h2>', fragment, re.S | re.I)
         if h2_match:
             title = inline_to_md(h2_match.group(1))
+            fragment = fragment[h2_match.end() :]
+            if title in SKIP_SECTIONS:
+                next_h2 = re.search(r'<h2[^>]*>', fragment, re.I)
+                fragment = fragment[next_h2.start() :] if next_h2 else ''
+                continue
             in_thesis = is_thesis_section(title)
             lines.append(f'## {title}')
             lines.append('')
-            fragment = fragment[h2_match.end() :]
             continue
 
         h5_match = re.match(r'\s*<h5[^>]*>(.*?)</h5>', fragment, re.S | re.I)

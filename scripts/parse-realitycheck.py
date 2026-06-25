@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Parse https://iis-lab.org/misc/realitycheck/ into src/data/realitycheck.md"""
+"""Parse https://iis-lab.org/misc/realitycheck/ into src/data/markdown/realitycheck.md"""
 from __future__ import annotations
 
 import html as h
@@ -17,7 +17,7 @@ sys.path.insert(0, str(SCRIPTS))
 from md_writer import blocks_to_md
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT_MD = ROOT / 'src/data/realitycheck.md'
+OUT_MD = ROOT / 'src/data/markdown/realitycheck.md'
 PAGE_URL = 'https://iis-lab.org/misc/realitycheck/'
 
 HEADERS = {

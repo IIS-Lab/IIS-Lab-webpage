@@ -1,5 +1,5 @@
 import type { NewsMonth } from './types'
-import newsMarkdown from './news.md?raw'
+import newsMarkdown from './markdown/news.md?raw'
 import { parseNewsMarkdown } from '../lib/parseNewsMarkdown'
 
 export const newsItems: NewsMonth[] = parseNewsMarkdown(newsMarkdown)

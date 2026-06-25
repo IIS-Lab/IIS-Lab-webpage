@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Parse https://iis-lab.org/ news section into src/data/news.md"""
+"""Parse https://iis-lab.org/ news section into src/data/markdown/news.md"""
 from __future__ import annotations
 
 import html as h
@@ -16,8 +16,8 @@ sys.path.insert(0, str(SCRIPTS))
 from md_writer import news_to_md, old_news_to_md
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT_MD = ROOT / 'src/data/news.md'
-OLD_MD = ROOT / 'src/data/oldNews.md'
+OUT_MD = ROOT / 'src/data/markdown/news.md'
+OLD_MD = ROOT / 'src/data/markdown/oldNews.md'
 PAGE_URL = 'https://iis-lab.org/'
 OLD_PAGE_URL = 'https://iis-lab.org/news/old/'
 

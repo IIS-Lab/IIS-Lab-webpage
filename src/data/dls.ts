@@ -1,4 +1,4 @@
-import dlsMarkdown from './dls.md?raw'
+import dlsMarkdown from './markdown/dls.md?raw'
 import { parseFrontmatter } from '../lib/parseFrontmatter'
 
 const { meta, body } = parseFrontmatter(dlsMarkdown)

@@ -1,4 +1,4 @@
-import profileMarkdown from './koji-yatani.md?raw'
+import profileMarkdown from './markdown/koji-yatani.md?raw'
 import type { ArticleBlock } from '../components/ArticleBlocks'
 import { parseBlocks } from '../lib/parseBlocks'
 import { parseFrontmatter } from '../lib/parseFrontmatter'

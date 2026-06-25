@@ -1,7 +1,29 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
+import { assetUrl } from '../lib/assets'
+import styles from './InlineText.module.css'
+
+function isStaticAssetLink(href: string): boolean {
+  return (
+    href.endsWith('.pdf') ||
+    href.startsWith('/wp-content/') ||
+    href.startsWith('/paper/')
+  )
+}
 
 function TextLink({ href, children }: { href: string; children: string }) {
+  if (isStaticAssetLink(href)) {
+    return (
+      <a
+        href={assetUrl(href)}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.resourceLink}
+      >
+        {children}
+      </a>
+    )
+  }
   if (href.startsWith('/') && !href.startsWith('//')) {
     return <Link to={href}>{children}</Link>
   }

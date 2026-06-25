@@ -21,7 +21,8 @@ npm run preview
 ## Structure
 
 - `src/pages/` — route pages (Home, Research, Publications, Members, DLS, What's up?, Contact, Join)
-- `src/data/` — site content (news, members, bilingual copy)
+- `src/data/` — TypeScript loaders and types
+- `src/data/markdown/` — site content (news, members, research, bilingual copy)
 - `src/components/` — layout, header, footer, bilingual sections, news timeline
 
 ## Deploy

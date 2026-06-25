@@ -1,4 +1,4 @@
-import oldNewsMarkdown from './oldNews.md?raw'
+import oldNewsMarkdown from './markdown/oldNews.md?raw'
 import { parseOldNewsMarkdown } from '../lib/parseNewsMarkdown'
 
 const { intro, months } = parseOldNewsMarkdown(oldNewsMarkdown)
